@@ -1,0 +1,28 @@
+#equipo{
+    background-image: url("../img/fondo nuestro equipo.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title-equipo{
+    background-color: white;
+    width: 35vw;
+    height: 7vw;
+    font-size: 3vw;
+    font-weight: 480;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $texto;
+    margin-bottom: 2.5vw;
+}
+
+#fondo-col1{
+    background-color: $texto_o;
+    width: 100%;
+    height: 100%;
+}
