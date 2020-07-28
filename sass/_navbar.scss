@@ -12,6 +12,7 @@ nav a img{
 
 #item-menu{
     margin-top: 7vw;
+    margin-left: 4vw;
 }
 
 #opcion-menu{
@@ -36,6 +37,15 @@ nav a img{
 
 #social-navba{
     margin-bottom: 3vw;
+}
+
+.dropdown-item{
+    font-weight: 600;
+    font-size: 1.2vw;
+    color: $tex-tes;
+    &:hover{
+        color: $texto;
+    }
 }
 
 

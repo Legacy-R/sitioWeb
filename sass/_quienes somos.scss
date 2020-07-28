@@ -1,0 +1,53 @@
+#fondo-info{
+    background-image: url("../img/foto 1 slider.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+
+#cont-qs{
+    background-color: $texto_o;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#pregunta{
+    color: white;
+    font-size: 3vw;
+    font-weight: 600;
+    margin-top: 15vw;
+    margin-bottom: 20vw;
+    margin-left: 4vw;
+}
+
+#text-qs{
+    background-color: $smenu;
+
+}
+
+#title-text-qs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4vw;
+    font-size: 1.9vw;
+    font-weight: 750;
+}
+
+#text1-qs{
+    font-size: 1.5vw;
+    font-weight: 500;
+    color: $tex-tes;
+    margin-bottom: .5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#cont-text1-qs{
+    width: 53vw;
+    margin-left: 2vw;;
+}

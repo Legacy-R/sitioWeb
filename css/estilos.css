@@ -12,13 +12,14 @@ nav a img {
 
 #item-menu {
   margin-top: 7vw;
+  margin-left: 4vw;
 }
 
 #opcion-menu {
   margin-right: 5vw;
   font-size: 1.2vw;
   font-weight: 600;
-  color: #0c1c33;
+  color: #0f2441;
 }
 #opcion-menu:hover {
   color: #c7b300;
@@ -28,7 +29,7 @@ nav a img {
   margin-right: 5vw;
   font-size: 1.2vw;
   font-weight: 600;
-  color: #0c1c33;
+  color: #0f2441;
 }
 #navbarDropdown:hover {
   color: #c7b300;
@@ -36,6 +37,15 @@ nav a img {
 
 #social-navba {
   margin-bottom: 3vw;
+}
+
+.dropdown-item {
+  font-weight: 600;
+  font-size: 1.2vw;
+  color: #494949;
+}
+.dropdown-item:hover {
+  color: #0f2441;
 }
 
 ol.carousel-indicators {
@@ -80,7 +90,7 @@ ol.carousel-indicators li.active {
   align-items: center;
   justify-content: center;
   font-size: 3vW;
-  color: #0c1c33;
+  color: #0f2441;
   margin-left: 5vw;
   font-weight: 500;
 }
@@ -96,7 +106,7 @@ p {
   justify-content: left;
   font-size: 1.5vW;
   font-weight: 400;
-  color: #0c1c33;
+  color: #0f2441;
   font-weight: 500;
 }
 
@@ -104,13 +114,13 @@ p {
   display: flex;
   flex-direction: row;
   margin-top: 5.5vw;
-  color: #0c1c33;
+  color: #0f2441;
 }
 
 .vertl {
   max-height: 5vw;
   width: 2px;
-  background-color: #0c1c33;
+  background-color: #0f2441;
   justify-content: center;
   margin-left: 3.3vw;
 }
@@ -310,7 +320,7 @@ p {
 #title-int {
   margin-top: 3.5vw;
   font-size: 4vw;
-  color: #0c1c33;
+  color: #0f2441;
 }
 
 #card-int {
@@ -322,7 +332,7 @@ p {
 #lin-int {
   width: 100%;
   height: 0.5vw;
-  background-color: #0c1c33;
+  background-color: #0f2441;
 }
 
 #img-int {
@@ -484,14 +494,14 @@ p {
   text-align: right;
   font-size: 1.5vw;
   font-weight: 500;
-  color: #0c1c33;
+  color: #0f2441;
 }
 
 #text2-atencion {
   text-align: right;
   font-size: 1.5vw;
   font-weight: 500;
-  color: #0c1c33;
+  color: #0f2441;
 }
 
 #text3-atencion {
@@ -499,7 +509,7 @@ p {
   text-align: right;
   font-size: 1.5vw;
   font-weight: 700;
-  color: #0c1c33;
+  color: #0f2441;
   margin-bottom: 3vw;
 }
 
@@ -519,39 +529,120 @@ p {
 .vl-icon {
   width: 0.15vw;
   height: 4vw;
-  background-color: #0c1c33;
+  background-color: #0f2441;
   margin-left: 1.8vw;
 }
 
 #icon-email {
   font-size: 2.3vw;
-  color: #0c1c33;
+  color: #0f2441;
   padding: 0;
 }
 
 #icon-face {
   margin-left: 1.8vw;
   font-size: 1.5vw;
-  color: #0c1c33;
+  color: #0f2441;
   padding: 0;
 }
 
 #icon-what {
   margin-left: 1.8vw;
   font-size: 2vw;
-  color: #0c1c33;
+  color: #0f2441;
   padding: 0;
 }
 
 #footer {
   color: white;
-  background-color: #0c1c33;
+  background-color: #0f2441;
   font-size: 1.5vw;
   font-weight: 600;
   height: 5vw;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#fondo-info {
+  background-image: url("../img/foto 1 slider.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#cont-qs {
+  background-color: #2e3f55e3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#pregunta {
+  color: white;
+  font-size: 3vw;
+  font-weight: 600;
+  margin-top: 15vw;
+  margin-bottom: 20vw;
+  margin-left: 4vw;
+}
+
+#text-qs {
+  background-color: rgba(226, 226, 226, 0.87);
+}
+
+#title-text-qs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4vw;
+  font-size: 1.9vw;
+  font-weight: 750;
+}
+
+#text1-qs {
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: #494949;
+  margin-bottom: 0.5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#cont-text1-qs {
+  width: 53vw;
+  margin-left: 2vw;
+}
+
+#cont-mv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+}
+
+#title-mv {
+  font-size: 3vw;
+  color: #0f2441;
+  margin-top: 2vw;
+}
+
+#text-mv {
+  margin-top: 1vw;
+  font-size: 1.5vw;
+  font-weight: 600;
+  color: #0f2441;
+  margin-bottom: 2vw;
+  width: 69vw;
+}
+
+#logo-mv {
+  height: 7vw;
 }
 
 /*# sourceMappingURL=estilos.css.map */
