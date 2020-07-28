@@ -6,10 +6,6 @@ nav a img {
   height: 12vw;
 }
 
-#navbarSupportedContent {
-  height: 14vw;
-}
-
 #item-menu {
   margin-top: 7vw;
   margin-left: 4vw;
@@ -35,14 +31,14 @@ nav a img {
   color: #c7b300;
 }
 
-#social-navba {
-  margin-bottom: 3vw;
+#social {
+  margin-right: 4vw;
 }
 
 .dropdown-item {
   font-weight: 600;
   font-size: 1.2vw;
-  color: #494949;
+  color: #646464;
 }
 .dropdown-item:hover {
   color: #0f2441;
@@ -404,19 +400,19 @@ p {
   margin-top: 1.5vw;
   margin-bottom: 2vw;
   text-align: left;
-  color: #494949;
+  color: #646464;
 }
 
 #autor {
   margin-bottom: 0.2vw;
   text-align: left;
-  color: #494949;
+  color: #646464;
 }
 
 #Titulo {
   font-size: 1.2vw;
   text-align: left;
-  color: #494949;
+  color: #646464;
   margin-bottom: 1.5vw;
 }
 
@@ -457,7 +453,7 @@ p {
   display: flex;
   flex-direction: row;
   align-items: center;
-  color: #494949;
+  color: #646464;
   margin-bottom: 1.5vw;
 }
 
@@ -610,7 +606,7 @@ p {
 #text1-qs {
   font-size: 1.5vw;
   font-weight: 500;
-  color: #494949;
+  color: #646464;
   margin-bottom: 0.5vw;
   display: flex;
   flex-direction: column;
