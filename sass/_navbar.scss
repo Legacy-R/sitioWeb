@@ -47,14 +47,20 @@ nav a img{
 #cont-smenu{
     width: 17vw;
     margin-left: .5vw;
-    margin-top: 3.5vw;
+    margin-top: 3.6vw;
     background-color: $smenu;
+    border-radius: 0vw;
+    box-shadow: none;
+    border: none;
 }
 
 #item-smenu{
     font-size: 1.2vw;
     font-weight: 600;
     color: $tex-tes;
+    &:hover{
+        color: $texto;
+    }
 }
 
 
