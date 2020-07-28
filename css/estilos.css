@@ -1,0 +1,557 @@
+nav a img {
+  margin: 0;
+  padding: 0;
+  margin-top: 3vw;
+  margin-left: 4vw;
+  height: 12vw;
+}
+
+#navbarSupportedContent {
+  height: 14vw;
+}
+
+#item-menu {
+  margin-top: 7vw;
+}
+
+#opcion-menu {
+  margin-right: 5vw;
+  font-size: 1.2vw;
+  font-weight: 600;
+  color: #0c1c33;
+}
+#opcion-menu:hover {
+  color: #c7b300;
+}
+
+#navbarDropdown {
+  margin-right: 5vw;
+  font-size: 1.2vw;
+  font-weight: 600;
+  color: #0c1c33;
+}
+#navbarDropdown:hover {
+  color: #c7b300;
+}
+
+#social-navba {
+  margin-bottom: 3vw;
+}
+
+ol.carousel-indicators {
+  position: absolute;
+  bottom: 5px;
+  margin: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+  width: 2vw;
+  height: 2vw;
+  margin: 0;
+  border-radius: 50%;
+  border: 0;
+  background: transparent;
+}
+
+ol.carousel-indicators li {
+  background: rgba(255, 255, 255, 0.39);
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+ol.carousel-indicators li.active {
+  background: yellow;
+}
+
+.linv {
+  height: 5vw;
+  width: 2px;
+  background-color: #c7b300;
+  margin-left: 2.5vw;
+}
+
+.pregunta {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 3vW;
+  color: #0c1c33;
+  margin-left: 5vw;
+  font-weight: 500;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5.5vw;
+}
+
+p {
+  display: flex;
+  justify-content: left;
+  font-size: 1.5vW;
+  font-weight: 400;
+  color: #0c1c33;
+  font-weight: 500;
+}
+
+#tit {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5.5vw;
+  color: #0c1c33;
+}
+
+.vertl {
+  max-height: 5vw;
+  width: 2px;
+  background-color: #0c1c33;
+  justify-content: center;
+  margin-left: 3.3vw;
+}
+
+.title {
+  margin-left: 3vw;
+  font-size: 3vW;
+  font-weight: 500;
+}
+
+#parrafo {
+  margin-left: 4.5vw;
+}
+
+#info-1 {
+  margin-bottom: 1vw;
+}
+
+.prod {
+  position: relative;
+}
+
+.img-fondo {
+  background-image: url("../img/foto te ayudamos en.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 40vw;
+  width: 100%;
+  position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+  .img-fondo {
+    margin-bottom: 10.7em;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .img-fondo {
+    margin-bottom: 7em;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .img-fondo {
+    margin-bottom: 6.1em;
+  }
+}
+@media only screen and (min-width: 812px) {
+  .img-fondo {
+    margin-bottom: 6.55em;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .img-fondo {
+    margin-bottom: 10.6em;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .img-fondo {
+    margin-bottom: 8.3em;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .img-fondo {
+    margin-bottom: 10.5em;
+  }
+}
+#cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 50vw;
+}
+
+.title-prod {
+  font-size: 4vW;
+  margin-top: 2vw;
+  margin-bottom: 1vw;
+}
+
+#text-prod {
+  margin-bottom: 1vw;
+}
+
+#cards {
+  bottom: 0;
+  position: absolute;
+  height: 20vw;
+}
+
+#card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  width: 30vw;
+  height: 30vw;
+  margin-top: 3vw;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.lin {
+  width: 3px;
+  height: 100%;
+  background-color: #c7b300;
+  position: absolute;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  font-size: 3vw;
+  text-align: center;
+  margin-top: 3vw;
+}
+
+#logo-card {
+  width: 14vw;
+}
+
+#icon-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#fondo-alianza {
+  background-image: url("../img/foto aliados estrategicos.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#title-alianza {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#titulo-aliados {
+  margin-top: 3vw;
+  font-size: 4vw;
+  color: white;
+  margin-bottom: 2vw;
+}
+
+#cont-ali {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+#img-ali1 {
+  height: 20vw;
+  margin-bottom: 3vw;
+}
+
+@media only screen and (max-width: 600px) {
+  #img-ali1 {
+    margin-left: 0px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  #img-ali1 {
+    margin-left: 15vw;
+  }
+}
+#img-ali2 {
+  height: 20vw;
+  margin-bottom: 3vw;
+}
+
+@media only screen and (max-width: 600px) {
+  #img-ali2 {
+    margin-right: 0px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  #img-ali2 {
+    margin-right: 15vw;
+  }
+}
+#integrantes {
+  background-color: #d8d8d8;
+}
+
+#cont-int {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title-int {
+  margin-top: 3.5vw;
+  font-size: 4vw;
+  color: #0c1c33;
+}
+
+#card-int {
+  width: 32vw;
+  height: 32vw;
+  margin-bottom: 5vw;
+}
+
+#lin-int {
+  width: 100%;
+  height: 0.5vw;
+  background-color: #0c1c33;
+}
+
+#img-int {
+  background-image: url("../img/foto nuestro equipo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+}
+
+#text-img {
+  color: white;
+  margin-bottom: 0.5vw;
+}
+
+#cont-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title-tes {
+  font-size: 4vw;
+  color: #c7b300;
+  margin-top: 2vw;
+}
+
+#lin-tes {
+  width: 0.2vw;
+  height: 4vw;
+  background-color: #c7b300;
+  margin-bottom: 6vw;
+}
+
+#title-testimonios {
+  font-size: 3.5vw;
+  font-weight: 700;
+  color: white;
+  margin-left: 2vw;
+}
+
+#contenedor-tes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#tes {
+  background-image: url("../img/mereces abogados confiables.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#cont-tes {
+  background-color: white;
+  margin-bottom: 2vw;
+}
+
+#testimonio {
+  margin-top: 1.5vw;
+  margin-bottom: 2vw;
+  text-align: left;
+  color: #494949;
+}
+
+#autor {
+  margin-bottom: 0.2vw;
+  text-align: left;
+  color: #494949;
+}
+
+#Titulo {
+  font-size: 1.2vw;
+  text-align: left;
+  color: #494949;
+  margin-bottom: 1.5vw;
+}
+
+.container-fluid {
+  margin-right: 0px;
+}
+
+#cont-datos {
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+#lin-contacto {
+  width: 0.19vw;
+  height: 3.5vw;
+  background-color: #c7b300;
+}
+
+#title-contacto {
+  font-size: 2.5vw;
+  font-weight: 650;
+  margin-left: 1.5vw;
+  margin-bottom: 0px;
+}
+
+#cont-title-contacto {
+  margin-top: 2vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#title-empresa {
+  width: 17.5vw;
+  margin-left: 2vw;
+}
+
+.date {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #494949;
+  margin-bottom: 1.5vw;
+}
+
+#text-contacto {
+  margin-bottom: 0px;
+  margin-left: 1vw;
+}
+
+#non-contacto {
+  margin-bottom: 0px;
+  margin-left: 1vw;
+}
+
+#icon-contacto {
+  font-size: 2.5vw;
+}
+
+#contacto {
+  margin-bottom: 3vw;
+  margin-top: 3vw;
+}
+
+#mapa {
+  height: 100%;
+  width: 100%;
+}
+
+.col {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+#atencion {
+  background-color: #d8d8d8;
+}
+
+#text1-atencion {
+  margin-top: 2vw;
+  text-align: right;
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: #0c1c33;
+}
+
+#text2-atencion {
+  text-align: right;
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: #0c1c33;
+}
+
+#text3-atencion {
+  margin-top: 1vw;
+  text-align: right;
+  font-size: 1.5vw;
+  font-weight: 700;
+  color: #0c1c33;
+  margin-bottom: 3vw;
+}
+
+#social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+#social-atencion {
+  display: block;
+  margin: auto;
+}
+
+.vl-icon {
+  width: 0.15vw;
+  height: 4vw;
+  background-color: #0c1c33;
+  margin-left: 1.8vw;
+}
+
+#icon-email {
+  font-size: 2.3vw;
+  color: #0c1c33;
+  padding: 0;
+}
+
+#icon-face {
+  margin-left: 1.8vw;
+  font-size: 1.5vw;
+  color: #0c1c33;
+  padding: 0;
+}
+
+#icon-what {
+  margin-left: 1.8vw;
+  font-size: 2vw;
+  color: #0c1c33;
+  padding: 0;
+}
+
+#footer {
+  color: white;
+  background-color: #0c1c33;
+  font-size: 1.5vw;
+  font-weight: 600;
+  height: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=estilos.css.map */

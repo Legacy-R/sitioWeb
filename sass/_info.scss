@@ -1,0 +1,61 @@
+.linv{
+    height: 5vw;
+    width: 2px;
+    background-color: $dorado;
+    margin-left: 2.5vw;
+}
+
+.pregunta{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vW;
+    color: $texto;
+    margin-left: 5vw;
+    font-weight: 500;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5.5vw;
+}
+
+p{
+    display: flex;
+    justify-content: left;
+    font-size: 1.5vW;
+    font-weight: 400;
+    color: $texto;
+    font-weight: 500;
+}
+
+#tit{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5.5vw;
+    color: $texto;
+}
+
+.vertl{
+    max-height: 5vw;
+    width: 2px;
+    background-color: $texto;
+    justify-content: center;
+    margin-left: 3.3vw;
+}
+
+.title{
+    margin-left: 3vw;
+    font-size: 3vW;
+    font-weight: 500;
+}
+
+#parrafo{
+    margin-left: 4.5vw;
+}
+
+#info-1{
+    margin-bottom: 1vw;
+}

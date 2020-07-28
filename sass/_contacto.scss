@@ -1,0 +1,65 @@
+#cont-datos{
+    box-shadow: 10px 5px 5px $sombra;
+}
+
+#lin-contacto{
+    width: .19vw;
+    height: 3.5vw;
+    background-color: $dorado;
+}
+
+#title-contacto{
+    font-size: 2.5vw;
+    font-weight: 650;
+    margin-left: 1.5vw;
+    margin-bottom: 0px;
+}
+
+#cont-title-contacto{
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#title-empresa{
+    width: 17.5vw;
+    margin-left: 2vw;
+}
+
+.date{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: $tex-tes;
+    margin-bottom: 1.5vw;
+}
+
+#text-contacto{
+    margin-bottom: 0px;
+    margin-left: 1vw;
+}
+
+#non-contacto{
+    margin-bottom: 0px;
+    margin-left: 1vw;
+}
+
+#icon-contacto{
+    font-size: 2.5vw;
+}
+
+#contacto{
+    margin-bottom: 3vw;
+    margin-top: 3vw;
+}
+
+#mapa{
+    height: 100%;
+    width: 100%;
+}
+
+.col{
+    padding-right: 0px;
+    padding-left: 0px;
+}

@@ -1,0 +1,69 @@
+#cont-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#title-tes{
+    font-size: 4vw;
+    color: $dorado;
+    margin-top: 2vw;
+}
+
+#lin-tes{
+    width: .2vw;
+    height: 4vw;
+    background-color: $dorado;
+    margin-bottom: 6vw;
+}
+
+#title-testimonios{
+    font-size: 3.5vw;
+    font-weight: 700;
+    color: white;
+    margin-left: 2vw;
+}
+
+#contenedor-tes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+#tes{
+    background-image: url("../img/mereces abogados confiables.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+#cont-tes{
+    background-color: white;
+    margin-bottom: 2vw;
+}
+
+#testimonio {
+    margin-top: 1.5vw;
+    margin-bottom: 2vw;
+    text-align: left;
+    color: $tex-tes;
+}
+
+#autor{
+    margin-bottom: .2vw;
+    text-align: left;
+    color: $tex-tes;
+}
+
+#Titulo{
+    font-size: 1.2vw;
+    text-align: left;
+    color: $tex-tes;
+    margin-bottom: 1.5vw;
+}
+
+.container-fluid{
+    margin-right: 0px;
+}
