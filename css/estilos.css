@@ -44,6 +44,19 @@ nav a img {
   color: #0f2441;
 }
 
+#cont-smenu {
+  width: 17vw;
+  margin-left: 0.5vw;
+  margin-top: 3.5vw;
+  background-color: rgba(226, 226, 226, 0.87);
+}
+
+#item-smenu {
+  font-size: 1.2vw;
+  font-weight: 600;
+  color: #646464;
+}
+
 ol.carousel-indicators {
   position: absolute;
   bottom: 5px;
