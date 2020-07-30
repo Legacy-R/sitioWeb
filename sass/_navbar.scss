@@ -6,12 +6,12 @@ nav a img{
     height: 12vw;
 }
 
-#item-menu{
+#item_menu{
     margin-top: 7vw;
     margin-left: 4vw;
 }
 
-#opcion-menu{
+.opcion_menu{
     margin-right: 5vw;
     font-size: 1.2vw;
     font-weight: 600;
@@ -44,17 +44,17 @@ nav a img{
     }
 }
 
-#cont-smenu{
+#cont_smenu{
     width: 17vw;
-    margin-left: .5vw;
-    margin-top: 3.6vw;
+    left: 0;
+    margin-top: 3.55vw;
     background-color: $smenu;
     border-radius: 0vw;
     box-shadow: none;
     border: none;
 }
 
-#item-smenu{
+.item_smenu{
     font-size: 1.2vw;
     font-weight: 600;
     color: $tex-tes;

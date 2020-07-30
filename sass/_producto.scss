@@ -2,7 +2,7 @@
     position: relative;
 }
 
-.img-fondo{
+.img_fondo{
     background-image: url("../img/foto te ayudamos en.png");
     background-repeat: no-repeat;
     background-position: center; 
@@ -13,49 +13,43 @@
 
 }
 
-  @media only screen and (max-width: 600px) {
-    .img-fondo {
-      margin-bottom: 10.7em;
+  @media only screen and (max-width: 576px) {
+    .img_fondo {
+      margin-bottom: 46vw;
     }
   }
   
-  @media only screen and (min-width: 600px) {
-    .img-fondo {
-      margin-bottom: 7em;
+  @media only screen and (min-width: 576px) {
+    .img_fondo {
+      margin-bottom: 46vw;
     }
   }
   
   @media only screen and (min-width: 768px) {
-    .img-fondo {
-      margin-bottom: 6.1em;
+    .img_fondo {
+      margin-bottom: 13vw;
     }
   }
 
-  @media only screen and (min-width: 812px) {
-    .img-fondo {
-      margin-bottom: 6.55em;
-    }
-  }
-  
   @media only screen and (min-width: 992px) {
-    .img-fondo {
-      margin-bottom: 10.6em;
+    .img_fondo {
+      margin-bottom: 13vw;
     }
   }
   
-  @media only screen and (min-width: 1024px) {
-    .img-fondo {
-      margin-bottom: 8.3em;
+  @media only screen and (min-width: 1200px) {
+    .img_fondo {
+      margin-bottom: 13vw;
     }
   }
 
-  @media only screen and (min-width: 1100px) {
-    .img-fondo {
-      margin-bottom: 10.5em;
+  @media only screen and (min-width: 1366px) {
+    .img_fondo {
+      margin-bottom: 13vw;
     }
   }
 
-#cont{
+#cont_text_prod{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,13 +57,13 @@
     width: 50vw;
 }
 
-.title-prod{
+.title_prod{
     font-size: 4vW;
     margin-top: 2vw;
     margin-bottom: 1vw;
 }
 
-#text-prod{
+#text_prod{
     margin-bottom: 1vw;
 }
 
@@ -79,7 +73,7 @@
     height: 20vw;
 }
 
-#card{
+.cont_card{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -108,11 +102,11 @@
     margin-top: 3vw;
 }
 
-#logo-card{
+.logo_card{
     width: 14vw;
 }
 
-#icon-card{
+.icon_card{
     display: flex;
     flex-direction: column;
     align-items: center;

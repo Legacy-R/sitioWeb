@@ -6,18 +6,18 @@ nav a img {
   height: 12vw;
 }
 
-#item-menu {
+#item_menu {
   margin-top: 7vw;
   margin-left: 4vw;
 }
 
-#opcion-menu {
+.opcion_menu {
   margin-right: 5vw;
   font-size: 1.2vw;
   font-weight: 600;
   color: #0f2441;
 }
-#opcion-menu:hover {
+.opcion_menu:hover {
   color: #c7b300;
 }
 
@@ -44,22 +44,22 @@ nav a img {
   color: #0f2441;
 }
 
-#cont-smenu {
+#cont_smenu {
   width: 17vw;
-  margin-left: 0.5vw;
-  margin-top: 3.6vw;
+  left: 0;
+  margin-top: 3.55vw;
   background-color: rgba(226, 226, 226, 0.87);
   border-radius: 0vw;
   box-shadow: none;
   border: none;
 }
 
-#item-smenu {
+.item_smenu {
   font-size: 1.2vw;
   font-weight: 600;
   color: #646464;
 }
-#item-smenu:hover {
+.item_smenu:hover {
   color: #0f2441;
 }
 
@@ -125,7 +125,7 @@ p {
   font-weight: 500;
 }
 
-#tit {
+.cont-stitle {
   display: flex;
   flex-direction: row;
   margin-top: 5.5vw;
@@ -141,24 +141,29 @@ p {
 }
 
 .title {
-  margin-left: 3vw;
+  margin-left: 2.5vw;
   font-size: 3vW;
   font-weight: 500;
 }
 
-#parrafo {
-  margin-left: 4.5vw;
+.parrafo {
+  margin-left: 4.9vw;
+  word-spacing: 0.5vw;
+  color: #646464;
 }
 
-#info-1 {
+.info_1 {
   margin-bottom: 1vw;
+  margin-left: 6vw;
+  width: 90vw;
+  color: #646464;
 }
 
 .prod {
   position: relative;
 }
 
-.img-fondo {
+.img_fondo {
   background-image: url("../img/foto te ayudamos en.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -168,42 +173,37 @@ p {
   position: relative;
 }
 
-@media only screen and (max-width: 600px) {
-  .img-fondo {
-    margin-bottom: 10.7em;
+@media only screen and (max-width: 576px) {
+  .img_fondo {
+    margin-bottom: 46vw;
   }
 }
-@media only screen and (min-width: 600px) {
-  .img-fondo {
-    margin-bottom: 7em;
+@media only screen and (min-width: 576px) {
+  .img_fondo {
+    margin-bottom: 46vw;
   }
 }
 @media only screen and (min-width: 768px) {
-  .img-fondo {
-    margin-bottom: 6.1em;
-  }
-}
-@media only screen and (min-width: 812px) {
-  .img-fondo {
-    margin-bottom: 6.55em;
+  .img_fondo {
+    margin-bottom: 13vw;
   }
 }
 @media only screen and (min-width: 992px) {
-  .img-fondo {
-    margin-bottom: 10.6em;
+  .img_fondo {
+    margin-bottom: 13vw;
   }
 }
-@media only screen and (min-width: 1024px) {
-  .img-fondo {
-    margin-bottom: 8.3em;
+@media only screen and (min-width: 1200px) {
+  .img_fondo {
+    margin-bottom: 13vw;
   }
 }
-@media only screen and (min-width: 1100px) {
-  .img-fondo {
-    margin-bottom: 10.5em;
+@media only screen and (min-width: 1366px) {
+  .img_fondo {
+    margin-bottom: 13vw;
   }
 }
-#cont {
+#cont_text_prod {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -211,13 +211,13 @@ p {
   width: 50vw;
 }
 
-.title-prod {
+.title_prod {
   font-size: 4vW;
   margin-top: 2vw;
   margin-bottom: 1vw;
 }
 
-#text-prod {
+#text_prod {
   margin-bottom: 1vw;
 }
 
@@ -227,7 +227,7 @@ p {
   height: 20vw;
 }
 
-#card {
+.cont_card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -255,70 +255,70 @@ p {
   margin-top: 3vw;
 }
 
-#logo-card {
+.logo_card {
   width: 14vw;
 }
 
-#icon-card {
+.icon_card {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#fondo-alianza {
+#cont_alianza {
   background-image: url("../img/foto aliados estrategicos.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-#title-alianza {
+#title_alianza {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
-#titulo-aliados {
+#titulo_aliados {
   margin-top: 3vw;
   font-size: 4vw;
   color: white;
   margin-bottom: 2vw;
 }
 
-#cont-ali {
+#cont_ali {
   display: flex;
   flex-direction: row;
   text-align: center;
 }
 
-#img-ali1 {
+#img_ali1 {
   height: 20vw;
   margin-bottom: 3vw;
 }
 
 @media only screen and (max-width: 600px) {
-  #img-ali1 {
+  #img_ali1 {
     margin-left: 0px;
   }
 }
 @media only screen and (min-width: 600px) {
-  #img-ali1 {
+  #img_ali1 {
     margin-left: 15vw;
   }
 }
-#img-ali2 {
+#img_ali2 {
   height: 20vw;
   margin-bottom: 3vw;
 }
 
 @media only screen and (max-width: 600px) {
-  #img-ali2 {
+  #img_ali2 {
     margin-right: 0px;
   }
 }
 @media only screen and (min-width: 600px) {
-  #img-ali2 {
+  #img_ali2 {
     margin-right: 15vw;
   }
 }
@@ -326,31 +326,39 @@ p {
   background-color: #d8d8d8;
 }
 
-#cont-int {
+#cont_integrantes {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#title-int {
+#title_integrantes {
   margin-top: 3.5vw;
   font-size: 4vw;
   color: #0f2441;
 }
 
-#card-int {
-  width: 32vw;
+.cont_card_integrantes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_integrantes {
+  margin-top: 2vw;
+  width: 29vw;
   height: 32vw;
   margin-bottom: 5vw;
 }
 
-#lin-int {
+.lin_integrantes {
   width: 100%;
   height: 0.5vw;
   background-color: #0f2441;
 }
 
-#img-int {
+.img_integrantes {
   background-image: url("../img/foto nuestro equipo.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -362,135 +370,138 @@ p {
   text-align: center;
 }
 
-#text-img {
+.text_img {
   color: white;
   margin-bottom: 0.5vw;
 }
 
-#cont-title {
+.fondo_testimonios {
+  background-image: url("../img/mereces abogados confiables.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#cont_title {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#title-tes {
+#title_testimonios {
   font-size: 4vw;
   color: #c7b300;
   margin-top: 2vw;
 }
 
-#lin-tes {
+#contenedor_testimonios {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 0px;
+}
+
+#lin_testimonios {
   width: 0.2vw;
   height: 4vw;
   background-color: #c7b300;
   margin-bottom: 6vw;
 }
 
-#title-testimonios {
+#title_testimonios {
   font-size: 3.5vw;
   font-weight: 700;
   color: white;
   margin-left: 2vw;
 }
 
-#contenedor-tes {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-#tes {
-  background-image: url("../img/mereces abogados confiables.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#cont-tes {
+.cont_testimonio {
   background-color: white;
   margin-top: 1.5vw;
   margin-bottom: 2vw;
 }
 
-#cont-testimonio {
+.carousel-testimonio {
   margin-left: 1.5vw;
 }
 
-#testimonio {
+.testimonio {
   margin-top: 1.5vw;
   margin-bottom: 2vw;
   text-align: left;
   color: #646464;
 }
 
-#autor {
+.autor {
   margin-bottom: 0.2vw;
   text-align: left;
   color: #646464;
 }
 
-#Titulo {
+.posicion {
   font-size: 1.2vw;
   text-align: left;
   color: #646464;
   margin-bottom: 1.5vw;
 }
 
-.container-fluid {
-  margin-right: 0px;
-}
-
-#cont-datos {
+.contenedor_datos {
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
 }
+.contenedor_datos .container {
+  margin-left: 1vw;
+  margin-right: 3vw;
+}
 
-#lin-contacto {
+#lin_contacto {
   width: 0.19vw;
   height: 3.5vw;
   background-color: #c7b300;
 }
 
-#title-contacto {
+#title_contacto {
   font-size: 2.5vw;
   font-weight: 650;
   margin-left: 1.5vw;
   margin-bottom: 0px;
 }
 
-#cont-title-contacto {
+#cont_title_contacto {
   margin-top: 2vw;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-#title-empresa {
+#title_empresa {
   width: 17.5vw;
-  margin-left: 2vw;
+  margin-left: 5vw;
 }
 
 .date {
   display: flex;
   flex-direction: row;
   align-items: center;
-  color: #646464;
   margin-bottom: 1.5vw;
 }
 
-#text-contacto {
+.text_contacto {
   margin-bottom: 0px;
   margin-left: 1vw;
+  color: #646464;
 }
 
-#non-contacto {
+.non_contacto {
   margin-bottom: 0px;
   margin-left: 1vw;
+  color: #646464;
 }
 
-#icon-contacto {
+.icon_contacto {
   font-size: 2.5vw;
+  color: #646464;
 }
 
-#contacto {
+.contacto {
   margin-bottom: 3vw;
   margin-top: 3vw;
 }
@@ -500,16 +511,11 @@ p {
   width: 100%;
 }
 
-.col {
-  padding-right: 0px;
-  padding-left: 0px;
-}
-
-#atencion {
+.atencion {
   background-color: #d8d8d8;
 }
 
-#text1-atencion {
+#text1_atencion {
   margin-top: 2vw;
   text-align: right;
   font-size: 1.5vw;
@@ -517,14 +523,14 @@ p {
   color: #0f2441;
 }
 
-#text2-atencion {
+#text2_atencion {
   text-align: right;
   font-size: 1.5vw;
   font-weight: 500;
   color: #0f2441;
 }
 
-#text3-atencion {
+#text3_atencion {
   margin-top: 1vw;
   text-align: right;
   font-size: 1.5vw;
@@ -541,39 +547,39 @@ p {
   list-style: none;
 }
 
-#social-atencion {
+.social_atencion {
   display: block;
   margin: auto;
 }
 
-.vl-icon {
+.vl_icon {
   width: 0.15vw;
   height: 4vw;
   background-color: #0f2441;
   margin-left: 1.8vw;
 }
 
-#icon-email {
+#icon_email {
   font-size: 2.3vw;
   color: #0f2441;
   padding: 0;
 }
 
-#icon-face {
+#icon_face {
   margin-left: 1.8vw;
   font-size: 1.5vw;
   color: #0f2441;
   padding: 0;
 }
 
-#icon-what {
+#icon_what {
   margin-left: 1.8vw;
   font-size: 2vw;
   color: #0f2441;
   padding: 0;
 }
 
-#footer {
+.footer {
   color: white;
   background-color: #0f2441;
   font-size: 1.5vw;
@@ -584,14 +590,14 @@ p {
   align-items: center;
 }
 
-#fondo-info {
+.fondo_info {
   background-image: url("../img/foto 1 slider.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-#cont-qs {
+#cont_qs {
   background-color: #2e3f55e3;
   display: flex;
   flex-direction: column;
@@ -608,11 +614,11 @@ p {
   margin-left: 4vw;
 }
 
-#text-qs {
+#text_qs {
   background-color: rgba(226, 226, 226, 0.87);
 }
 
-#title-text-qs {
+#title_text_qs {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -622,7 +628,7 @@ p {
   font-weight: 750;
 }
 
-#text1-qs {
+.text1_qs {
   font-size: 1.5vw;
   font-weight: 500;
   color: #646464;
@@ -632,12 +638,12 @@ p {
   justify-content: center;
 }
 
-#cont-text1-qs {
+.cont_text1_qs {
   width: 53vw;
   margin-left: 2vw;
 }
 
-#cont-mv {
+.cont_mv {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -646,13 +652,13 @@ p {
   margin-bottom: 3vw;
 }
 
-#title-mv {
+.title_mv {
   font-size: 3vw;
   color: #0f2441;
   margin-top: 2vw;
 }
 
-#text-mv {
+.text_mv {
   margin-top: 1vw;
   font-size: 1.5vw;
   font-weight: 600;
@@ -661,7 +667,7 @@ p {
   width: 69vw;
 }
 
-#logo-mv {
+#logo_mv {
   height: 7vw;
 }
 
@@ -675,7 +681,7 @@ p {
   align-items: center;
 }
 
-#title-equipo {
+#title_equipo {
   background-color: white;
   width: 35vw;
   height: 7vw;
@@ -688,7 +694,7 @@ p {
   margin-bottom: 2.5vw;
 }
 
-#fondo-col1 {
+.fondo-col1 {
   background-color: #2e3f55e3;
   width: 100%;
   height: 100%;

@@ -1,55 +1,62 @@
-#cont-datos{
+.contenedor_datos{
     box-shadow: 10px 5px 5px $sombra;
+    .container{
+        margin-left: 1vw;
+        margin-right: 3vw;
+    }
 }
 
-#lin-contacto{
+#lin_contacto{
     width: .19vw;
     height: 3.5vw;
     background-color: $dorado;
 }
 
-#title-contacto{
+#title_contacto{
     font-size: 2.5vw;
     font-weight: 650;
     margin-left: 1.5vw;
     margin-bottom: 0px;
 }
 
-#cont-title-contacto{
+#cont_title_contacto{
     margin-top: 2vw;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-#title-empresa{
+#title_empresa{
     width: 17.5vw;
-    margin-left: 2vw;
+    margin-left: 5vw;
 }
 
 .date{
     display: flex;
     flex-direction: row;
     align-items: center;
-    color: $tex-tes;
+
     margin-bottom: 1.5vw;
 }
 
-#text-contacto{
+.text_contacto{
     margin-bottom: 0px;
     margin-left: 1vw;
+    color: $tex-tes;
 }
 
-#non-contacto{
+.non_contacto{
     margin-bottom: 0px;
     margin-left: 1vw;
+    color: $tex-tes;
 }
 
-#icon-contacto{
+.icon_contacto{
     font-size: 2.5vw;
+    color: $tex-tes;
 }
 
-#contacto{
+.contacto{
     margin-bottom: 3vw;
     margin-top: 3vw;
 }
@@ -57,9 +64,4 @@
 #mapa{
     height: 100%;
     width: 100%;
-}
-
-.col{
-    padding-right: 0px;
-    padding-left: 0px;
 }

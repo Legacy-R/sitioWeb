@@ -1,74 +1,69 @@
-#cont-title{
+.fondo_testimonios{
+    background-image: url("../img/mereces abogados confiables.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+#cont_title{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 
-#title-tes{
+#title_testimonios{
     font-size: 4vw;
     color: $dorado;
     margin-top: 2vw;
 }
 
-#lin-tes{
+#contenedor_testimonios{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 0px;
+}
+
+#lin_testimonios{
     width: .2vw;
     height: 4vw;
     background-color: $dorado;
     margin-bottom: 6vw;
 }
 
-#title-testimonios{
+#title_testimonios{
     font-size: 3.5vw;
     font-weight: 700;
     color: white;
     margin-left: 2vw;
 }
 
-#contenedor-tes{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-
-
-#tes{
-    background-image: url("../img/mereces abogados confiables.jpg");
-    background-repeat: no-repeat; 
-    background-size: cover;
-}
-
-#cont-tes{
+.cont_testimonio{
     background-color: white;
     margin-top: 1.5vw;
     margin-bottom: 2vw;
 }
 
-#cont-testimonio{
+.carousel-testimonio{
     margin-left: 1.5vw;
 }
 
-#testimonio {
+.testimonio {
     margin-top: 1.5vw;
     margin-bottom: 2vw;
     text-align: left;
     color: $tex-tes;
 }
 
-#autor{
+.autor{
     margin-bottom: .2vw;
     text-align: left;
     color: $tex-tes;
 }
 
-#Titulo{
+.posicion{
     font-size: 1.2vw;
     text-align: left;
     color: $tex-tes;
     margin-bottom: 1.5vw;
-}
-
-.container-fluid{
-    margin-right: 0px;
 }
