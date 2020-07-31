@@ -1,4 +1,4 @@
-nav a img {
+nav img {
   margin: 0;
   padding: 0;
   margin-top: 3vw;
@@ -148,7 +148,6 @@ p {
 
 .parrafo {
   margin-left: 4.9vw;
-  word-spacing: 0.5vw;
   color: #646464;
 }
 
@@ -444,69 +443,64 @@ p {
   margin-bottom: 1.5vw;
 }
 
-.contenedor_datos {
-  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
-}
-.contenedor_datos .container {
-  margin-left: 1vw;
-  margin-right: 3vw;
-}
-
-#lin_contacto {
+.contactanos #lin_contacto {
   width: 0.19vw;
   height: 3.5vw;
   background-color: #c7b300;
 }
-
-#title_contacto {
+.contactanos #title_contacto {
   font-size: 2.5vw;
   font-weight: 650;
   margin-left: 1.5vw;
   margin-bottom: 0px;
 }
-
-#cont_title_contacto {
+.contactanos #cont_title_contacto {
   margin-top: 2vw;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-
-#title_empresa {
+.contactanos #title_empresa {
   width: 17.5vw;
   margin-left: 5vw;
 }
-
-.date {
+.contactanos .date {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-bottom: 1.5vw;
 }
-
-.text_contacto {
+.contactanos .text_contacto {
   margin-bottom: 0px;
   margin-left: 1vw;
   color: #646464;
 }
-
-.non_contacto {
+.contactanos .non_contacto {
   margin-bottom: 0px;
   margin-left: 1vw;
   color: #646464;
 }
-
-.icon_contacto {
+.contactanos .icon_contacto {
   font-size: 2.5vw;
   color: #646464;
 }
-
-.contacto {
+.contactanos .contacto {
   margin-bottom: 3vw;
   margin-top: 3vw;
 }
-
-#mapa {
+.contactanos .contenedor_datos {
+  z-index: 1;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.contactanos .contenedor_datos .container {
+  margin-left: 1vw;
+  margin-right: 3vw;
+}
+.contactanos .mapa_ubicacion {
+  padding-left: 0vw;
+  padding-right: 0vw;
+}
+.contactanos #mapa {
   height: 100%;
   width: 100%;
 }
@@ -671,7 +665,7 @@ p {
   height: 7vw;
 }
 
-#equipo {
+.equipo {
   background-image: url("../img/fondo nuestro equipo.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -680,8 +674,7 @@ p {
   flex-direction: column;
   align-items: center;
 }
-
-#title_equipo {
+.equipo #title_equipo {
   background-color: white;
   width: 35vw;
   height: 7vw;
@@ -693,11 +686,64 @@ p {
   color: #0f2441;
   margin-bottom: 2.5vw;
 }
-
-.fondo-col1 {
+.equipo .fondo_col1 {
   background-color: #2e3f55e3;
-  width: 100%;
+}
+.equipo .contenedor_integrante {
+  margin-top: 6.5vw;
+  width: 30vw;
+  height: 37vw;
+  margin-bottom: 6vw;
+  margin-left: 6vw;
+}
+.equipo .foto_integrante {
+  background-image: url("../img/foto nuestro equipo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+}
+.equipo .line_superior_foto {
+  height: 0.5vw;
+  width: 100%;
+  background-color: #c7b300;
+}
+.equipo .nombre_posicion_integrante {
+  color: white;
+  font-size: 2vw;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 1vw;
+}
+.equipo .fondo_col2 {
+  padding-left: 0vw;
+}
+.equipo .presentacion_integrante {
+  background-color: white;
+  left: 0vw;
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: #0f2441;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 37vw;
+  margin-top: 6.5vw;
+}
+.equipo .contenedor_texto_presentacion {
+  margin-top: 1.5vw;
+  margin-bottom: 1.5vw;
+}
+.equipo .texto_presentacion {
+  width: 42vw;
+  margin-bottom: 1vw;
 }
 
 /*# sourceMappingURL=estilos.css.map */
