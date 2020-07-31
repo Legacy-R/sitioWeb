@@ -688,6 +688,8 @@ p {
 }
 .equipo .fondo_col1 {
   background-color: #2e3f55e3;
+  display: flex;
+  justify-content: center;
 }
 .equipo .contenedor_integrante {
   margin-top: 6.5vw;
@@ -744,6 +746,46 @@ p {
 .equipo .texto_presentacion {
   width: 42vw;
   margin-bottom: 1vw;
+}
+.equipo .fondo_col3 {
+  padding-right: 0vw;
+}
+.equipo .presentacion_integrante2 {
+  background-color: white;
+  position: absolute;
+  right: 0px;
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: #0f2441;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 37vw;
+  margin-top: 6.5vw;
+}
+.equipo .fondo_col4 {
+  background-color: #2e3f55e3;
+  display: flex;
+  justify-content: center;
+}
+.equipo .contenedor_integrante2 {
+  margin-top: 6.5vw;
+  width: 30vw;
+  height: 37vw;
+  margin-bottom: 6vw;
+  margin-right: 6vw;
+}
+.equipo .foto_integrante2 {
+  background-image: url("../img/foto nuestro equipo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
 }
 
 /*# sourceMappingURL=estilos.css.map */
