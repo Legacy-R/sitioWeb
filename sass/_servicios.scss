@@ -1,0 +1,407 @@
+.servicios{
+    background-image: url("../image/foto_te_ayudamos_en.png");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .titulo_servicios{
+        font-size: 3.5vw;
+        font-weight: 700;
+        color: $texto;
+        margin-top: 2vw;
+    }
+
+    .subtitulo_servicios{
+        font-size: 1.9vw;
+        color: $texto;
+    }
+
+    .parrafo_servicios{
+        text-align: center;
+        width: 64vw;
+        font-size: 1.5vw;
+        font-weight: 700;
+        color: $tex-tes;
+        margin-top: 3vw;
+        margin-bottom: 4vw;
+
+    }
+}
+
+.actos_notariales_primera_seccion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .linv_actos_notariales{
+        width: .2vw;
+        height: 6vw;
+        background-color: $dorado;
+        margin-left: 5vw;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+    }
+
+    .titulo_actos_notariales{
+        font-size: 3vw;
+        font-weight: 700;
+        color: $texto;
+        margin-left: 1vw;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+    }
+
+    .logo_actos_notariales{
+        height: 6vw;
+        margin-left: 2vw;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+    }
+}
+
+.seccion_1{
+    .col1_asesoramiento_societario{
+        background-image: linear-gradient(135deg, $azul_color_gradient, white);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .titulo_asesoramiento_societario{
+        font-size: 2.5vw;
+        color: $texto;
+        margin-top: 4vw;
+        margin-left: 5vw;
+        }
+
+        .texto_asesoramiento_societario{
+        width: 51vw;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        }
+
+        .parrafo_asesoramiento_societario{
+        font-size: 1.5vw;
+        font-weight: 500;
+        color: $texto;
+        margin-bottom: .5vw;
+        display: flex;
+        flex-direction: row;
+        text-align: justify;
+        }
+
+        .texto{
+            margin-left: 1vw;
+        }
+    }
+
+    .fondo_asesoramiento_societario{
+        background-image: url("../image/provisional.jpg");
+        background-repeat: no-repeat; 
+        background-size: cover;
+        background-position: center;
+        height: 48vw;
+    }
+}
+
+.seccion_2{
+    .col2_asesoramiento_inmobiliario{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .titulo_asesoramiento_inmobiliario{
+        font-size: 2.5vw;
+        color: $texto;
+        margin-top: 4vw;
+        margin-left: 5vw;
+        text-align: center;
+        width: 38vw;
+        }
+
+        .texto_asesoramiento_inmobiliario{
+        width: 51vw;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        }
+
+        .parrafo_asesoramiento_inmobiliario{
+        font-size: 1.5vw;
+        font-weight: 500;
+        color: $texto;
+        margin-bottom: .5vw;
+        display: flex;
+        flex-direction: row;
+        text-align: justify;
+        }
+
+        .texto{
+            margin-left: 1vw;
+        }
+    }
+
+    .fondo_asesoramiento_inmobiliario{
+        background-image: url("../image/provisional.jpg");
+        background-repeat: no-repeat; 
+        background-size: cover;
+        background-position: center;
+        height: 50vw;
+    }
+}
+
+.seccion_3{
+    .col1_asesoramiento_legal{
+        background-image: linear-gradient(135deg, $azul_color_gradient, white);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .titulo_asesoramiento_legal{
+        font-size: 2.5vw;
+        color: $texto;
+        margin-top: 4vw;
+        margin-left: 5vw;
+        width: 40vw;
+        text-align: center;
+        }
+
+        .texto_asesoramiento_legal{
+        width: 51vw;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        }
+
+        .parrafo_asesoramiento_legal{
+        font-size: 1.5vw;
+        font-weight: 500;
+        color: $texto;
+        margin-bottom: .5vw;
+        display: flex;
+        flex-direction: row;
+        text-align: justify;
+        }
+
+        .texto{
+            margin-left: 1vw;
+        }
+    }
+
+    .fondo_asesoramiento_legal{
+        background-image: url("../image/provisional.jpg");
+        background-repeat: no-repeat; 
+        background-size: cover;
+        background-position: center;
+        height: 48vw;
+    }
+}
+
+.procesos_judiciales_primera_seccion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .linv_procesos_judiciales{
+        width: .2vw;
+        height: 6vw;
+        background-color: $dorado;
+        margin-left: 5vw;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+    }
+
+    .titulo_procesos_judiciales{
+        font-size: 3vw;
+        font-weight: 700;
+        color: $texto;
+        margin-left: 1vw;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+    }
+
+    .logo_procesos_judiciales{
+        height: 6vw;
+        margin-left: 2vw;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+    }
+}
+
+.seccion_4{
+    .col2_asesoria_laboral{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .titulo_asesoria_laboral{
+        font-size: 2.5vw;
+        color: $texto;
+        margin-top: 4vw;
+        margin-left: 5vw;
+        text-align: center;
+        width: 38vw;
+        }
+
+        .texto_asesoria_laboral{
+        width: 51vw;
+        margin-top: 1vw;
+        margin-bottom: 5vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        }
+
+        .parrafo_asesoria_laboral{
+        font-size: 1.5vw;
+        font-weight: 500;
+        color: $texto;
+        margin-bottom: .5vw;
+        display: flex;
+        flex-direction: row;
+        text-align: justify;
+        }
+
+        .texto{
+            margin-left: 1vw;
+        }
+    }
+
+    .fondo_asesoria_laboral{
+        background-image: url("../image/provisional.jpg");
+        background-repeat: no-repeat; 
+        background-size: cover;
+        background-position: center;
+        height: 35vw;
+    }
+}
+
+.seccion_5{
+    .col1_asesoria_civil{
+        background-image: linear-gradient(135deg, $azul_color_gradient, white);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .titulo_asesoria_civil{
+        font-size: 2.5vw;
+        color: $texto;
+        margin-top: 4vw;
+        margin-left: 5vw;
+        }
+
+        .texto_asesoria_civil{
+        width: 51vw;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        }
+
+        .parrafo_asesoria_civil{
+        font-size: 1.5vw;
+        font-weight: 500;
+        color: $texto;
+        margin-bottom: .5vw;
+        display: flex;
+        flex-direction: row;
+        text-align: justify;
+        }
+
+        .texto{
+            margin-left: 1vw;
+        }
+    }
+
+    .fondo_asesoramiento_societario{
+        background-image: url("../image/provisional.jpg");
+        background-repeat: no-repeat; 
+        background-size: cover;
+        background-position: center;
+        height: 35vw;
+    }
+}
+
+.seccion_6{
+    .col2_asesoria_familia{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .titulo_asesoria_familia{
+        font-size: 2.5vw;
+        color: $texto;
+        margin-top: 4vw;
+        margin-left: 5vw;
+        text-align: center;
+        width: 38vw;
+        }
+
+        .texto_asesoria_familia{
+        width: 51vw;
+        margin-top: 1vw;
+        margin-bottom: 5vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        }
+
+        .parrafo_asesoria_familia{
+        font-size: 1.5vw;
+        font-weight: 500;
+        color: $texto;
+        margin-bottom: .5vw;
+        display: flex;
+        flex-direction: row;
+        text-align: justify;
+        }
+
+        .texto{
+            margin-left: 1vw;
+        }
+    }
+
+    .fondo_asesoria_familia{
+        background-image: url("../image/provisional.jpg");
+        background-repeat: no-repeat; 
+        background-size: cover;
+        background-position: center;
+        height: 35vw;
+    }
+}
+
+.fondo_consultoria{
+    background-image: url("../image/mereces_abogados_confiables.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .titulo_consultoria{
+        color: white;
+        font-size: 2.5vw;
+        font-weight: 600;
+        margin-top: 6vw;
+    }
+
+    .texto_consultoria{
+        color: white;
+        font-size: 1.5vw;
+        font-weight: 600;
+        text-align: center;
+        width: 59vw;
+        margin-top: 3vw;
+        margin-bottom: 5vw;
+    }
+}

@@ -1,0 +1,31 @@
+.cabecera_contacto{
+    background-image: url("../image/foto_contacto.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    .pregunta{
+        color: white;
+        font-size: 4vw;
+        font-weight: 700;
+        text-align: right;
+        margin-right: 5vw;
+        margin-top: 2.5vw;
+    }
+
+    .titulo_empresa{
+        color: white;
+        font-size: 2.5vw;
+        font-weight: 700;
+        width: 25vw;
+        text-align: center;
+        margin-right: 5vw;
+        margin-bottom: 12vw;
+        margin-top: 2vw;
+    }
+
+
+}

@@ -1,67 +1,69 @@
 .atencion{
     background-color: $fintegrantes;
+
+    #text1_atencion{
+        margin-top: 2vw;
+        text-align: right;
+        font-size: 1.5vw;
+        font-weight: 500;
+        color: $texto;
+    }
+    
+    #text2_atencion{
+        text-align: right;
+        font-size: 1.5vw;
+        font-weight: 500;
+        color: $texto;
+    }
+    #text3_atencion{
+        margin-top: 1vw;
+        text-align: right;
+        font-size: 1.5vw;
+        font-weight: 700;
+        color: $texto;
+        margin-bottom: 3vw;
+    }
+    
+    #social{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+    }
+    
+    .social_atencion{
+        display:block;
+        margin:auto;
+    }
+    
+    .vl_icon{
+        width: .15vw;
+        height: 4vw;
+        background-color: $texto;
+        margin-left: 1.8vw;
+    }
+    
+    #icon_email{
+        font-size: 2.3vw;
+        color: $texto;
+        padding: 0;
+    }
+    
+    #icon_face{
+        margin-left: 1.8vw;
+        font-size: 1.5vw;
+        color: $texto;
+        padding: 0;
+    }
+    
+    #icon_what{
+        margin-left: 1.8vw;
+        font-size: 2vw;
+        color: $texto;
+        padding: 0;
+    }
+    
 }
 
-#text1_atencion{
-    margin-top: 2vw;
-    text-align: right;
-    font-size: 1.5vw;
-    font-weight: 500;
-    color: $texto;
-}
-
-#text2_atencion{
-    text-align: right;
-    font-size: 1.5vw;
-    font-weight: 500;
-    color: $texto;
-}
-#text3_atencion{
-    margin-top: 1vw;
-    text-align: right;
-    font-size: 1.5vw;
-    font-weight: 700;
-    color: $texto;
-    margin-bottom: 3vw;
-}
-
-#social{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-}
-
-.social_atencion{
-    display:block;
-    margin:auto;
-}
-
-.vl_icon{
-    width: .15vw;
-    height: 4vw;
-    background-color: $texto;
-    margin-left: 1.8vw;
-}
-
-#icon_email{
-    font-size: 2.3vw;
-    color: $texto;
-    padding: 0;
-}
-
-#icon_face{
-    margin-left: 1.8vw;
-    font-size: 1.5vw;
-    color: $texto;
-    padding: 0;
-}
-
-#icon_what{
-    margin-left: 1.8vw;
-    font-size: 2vw;
-    color: $texto;
-    padding: 0;
-}
 

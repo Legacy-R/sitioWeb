@@ -1,67 +1,108 @@
-nav img{
-    margin: 0;
-    padding: 0;
-    margin-top: 3vw;
-    margin-left: 4vw;
-    height: 12vw;
-}
-
-#item_menu{
-    margin-top: 7vw;
-    margin-left: 4vw;
-}
-
-.opcion_menu{
-    margin-right: 5vw;
-    font-size: 1.2vw;
-    font-weight: 600;
-    color: $texto;
-    &:hover{
-        color: $dorado;
+.barra_navegacion{
+    .logo_empresa{
+        margin: 0;
+        padding: 0;
+        margin-top: 3vw;
+        margin-left: 4vw;
+        height: 12vw;
     }
-}
-
-#navbarDropdown{
-    margin-right: 5vw;
-    font-size: 1.2vw;
-    font-weight: 600;
-    color: $texto;
-    &:hover{
-        color: $dorado;
+    
+    #item_menu{
+        margin-top: 7vw;
+        margin-left: 4vw;
     }
-}
-
-#social{
-    margin-right: 4vw;
-}
-
-.dropdown-item{
-    font-weight: 600;
-    font-size: 1.2vw;
-    color: $tex-tes;
-    &:hover{
+    
+    .opcion_menu{
+        margin-right: 5vw;
+        font-size: 1.2vw;
+        font-weight: 600;
         color: $texto;
+        &:hover{
+            color: $dorado;
+        }
     }
-}
-
-#cont_smenu{
-    width: 17vw;
-    left: 0;
-    margin-top: 3.55vw;
-    background-color: $smenu;
-    border-radius: 0vw;
-    box-shadow: none;
-    border: none;
-}
-
-.item_smenu{
-    font-size: 1.2vw;
-    font-weight: 600;
-    color: $tex-tes;
-    &:hover{
+    
+    #navbarDropdown{
+        margin-right: 5vw;
+        font-size: 1.2vw;
+        font-weight: 600;
         color: $texto;
+        &:hover{
+            color: $dorado;
+        }
+    }
+    
+    .dropdown-item{
+        font-weight: 600;
+        font-size: 1.2vw;
+        color: $tex-tes;
+        &:hover{
+            color: $texto;
+        }
+    }
+    
+    #cont_smenu{
+        width: 17vw;
+        left: 0;
+        margin-top: 3.55vw;
+        background-color: $smenu;
+        border-radius: 0vw;
+        box-shadow: none;
+        border: none;
+    }
+    
+    .item_smenu{
+        font-size: 1.2vw;
+        font-weight: 600;
+        color: $tex-tes;
+        &:hover{
+            color: $texto;
+        }
+    }
+
+    #social{
+        margin-right: 4vw;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+    }
+
+    .social_atencion{
+        display:block;
+        margin:auto;
+    }
+    
+    .vl_icon{
+        width: .15vw;
+        height: 4vw;
+        background-color: $texto;
+        margin-left: 1.8vw;
+    }
+    
+    #icon_email{
+        font-size: 2.3vw;
+        color: $texto;
+        padding: 0;
+    }
+    
+    #icon_face{
+        margin-left: 1.8vw;
+        font-size: 1.5vw;
+        color: $texto;
+        padding: 0;
+    }
+    
+    #icon_what{
+        margin-left: 1.8vw;
+        font-size: 2vw;
+        color: $texto;
+        padding: 0;
     }
 }
+
+
 
 
 

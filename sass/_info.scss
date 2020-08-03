@@ -1,65 +1,78 @@
-.linv{
-    height: 5vw;
-    width: 2px;
-    background-color: $dorado;
-    margin-left: 2.5vw;
+.informacion{
+    .linv{
+        height: 5vw;
+        width: 2px;
+        background-color: $dorado;
+        margin-left: 2.5vw;
+    }
+    
+    .pregunta{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 3vW;
+        color: $texto;
+        margin-left: 5vw;
+        font-weight: 500;
+    }
+    
+    .titulo{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5.5vw;
+    }
 }
 
-.pregunta{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    font-size: 3vW;
-    color: $texto;
-    margin-left: 5vw;
-    font-weight: 500;
+.texto_informacion{
+    .info_1{
+        margin-bottom: 1vw;
+        margin-left: 6vw;
+        width: 90vw;
+        color: $tex-tes;
+        font-size: 1.5vW;
+        font-weight: 500;
+    }
 }
 
-.titulo{
-    display: flex;
-    flex-direction: row;
-    margin-top: 5.5vw;
+.mision_vision{
+    p{
+        display: flex;
+        justify-content: left;
+        font-size: 1.5vW;
+        font-weight: 500;
+        color: $texto;
+    }
+    
+    .cont-stitle{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5.5vw;
+        color: $texto;
+    }
+    
+    .vertl{
+        max-height: 5vw;
+        width: 2px;
+        background-color: $texto;
+        justify-content: center;
+        margin-left: 3.3vw;
+    }
+    
+    .title{
+        margin-left: 2.5vw;
+        font-size: 3vW;
+        font-weight: 500;
+    }
+    
+    .parrafo{
+        margin-left: 4.9vw;
+        color: $tex-tes;
+        margin-bottom: 8vw;
+    }
+    
+
 }
 
-p{
-    display: flex;
-    justify-content: left;
-    font-size: 1.5vW;
-    font-weight: 400;
-    color: $texto;
-    font-weight: 500;
-}
 
-.cont-stitle{
-    display: flex;
-    flex-direction: row;
-    margin-top: 5.5vw;
-    color: $texto;
-}
 
-.vertl{
-    max-height: 5vw;
-    width: 2px;
-    background-color: $texto;
-    justify-content: center;
-    margin-left: 3.3vw;
-}
-
-.title{
-    margin-left: 2.5vw;
-    font-size: 3vW;
-    font-weight: 500;
-}
-
-.parrafo{
-    margin-left: 4.9vw;
-    color: $tex-tes;
-}
-
-.info_1{
-    margin-bottom: 1vw;
-    margin-left: 6vw;
-    width: 90vw;
-    color: $tex-tes;
-}

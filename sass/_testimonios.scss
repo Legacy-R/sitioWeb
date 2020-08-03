@@ -1,69 +1,71 @@
 .fondo_testimonios{
-    background-image: url("../img/mereces abogados confiables.jpg");
+    background-image: url("../image/mereces_abogados_confiables.jpg");
     background-repeat: no-repeat; 
     background-size: cover;
+
+    #cont_title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    #title_testimonios{
+        font-size: 4vw;
+        color: $dorado;
+        margin-top: 2vw;
+    }
+    
+    #contenedor_testimonios{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 0px;
+    }
+    
+    #lin_testimonios{
+        width: .2vw;
+        height: 4vw;
+        background-color: $dorado;
+        margin-bottom: 4vw;
+    }
+    
+    #title_testimonios{
+        font-size: 3.5vw;
+        font-weight: 700;
+        color: white;
+        margin-left: 2vw;
+    }
+    
+    .cont_testimonio{
+        background-color: white;
+        margin-top: 1.5vw;
+        margin-bottom: 2vw;
+    }
+    
+    .carousel-testimonio{
+        margin-left: 1.5vw;
+    }
+    
+    .testimonio {
+        margin-top: 1.5vw;
+        margin-bottom: 2vw;
+        text-align: left;
+        color: $tex-tes;
+    }
+    
+    .autor{
+        margin-bottom: .2vw;
+        text-align: left;
+        color: $tex-tes;
+    }
+    
+    .posicion{
+        font-size: 1.2vw;
+        text-align: left;
+        color: $tex-tes;
+        margin-bottom: 1.5vw;
+    }
 }
 
-#cont_title{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-
-#title_testimonios{
-    font-size: 4vw;
-    color: $dorado;
-    margin-top: 2vw;
-}
-
-#contenedor_testimonios{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-right: 0px;
-}
-
-#lin_testimonios{
-    width: .2vw;
-    height: 4vw;
-    background-color: $dorado;
-    margin-bottom: 6vw;
-}
-
-#title_testimonios{
-    font-size: 3.5vw;
-    font-weight: 700;
-    color: white;
-    margin-left: 2vw;
-}
-
-.cont_testimonio{
-    background-color: white;
-    margin-top: 1.5vw;
-    margin-bottom: 2vw;
-}
-
-.carousel-testimonio{
-    margin-left: 1.5vw;
-}
-
-.testimonio {
-    margin-top: 1.5vw;
-    margin-bottom: 2vw;
-    text-align: left;
-    color: $tex-tes;
-}
-
-.autor{
-    margin-bottom: .2vw;
-    text-align: left;
-    color: $tex-tes;
-}
-
-.posicion{
-    font-size: 1.2vw;
-    text-align: left;
-    color: $tex-tes;
-    margin-bottom: 1.5vw;
-}

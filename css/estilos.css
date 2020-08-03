@@ -1,71 +1,91 @@
-nav img {
+.barra_navegacion .logo_empresa {
   margin: 0;
   padding: 0;
   margin-top: 3vw;
   margin-left: 4vw;
   height: 12vw;
 }
-
-#item_menu {
+.barra_navegacion #item_menu {
   margin-top: 7vw;
   margin-left: 4vw;
 }
-
-.opcion_menu {
+.barra_navegacion .opcion_menu {
   margin-right: 5vw;
   font-size: 1.2vw;
   font-weight: 600;
   color: #0f2441;
 }
-
-.opcion_menu:hover {
+.barra_navegacion .opcion_menu:hover {
   color: #c7b300;
 }
-
-#navbarDropdown {
+.barra_navegacion #navbarDropdown {
   margin-right: 5vw;
   font-size: 1.2vw;
   font-weight: 600;
   color: #0f2441;
 }
-
-#navbarDropdown:hover {
+.barra_navegacion #navbarDropdown:hover {
   color: #c7b300;
 }
-
-#social {
-  margin-right: 4vw;
-}
-
-.dropdown-item {
+.barra_navegacion .dropdown-item {
   font-weight: 600;
   font-size: 1.2vw;
   color: #646464;
 }
-
-.dropdown-item:hover {
+.barra_navegacion .dropdown-item:hover {
   color: #0f2441;
 }
-
-#cont_smenu {
+.barra_navegacion #cont_smenu {
   width: 17vw;
   left: 0;
   margin-top: 3.55vw;
   background-color: rgba(226, 226, 226, 0.87);
   border-radius: 0vw;
-  -webkit-box-shadow: none;
   box-shadow: none;
   border: none;
 }
-
-.item_smenu {
+.barra_navegacion .item_smenu {
   font-size: 1.2vw;
   font-weight: 600;
   color: #646464;
 }
-
-.item_smenu:hover {
+.barra_navegacion .item_smenu:hover {
   color: #0f2441;
+}
+.barra_navegacion #social {
+  margin-right: 4vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+.barra_navegacion .social_atencion {
+  display: block;
+  margin: auto;
+}
+.barra_navegacion .vl_icon {
+  width: 0.15vw;
+  height: 4vw;
+  background-color: #0f2441;
+  margin-left: 1.8vw;
+}
+.barra_navegacion #icon_email {
+  font-size: 2.3vw;
+  color: #0f2441;
+  padding: 0;
+}
+.barra_navegacion #icon_face {
+  margin-left: 1.8vw;
+  font-size: 1.5vw;
+  color: #0f2441;
+  padding: 0;
+}
+.barra_navegacion #icon_what {
+  margin-left: 1.8vw;
+  font-size: 2vw;
+  color: #0f2441;
+  padding: 0;
 }
 
 ol.carousel-indicators {
@@ -97,103 +117,73 @@ ol.carousel-indicators li.active {
   background: yellow;
 }
 
-.linv {
+.informacion .linv {
   height: 5vw;
   width: 2px;
   background-color: #c7b300;
   margin-left: 2.5vw;
 }
-
-.pregunta {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.informacion .pregunta {
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   font-size: 3vW;
   color: #0f2441;
   margin-left: 5vw;
   font-weight: 500;
 }
-
-.titulo {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.informacion .titulo {
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
   margin-top: 5.5vw;
 }
 
-p {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: left;
-  -ms-flex-pack: left;
-  justify-content: left;
-  font-size: 1.5vW;
-  font-weight: 400;
-  color: #0f2441;
-  font-weight: 500;
-}
-
-.cont-stitle {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  margin-top: 5.5vw;
-  color: #0f2441;
-}
-
-.vertl {
-  max-height: 5vw;
-  width: 2px;
-  background-color: #0f2441;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  margin-left: 3.3vw;
-}
-
-.title {
-  margin-left: 2.5vw;
-  font-size: 3vW;
-  font-weight: 500;
-}
-
-.parrafo {
-  margin-left: 4.9vw;
-  color: #646464;
-}
-
-.info_1 {
+.texto_informacion .info_1 {
   margin-bottom: 1vw;
   margin-left: 6vw;
   width: 90vw;
   color: #646464;
+  font-size: 1.5vW;
+  font-weight: 500;
+}
+
+.mision_vision p {
+  display: flex;
+  justify-content: left;
+  font-size: 1.5vW;
+  font-weight: 500;
+  color: #0f2441;
+}
+.mision_vision .cont-stitle {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5.5vw;
+  color: #0f2441;
+}
+.mision_vision .vertl {
+  max-height: 5vw;
+  width: 2px;
+  background-color: #0f2441;
+  justify-content: center;
+  margin-left: 3.3vw;
+}
+.mision_vision .title {
+  margin-left: 2.5vw;
+  font-size: 3vW;
+  font-weight: 500;
+}
+.mision_vision .parrafo {
+  margin-left: 4.9vw;
+  color: #646464;
+  margin-bottom: 8vw;
 }
 
 .prod {
   position: relative;
 }
-
-.img_fondo {
-  background-image: url("../img/foto te ayudamos en.png");
+.prod .img_fondo {
+  background-image: url("../image/foto_te_ayudamos_en.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -201,347 +191,240 @@ p {
   width: 100%;
   position: relative;
 }
-
 @media only screen and (max-width: 576px) {
-  .img_fondo {
+  .prod .img_fondo {
     margin-bottom: 46vw;
   }
 }
 @media only screen and (min-width: 576px) {
-  .img_fondo {
+  .prod .img_fondo {
     margin-bottom: 46vw;
   }
 }
 @media only screen and (min-width: 768px) {
-  .img_fondo {
+  .prod .img_fondo {
     margin-bottom: 13vw;
   }
 }
 @media only screen and (min-width: 992px) {
-  .img_fondo {
+  .prod .img_fondo {
     margin-bottom: 13vw;
   }
 }
 @media only screen and (min-width: 1200px) {
-  .img_fondo {
+  .prod .img_fondo {
     margin-bottom: 13vw;
   }
 }
 @media only screen and (min-width: 1366px) {
-  .img_fondo {
+  .prod .img_fondo {
     margin-bottom: 13vw;
   }
 }
-#cont_text_prod {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.prod #cont_text_prod {
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   text-align: center;
   width: 50vw;
 }
-
-.title_prod {
+.prod .title_prod {
   font-size: 4vW;
   margin-top: 2vw;
   margin-bottom: 1vw;
 }
-
-#text_prod {
+.prod #text_prod {
   margin-bottom: 1vw;
 }
-
-#cards {
+.prod #cards {
   bottom: 0;
   position: absolute;
   height: 20vw;
 }
-
-.cont_card {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.prod .cont_card {
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
-
-.card {
+.prod .card {
   width: 30vw;
   height: 30vw;
   margin-top: 3vw;
-  -webkit-box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
 }
-
-.lin {
+.prod .lin {
   width: 3px;
   height: 100%;
   background-color: #c7b300;
   position: absolute;
 }
-
-.text {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.prod .text {
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
   font-size: 3vw;
   text-align: center;
   margin-top: 3vw;
 }
-
-.logo_card {
+.prod .logo_card {
   width: 14vw;
 }
-
-.icon_card {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.prod .icon_card {
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
 #cont_alianza {
-  background-image: url("../img/foto aliados estrategicos.png");
+  background-image: url("../image/foto_aliados_estrategicos.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-
-#title_alianza {
-  display: -webkit-box;
-  display: -ms-flexbox;
+#cont_alianza #title_alianza {
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   text-align: center;
 }
-
-#titulo_aliados {
+#cont_alianza #titulo_aliados {
   margin-top: 3vw;
   font-size: 4vw;
   color: white;
   margin-bottom: 2vw;
 }
-
-#cont_ali {
-  display: -webkit-box;
-  display: -ms-flexbox;
+#cont_alianza #cont_ali {
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
   text-align: center;
 }
-
-#img_ali1 {
+#cont_alianza #img_ali1 {
   height: 20vw;
   margin-bottom: 3vw;
 }
-
 @media only screen and (max-width: 600px) {
-  #img_ali1 {
+  #cont_alianza #img_ali1 {
     margin-left: 0px;
   }
 }
 @media only screen and (min-width: 600px) {
-  #img_ali1 {
+  #cont_alianza #img_ali1 {
     margin-left: 15vw;
   }
 }
-#img_ali2 {
+#cont_alianza #img_ali2 {
   height: 20vw;
   margin-bottom: 3vw;
 }
-
 @media only screen and (max-width: 600px) {
-  #img_ali2 {
+  #cont_alianza #img_ali2 {
     margin-right: 0px;
   }
 }
 @media only screen and (min-width: 600px) {
-  #img_ali2 {
+  #cont_alianza #img_ali2 {
     margin-right: 15vw;
   }
 }
+
 #integrantes {
   background-color: #d8d8d8;
 }
-
-#cont_integrantes {
-  display: -webkit-box;
-  display: -ms-flexbox;
+#integrantes #cont_integrantes {
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
-
-#title_integrantes {
+#integrantes #title_integrantes {
   margin-top: 3.5vw;
   font-size: 4vw;
   color: #0f2441;
 }
-
-.cont_card_integrantes {
-  display: -webkit-box;
-  display: -ms-flexbox;
+#integrantes .cont_card_integrantes {
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
-
-.card_integrantes {
+#integrantes .card_integrantes {
   margin-top: 2vw;
   width: 29vw;
   height: 32vw;
   margin-bottom: 5vw;
 }
-
-.lin_integrantes {
+#integrantes .lin_integrantes {
   width: 100%;
   height: 0.5vw;
   background-color: #0f2441;
 }
-
-.img_integrantes {
-  background-image: url("../img/foto nuestro equipo.png");
+#integrantes .img_integrantes {
+  background-image: url("../image/foto_nuestro_equipo.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
   align-items: flex-end;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   text-align: center;
 }
-
-.text_img {
+#integrantes .text_img {
   color: white;
   margin-bottom: 0.5vw;
 }
 
 .fondo_testimonios {
-  background-image: url("../img/mereces abogados confiables.jpg");
+  background-image: url("../image/mereces_abogados_confiables.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-#cont_title {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.fondo_testimonios #cont_title {
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
-
-#title_testimonios {
+.fondo_testimonios #title_testimonios {
   font-size: 4vw;
   color: #c7b300;
   margin-top: 2vw;
 }
-
-#contenedor_testimonios {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.fondo_testimonios #contenedor_testimonios {
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   margin-right: 0px;
 }
-
-#lin_testimonios {
+.fondo_testimonios #lin_testimonios {
   width: 0.2vw;
   height: 4vw;
   background-color: #c7b300;
-  margin-bottom: 6vw;
+  margin-bottom: 4vw;
 }
-
-#title_testimonios {
+.fondo_testimonios #title_testimonios {
   font-size: 3.5vw;
   font-weight: 700;
   color: white;
   margin-left: 2vw;
 }
-
-.cont_testimonio {
+.fondo_testimonios .cont_testimonio {
   background-color: white;
   margin-top: 1.5vw;
   margin-bottom: 2vw;
 }
-
-.carousel-testimonio {
+.fondo_testimonios .carousel-testimonio {
   margin-left: 1.5vw;
 }
-
-.testimonio {
+.fondo_testimonios .testimonio {
   margin-top: 1.5vw;
   margin-bottom: 2vw;
   text-align: left;
   color: #646464;
 }
-
-.autor {
+.fondo_testimonios .autor {
   margin-bottom: 0.2vw;
   text-align: left;
   color: #646464;
 }
-
-.posicion {
+.fondo_testimonios .posicion {
   font-size: 1.2vw;
   text-align: left;
   color: #646464;
@@ -553,85 +436,58 @@ p {
   height: 3.5vw;
   background-color: #c7b300;
 }
-
 .contactanos #title_contacto {
   font-size: 2.5vw;
   font-weight: 650;
   margin-left: 1.5vw;
   margin-bottom: 0px;
 }
-
 .contactanos #cont_title_contacto {
   margin-top: 2vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
-
 .contactanos #title_empresa {
   width: 17.5vw;
-  margin-left: 5vw;
+  margin-left: 2.8vw;
 }
-
 .contactanos .date {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   margin-bottom: 1.5vw;
 }
-
 .contactanos .text_contacto {
   margin-bottom: 0px;
   margin-left: 1vw;
   color: #646464;
 }
-
 .contactanos .non_contacto {
   margin-bottom: 0px;
   margin-left: 1vw;
   color: #646464;
 }
-
 .contactanos .icon_contacto {
   font-size: 2.5vw;
   color: #646464;
 }
-
 .contactanos .contacto {
   margin-bottom: 3vw;
   margin-top: 3vw;
 }
-
 .contactanos .contenedor_datos {
   z-index: 1;
-  -webkit-box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
 }
-
 .contactanos .contenedor_datos .container {
   margin-left: 1vw;
   margin-right: 3vw;
 }
-
 .contactanos .mapa_ubicacion {
   padding-left: 0vw;
   padding-right: 0vw;
 }
-
 .contactanos #mapa {
   height: 100%;
   width: 100%;
@@ -640,23 +496,20 @@ p {
 .atencion {
   background-color: #d8d8d8;
 }
-
-#text1_atencion {
+.atencion #text1_atencion {
   margin-top: 2vw;
   text-align: right;
   font-size: 1.5vw;
   font-weight: 500;
   color: #0f2441;
 }
-
-#text2_atencion {
+.atencion #text2_atencion {
   text-align: right;
   font-size: 1.5vw;
   font-weight: 500;
   color: #0f2441;
 }
-
-#text3_atencion {
+.atencion #text3_atencion {
   margin-top: 1vw;
   text-align: right;
   font-size: 1.5vw;
@@ -664,50 +517,35 @@ p {
   color: #0f2441;
   margin-bottom: 3vw;
 }
-
-#social {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.atencion #social {
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   list-style: none;
 }
-
-.social_atencion {
+.atencion .social_atencion {
   display: block;
   margin: auto;
 }
-
-.vl_icon {
+.atencion .vl_icon {
   width: 0.15vw;
   height: 4vw;
   background-color: #0f2441;
   margin-left: 1.8vw;
 }
-
-#icon_email {
+.atencion #icon_email {
   font-size: 2.3vw;
   color: #0f2441;
   padding: 0;
 }
-
-#icon_face {
+.atencion #icon_face {
   margin-left: 1.8vw;
   font-size: 1.5vw;
   color: #0f2441;
   padding: 0;
 }
-
-#icon_what {
+.atencion #icon_what {
   margin-left: 1.8vw;
   font-size: 2vw;
   color: #0f2441;
@@ -720,42 +558,25 @@ p {
   font-size: 1.5vw;
   font-weight: 600;
   height: 5vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
 .fondo_info {
-  background-image: url("../img/foto 1 slider.png");
+  background-image: url("../image/foto_1_slider.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-
-#cont_qs {
+.fondo_info #cont_qs {
   background-color: #2e3f55e3;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
-
-#pregunta {
+.fondo_info #pregunta {
   color: white;
   font-size: 3vw;
   font-weight: 600;
@@ -763,75 +584,46 @@ p {
   margin-bottom: 20vw;
   margin-left: 4vw;
 }
-
-#text_qs {
+.fondo_info #text_qs {
   background-color: rgba(226, 226, 226, 0.87);
 }
-
-#title_text_qs {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.fondo_info #title_text_qs {
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   margin-top: 4vw;
   font-size: 1.9vw;
   font-weight: 750;
 }
-
-.text1_qs {
+.fondo_info .text1_qs {
   font-size: 1.5vw;
   font-weight: 500;
   color: #646464;
   margin-bottom: 0.5vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
-
-.cont_text1_qs {
+.fondo_info .cont_text1_qs {
   width: 53vw;
   margin-left: 2vw;
 }
 
 .cont_mv {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   text-align: center;
   margin-top: 3vw;
   margin-bottom: 3vw;
 }
-
-.title_mv {
+.cont_mv .title_mv {
   font-size: 3vw;
   color: #0f2441;
   margin-top: 2vw;
 }
-
-.text_mv {
+.cont_mv .text_mv {
   margin-top: 1vw;
   font-size: 1.5vw;
   font-weight: 600;
@@ -839,57 +631,36 @@ p {
   margin-bottom: 2vw;
   width: 69vw;
 }
-
-#logo_mv {
+.cont_mv #logo_mv {
   height: 7vw;
 }
 
 .equipo {
-  background-image: url("../img/fondo nuestro equipo.jpg");
+  background-image: url("../image/fondo_nuestro_equipo.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
-
 .equipo #title_equipo {
   background-color: white;
   width: 35vw;
   height: 7vw;
   font-size: 3vw;
   font-weight: 480;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   color: #0f2441;
   margin-bottom: 2.5vw;
 }
-
 .equipo .fondo_col1 {
   background-color: #2e3f55e3;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
-
 .equipo .contenedor_integrante {
   margin-top: 6.5vw;
   width: 30vw;
@@ -897,64 +668,43 @@ p {
   margin-bottom: 6vw;
   margin-left: 6vw;
 }
-
 @media only screen and (max-width: 576px) {
   .equipo .contenedor_integrante {
     margin-left: 0vw;
   }
 }
 .equipo .foto_integrante {
-  background-image: url("../img/foto nuestro equipo.png");
+  background-image: url("../image/foto_nuestro_equipo.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
   align-items: flex-end;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   text-align: center;
 }
-
 .equipo .line_superior_foto {
   height: 0.5vw;
   width: 100%;
   background-color: #c7b300;
 }
-
 .equipo .nombre_posicion_integrante {
   color: white;
   font-size: 2vw;
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
   align-items: flex-end;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   margin-bottom: 1vw;
 }
-
 .equipo .fondo_col2 {
   padding-left: 0vw;
 }
-
 @media only screen and (max-width: 576px) {
   .equipo .fondo_col2 {
     padding-left: 15px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
   }
 }
@@ -964,18 +714,12 @@ p {
   font-weight: 500;
   color: #0f2441;
   width: 50vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   height: 37vw;
   margin-top: 6.5vw;
 }
-
 @media only screen and (max-width: 576px) {
   .equipo .presentacion_integrante {
     margin-right: 0vw;
@@ -986,24 +730,17 @@ p {
   margin-top: 1.5vw;
   margin-bottom: 1.5vw;
 }
-
 .equipo .texto_presentacion {
   width: 42vw;
   margin-bottom: 1vw;
 }
-
 .equipo .fondo_col3 {
   padding-right: 0vw;
 }
-
 @media only screen and (max-width: 576px) {
   .equipo .fondo_col3 {
     padding-right: 15px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
   }
 }
@@ -1015,40 +752,25 @@ p {
   font-weight: 500;
   color: #0f2441;
   width: 50vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   height: 37vw;
   margin-top: 6.5vw;
 }
-
 @media only screen and (max-width: 576px) {
   .equipo .presentacion_integrante2 {
     position: relative;
     margin-left: 0vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
   }
 }
 .equipo .fondo_col4 {
   background-color: #2e3f55e3;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
-
 .equipo .contenedor_integrante2 {
   margin-top: 6.5vw;
   width: 30vw;
@@ -1056,30 +778,441 @@ p {
   margin-bottom: 6vw;
   margin-right: 6vw;
 }
-
 @media only screen and (max-width: 576px) {
   .equipo .contenedor_integrante2 {
     margin-right: 0vw;
   }
 }
 .equipo .foto_integrante2 {
-  background-image: url("../img/foto nuestro equipo.png");
+  background-image: url("../image/foto_nuestro_equipo.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
   align-items: flex-end;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   text-align: center;
 }
 
-/*# sourceMappingURL=estilos.css.map */
+.servicios {
+  background-image: url("../image/foto_te_ayudamos_en.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.servicios .titulo_servicios {
+  font-size: 3.5vw;
+  font-weight: 700;
+  color: #0f2441;
+  margin-top: 2vw;
+}
+.servicios .subtitulo_servicios {
+  font-size: 1.9vw;
+  color: #0f2441;
+}
+.servicios .parrafo_servicios {
+  text-align: center;
+  width: 64vw;
+  font-size: 1.5vw;
+  font-weight: 700;
+  color: #646464;
+  margin-top: 3vw;
+  margin-bottom: 4vw;
+}
+
+.actos_notariales_primera_seccion {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.actos_notariales_primera_seccion .linv_actos_notariales {
+  width: 0.2vw;
+  height: 6vw;
+  background-color: #c7b300;
+  margin-left: 5vw;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+}
+.actos_notariales_primera_seccion .titulo_actos_notariales {
+  font-size: 3vw;
+  font-weight: 700;
+  color: #0f2441;
+  margin-left: 1vw;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+}
+.actos_notariales_primera_seccion .logo_actos_notariales {
+  height: 6vw;
+  margin-left: 2vw;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+}
+
+.seccion_1 .col1_asesoramiento_societario {
+  background-image: linear-gradient(135deg, #d1d5db, white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.seccion_1 .col1_asesoramiento_societario .titulo_asesoramiento_societario {
+  font-size: 2.5vw;
+  color: #0f2441;
+  margin-top: 4vw;
+  margin-left: 5vw;
+}
+.seccion_1 .col1_asesoramiento_societario .texto_asesoramiento_societario {
+  width: 51vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+.seccion_1 .col1_asesoramiento_societario .parrafo_asesoramiento_societario {
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: #0f2441;
+  margin-bottom: 0.5vw;
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+}
+.seccion_1 .col1_asesoramiento_societario .texto {
+  margin-left: 1vw;
+}
+.seccion_1 .fondo_asesoramiento_societario {
+  background-image: url("../image/provisional.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 48vw;
+}
+
+.seccion_2 .col2_asesoramiento_inmobiliario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.seccion_2 .col2_asesoramiento_inmobiliario .titulo_asesoramiento_inmobiliario {
+  font-size: 2.5vw;
+  color: #0f2441;
+  margin-top: 4vw;
+  margin-left: 5vw;
+  text-align: center;
+  width: 38vw;
+}
+.seccion_2 .col2_asesoramiento_inmobiliario .texto_asesoramiento_inmobiliario {
+  width: 51vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+.seccion_2 .col2_asesoramiento_inmobiliario .parrafo_asesoramiento_inmobiliario {
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: #0f2441;
+  margin-bottom: 0.5vw;
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+}
+.seccion_2 .col2_asesoramiento_inmobiliario .texto {
+  margin-left: 1vw;
+}
+.seccion_2 .fondo_asesoramiento_inmobiliario {
+  background-image: url("../image/provisional.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vw;
+}
+
+.seccion_3 .col1_asesoramiento_legal {
+  background-image: linear-gradient(135deg, #d1d5db, white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.seccion_3 .col1_asesoramiento_legal .titulo_asesoramiento_legal {
+  font-size: 2.5vw;
+  color: #0f2441;
+  margin-top: 4vw;
+  margin-left: 5vw;
+  width: 40vw;
+  text-align: center;
+}
+.seccion_3 .col1_asesoramiento_legal .texto_asesoramiento_legal {
+  width: 51vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+.seccion_3 .col1_asesoramiento_legal .parrafo_asesoramiento_legal {
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: #0f2441;
+  margin-bottom: 0.5vw;
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+}
+.seccion_3 .col1_asesoramiento_legal .texto {
+  margin-left: 1vw;
+}
+.seccion_3 .fondo_asesoramiento_legal {
+  background-image: url("../image/provisional.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 48vw;
+}
+
+.procesos_judiciales_primera_seccion {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.procesos_judiciales_primera_seccion .linv_procesos_judiciales {
+  width: 0.2vw;
+  height: 6vw;
+  background-color: #c7b300;
+  margin-left: 5vw;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+}
+.procesos_judiciales_primera_seccion .titulo_procesos_judiciales {
+  font-size: 3vw;
+  font-weight: 700;
+  color: #0f2441;
+  margin-left: 1vw;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+}
+.procesos_judiciales_primera_seccion .logo_procesos_judiciales {
+  height: 6vw;
+  margin-left: 2vw;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+}
+
+.seccion_4 .col2_asesoria_laboral {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.seccion_4 .col2_asesoria_laboral .titulo_asesoria_laboral {
+  font-size: 2.5vw;
+  color: #0f2441;
+  margin-top: 4vw;
+  margin-left: 5vw;
+  text-align: center;
+  width: 38vw;
+}
+.seccion_4 .col2_asesoria_laboral .texto_asesoria_laboral {
+  width: 51vw;
+  margin-top: 1vw;
+  margin-bottom: 5vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+.seccion_4 .col2_asesoria_laboral .parrafo_asesoria_laboral {
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: #0f2441;
+  margin-bottom: 0.5vw;
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+}
+.seccion_4 .col2_asesoria_laboral .texto {
+  margin-left: 1vw;
+}
+.seccion_4 .fondo_asesoria_laboral {
+  background-image: url("../image/provisional.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 35vw;
+}
+
+.seccion_5 .col1_asesoria_civil {
+  background-image: linear-gradient(135deg, #d1d5db, white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.seccion_5 .col1_asesoria_civil .titulo_asesoria_civil {
+  font-size: 2.5vw;
+  color: #0f2441;
+  margin-top: 4vw;
+  margin-left: 5vw;
+}
+.seccion_5 .col1_asesoria_civil .texto_asesoria_civil {
+  width: 51vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+.seccion_5 .col1_asesoria_civil .parrafo_asesoria_civil {
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: #0f2441;
+  margin-bottom: 0.5vw;
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+}
+.seccion_5 .col1_asesoria_civil .texto {
+  margin-left: 1vw;
+}
+.seccion_5 .fondo_asesoramiento_societario {
+  background-image: url("../image/provisional.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 35vw;
+}
+
+.seccion_6 .col2_asesoria_familia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.seccion_6 .col2_asesoria_familia .titulo_asesoria_familia {
+  font-size: 2.5vw;
+  color: #0f2441;
+  margin-top: 4vw;
+  margin-left: 5vw;
+  text-align: center;
+  width: 38vw;
+}
+.seccion_6 .col2_asesoria_familia .texto_asesoria_familia {
+  width: 51vw;
+  margin-top: 1vw;
+  margin-bottom: 5vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+.seccion_6 .col2_asesoria_familia .parrafo_asesoria_familia {
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: #0f2441;
+  margin-bottom: 0.5vw;
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+}
+.seccion_6 .col2_asesoria_familia .texto {
+  margin-left: 1vw;
+}
+.seccion_6 .fondo_asesoria_familia {
+  background-image: url("../image/provisional.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 35vw;
+}
+
+.fondo_consultoria {
+  background-image: url("../image/mereces_abogados_confiables.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fondo_consultoria .titulo_consultoria {
+  color: white;
+  font-size: 2.5vw;
+  font-weight: 600;
+  margin-top: 6vw;
+}
+.fondo_consultoria .texto_consultoria {
+  color: white;
+  font-size: 1.5vw;
+  font-weight: 600;
+  text-align: center;
+  width: 59vw;
+  margin-top: 3vw;
+  margin-bottom: 5vw;
+}
+
+.cabecera_contacto {
+  background-image: url("../image/foto_contacto.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.cabecera_contacto .pregunta {
+  color: white;
+  font-size: 4vw;
+  font-weight: 700;
+  text-align: right;
+  margin-right: 5vw;
+  margin-top: 2.5vw;
+}
+.cabecera_contacto .titulo_empresa {
+  color: white;
+  font-size: 2.5vw;
+  font-weight: 700;
+  width: 25vw;
+  text-align: center;
+  margin-right: 5vw;
+  margin-bottom: 12vw;
+  margin-top: 2vw;
+}
+
+.contenedor_formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contenedor_formulario .formulario {
+  margin-top: 3vw;
+}
+.contenedor_formulario .recuadro {
+  margin-top: 1vw;
+}
+.contenedor_formulario .input {
+  width: 41vw;
+  height: 3vw;
+  font-size: 1.5vw;
+  font-weight: 500;
+  display: flex;
+  align-items: flex-start;
+}
+.contenedor_formulario textarea {
+  width: 41vw;
+  min-height: 10vw;
+  font-weight: 500;
+  font-size: 1.5vw;
+}
+.contenedor_formulario #boton {
+  margin-top: 1vw;
+  width: 12vw;
+  height: 3.5vw;
+  background-color: #ffe600;
+  border: 0;
+  margin-left: 29vw;
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: #0f2441;
+  margin-bottom: 5vw;
+}
 
 /*# sourceMappingURL=estilos.css.map */
