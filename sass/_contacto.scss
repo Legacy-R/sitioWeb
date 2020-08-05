@@ -10,6 +10,7 @@
         font-weight: 650;
         margin-left: 1.5vw;
         margin-bottom: 0px;
+        color: $texto;
     }
     
     #cont_title_contacto{
@@ -20,8 +21,11 @@
     }
     
     #title_empresa{
-        width: 17.5vw;
+        width: 17vw;
         margin-left: 2.8vw;
+        font-size: 1.5vw;
+        font-weight: 500;
+        color: $texto;
     }
     
     .date{
