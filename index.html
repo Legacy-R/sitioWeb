@@ -195,19 +195,24 @@
   <div 
     class="container-fluid 
     informacion">
-    <div class="titulo">
-      <div 
-        class="linv">
+    <div class="row contenedor_pregunta">
+      <div class="col col_linea">
       </div>
-      <p class="pregunta"> 
-        ¿Por qué confiar en Grupo Asesor MORI & CABRERA?
-      </p>
+      <div class="col-md-8 col-lg-6 col-sm-10 columna_pregunta">
+        <div 
+          class="linv">
+        </div>
+        <p class="pregunta"> 
+          ¿Por qué confiar en Grupo Asesor MORI & CABRERA?
+        </p>
+      </div>
+      <div class="col"></div>
     </div>
   </div>
-  <div class="container-fluid">
+  <div class="container-fluid contenedor_texto_informativo">
     <div class="row">
       <div class="col col-sm-0"></div>
-      <div class="col-lg-6 col-md-6 col-sm-10">
+      <div class="col-lg-6 col-md-8 col-sm-10 col_texto">
         <div class="texto_informacion">
           <p class="info_1">
             Somos un equipo de profesionales calificados y comprometidos 
@@ -237,10 +242,10 @@
     class="container-fluid 
     mision_vision">
     <div class="row">
-      <div class="col"></div>
+      <div class="col margen"></div>
       <div class="col-md-8 col-lg-8 col-sm-10">
         <div class="row">
-          <div class="col-sm-12 col-md-5 col-lg-5">
+          <div class="col-sm-12 col-md-12 col-lg-5 columna_mision">
             <div class="cont-stitle">
               <div 
                 class="vertl">
@@ -257,7 +262,7 @@
             </p>
           </div>
           <div class="col"></div>
-          <div class="col-sm-12 col-md-5 col-lg-5">
+          <div class="col-sm-12 col-md-12 col-lg-5 columna_vision">
             <div class="cont-stitle">
               <div 
                 class="vertl">
@@ -281,17 +286,23 @@
   <!--PRODUCTO-->
   <div class="prod">
     <div class="img_fondo">
-      <div class="container" id="cont_text_prod">
+      <div class="container-fluid" id="cont_text_prod">
         <p 
           class="title_prod">
           Te ayudamos en:
         </p>
-        <p id="text_prod">
-          Brindamos un servicio de Asesoramiento Legal y Jurídico de alta
-          calidad, de acuerdo a los requerimientos del cliente, aplicando todos
-          los conocimientos del derecho para lograr que nuestros servicios sean
-          de calidad y de eficacia.
-        </p>
+          <div class="row">
+            <div class="col"></div>
+            <div class="col-md-6 col-lg-6 col-sm-10">
+                <p id="text_prod">
+                  Brindamos un servicio de Asesoramiento Legal y Jurídico de alta
+                  calidad, de acuerdo a los requerimientos del cliente, aplicando todos
+                  los conocimientos del derecho para lograr que nuestros servicios sean
+                  de calidad y de eficacia.
+                </p>
+              </div>
+            <div class="col"></div>
+          </div>
       </div>
     </div>
     <div class="container-fluid" id="cards">
@@ -320,7 +331,7 @@
                 </div>
                 <p 
                   class="text">
-                  Procesos <br>Judiciales
+                  Asesoramiento <br>Legal,Empresarial<br>y Personal
                 </p>
                 <div class="container icon_card">
                   <img src="image/icono_procesos_judiciales.png" class="logo_card" alt="">
@@ -344,10 +355,10 @@
     <div class="container">
       <div class="row" id="cont_ali">
         <div class="col-sm-12 col-md-6 col-lg-6">
-          <img src="image/logo_notaria_zambrano.png" id="img_ali1" alt="">
+          <img src="image/layer_83.png" id="img_ali1" alt="">
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6">
-          <img src="image/logo_notaria_plo_muñoz.png" id="img_ali2" alt="">
+          <img src="image/layer_84.png" id="img_ali2" alt="">
         </div>
       </div>
     </div>
@@ -363,27 +374,27 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-12 col-md-6 col-lg-6 cont_card_integrantes">
-          <div class="card_integrantes">
+          <div class="card_integrantes1">
             <div 
               class="lin_integrantes">
             </div>
-            <div class="container img_integrantes">
+            <div class="container img_integrantes1">
               <p 
               class="text_img">
-                FRANCIA EVANGELISTA MORI <br> ABOGADA
+                <strong>EVANGELISTA MORI</strong>  <br> ABOGADA
               </p>
             </div>
           </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6 cont_card_integrantes">
-          <div class="card_integrantes">
+          <div class="card_integrantes2">
             <div 
             class="lin_integrantes">
             </div>
-            <div class="container img_integrantes">
+            <div class="container img_integrantes2">
               <p 
                 class="text_img">
-                JANET CABRERA ALBINO <br>ABOGADA
+                <strong>JANET CABRERA ALBINO</strong> <br>ABOGADA
               </p>
             </div>
           </div>
@@ -399,80 +410,80 @@
         Mereces abogados confiables
       </p>
     </div>
-    <div>
       <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="col-sm-12 col-md-12 col-lg-4">
           <div class="container-fluid" id="contenedor_testimonios">
             <div 
               id="lin_testimonios">
             </div>
             <p 
-              id="title_testimonios">
+              id="subtitle_testimonios">
               Testimonios <br> de clientes
             </p>
           </div>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-8 cont_testimonio">
-          <div class="carousel-testimonio">
-            <div 
-              id="carouselExampleSlidesOnly" 
-              class="carousel slide" 
-              data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <p 
-                    class="testimonio">
-                    “El Grupo Asesor me ayudó en la constitución de mi empresa, 
-                    y gracias a ellos tomé las mejores decisiones para el inicio 
-                    de mis operaciones.”
-                  </p>
-                  <p 
-                    class="autor">
-                    Gustavo Fring. 
-                  </p>
-                  <p 
-                  class="posicion">
-                  Gerente General de Pollos Hermanos S.A.C. 
-                </p>
-                </div>
-                <div class="carousel-item">
-                  <p 
-                    class="testimonio">
-                    “El Grupo Asesor me ayudó en la constitución de mi empresa, 
-                    y gracias a ellos tomé  las  mejores decisiones para el inicio 
-                    de mis operaciones.”
-                  </p>
-                  <p 
-                    class="autor">
-                    Gustavo Fring. 
-                  </p>
-                  <p 
+        <div class="col-sm-12 col-md-12 col-lg-8 ">
+          <div class="container cont_testimonio">
+            <div class="carousel-testimonio">
+              <div 
+                id="carouselExampleSlidesOnly" 
+                class="carousel slide" 
+                data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <p 
+                      class="testimonio">
+                      “El Grupo Asesor me ayudó en la constitución de mi empresa, 
+                      y gracias a ellos tomé las mejores decisiones para el inicio 
+                      de mis operaciones.”
+                    </p>
+                    <p 
+                      class="autor">
+                      Gustavo Fring. 
+                    </p>
+                    <p 
                     class="posicion">
                     Gerente General de Pollos Hermanos S.A.C. 
                   </p>
-                </div>
-                <div class="carousel-item">
-                  <p 
-                    class="testimonio">
-                    “El Grupo Asesor me ayudó en la constitución de mi empresa, 
-                    y gracias a ellos tomé  las mejores decisiones para el inicio 
-                    de mis operaciones.”
-                  </p>
-                  <p 
-                    class="autor">
-                    Gustavo Fring. 
-                  </p>
-                  <p 
-                    class="posicion">
-                    Gerente General de Pollos Hermanos S.A.C. 
-                  </p>
+                  </div>
+                  <div class="carousel-item">
+                    <p 
+                      class="testimonio">
+                      “El Grupo Asesor me ayudó en la constitución de mi empresa, 
+                      y gracias a ellos tomé  las  mejores decisiones para el inicio 
+                      de mis operaciones.”
+                    </p>
+                    <p 
+                      class="autor">
+                      Gustavo Fring. 
+                    </p>
+                    <p 
+                      class="posicion">
+                      Gerente General de Pollos Hermanos S.A.C. 
+                    </p>
+                  </div>
+                  <div class="carousel-item">
+                    <p 
+                      class="testimonio">
+                      “El Grupo Asesor me ayudó en la constitución de mi empresa, 
+                      y gracias a ellos tomé  las mejores decisiones para el inicio 
+                      de mis operaciones.”
+                    </p>
+                    <p 
+                      class="autor">
+                      Gustavo Fring. 
+                    </p>
+                    <p 
+                      class="posicion">
+                      Gerente General de Pollos Hermanos S.A.C. 
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
   </div>
   <!--CONTACTANOS-->
   <div class="container-fluid contactanos">

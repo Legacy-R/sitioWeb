@@ -16,7 +16,7 @@
   color: #0f2441;
 }
 .barra_navegacion .opcion_menu:hover {
-  color: #c7b300;
+  color: #e9e600;
 }
 .barra_navegacion #navbarDropdown {
   margin-right: 5vw;
@@ -25,7 +25,7 @@
   color: #0f2441;
 }
 .barra_navegacion #navbarDropdown:hover {
-  color: #c7b300;
+  color: #e9e600;
 }
 .barra_navegacion .dropdown-item {
   font-weight: 600;
@@ -117,41 +117,63 @@ ol.carousel-indicators li.active {
   background: yellow;
 }
 
-.informacion {
+.informacion .contenedor_pregunta {
+  margin-top: 2em;
+}
+.informacion .col_linea {
+  padding-right: 0px;
+}
+.informacion .columna_pregunta {
+  padding-left: 0px;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+}
+@media only screen and (max-width: 768px) {
+  .informacion .columna_pregunta {
+    padding-right: 0px;
+  }
 }
 .informacion .linv {
   height: 25px;
-  width: 3.5px;
-  background-color: #c7b300;
-  margin-top: 0.5vw;
+  width: 4px;
+  background-color: #e9e600;
 }
 .informacion .pregunta {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-size: 19.7px;
+  text-align: justify;
   color: #0f2441;
   font-weight: 600;
-  margin-left: 2.5vw;
-  margin-right: 3vw;
+  margin-left: 2.2vw;
+  font-size: 1.89vw;
 }
-.informacion .titulo {
-  display: flex;
-  flex-direction: row;
-  margin-top: 5.5vw;
+@media only screen and (max-width: 768px) {
+  .informacion .pregunta {
+    font-size: 19px;
+  }
 }
 
-.texto_informacion .info_1 {
+@media only screen and (max-width: 576px) {
+  .contenedor_texto_informativo .col_texto {
+    padding-left: 0px;
+  }
+}
+.contenedor_texto_informativo .texto_informacion .info_1 {
   margin-bottom: 1vw;
   width: 100%;
   color: #464646;
-  font-size: 12px;
+  font-size: 1em;
   font-weight: 600;
   line-height: 16px;
   text-align: justify;
+}
+@media only screen and (max-width: 576px) {
+  .contenedor_texto_informativo .texto_informacion .info_1 {
+    margin-left: 6px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .contenedor_texto_informativo .texto_informacion .info_1 {
+    font-size: 15px;
+  }
 }
 
 .mision_vision p {
@@ -160,6 +182,15 @@ ol.carousel-indicators li.active {
   font-size: 15px;
   font-weight: 500;
   color: #0f2441;
+}
+.mision_vision .columna_mision {
+  padding-left: 0px;
+}
+.mision_vision .columna_vision {
+  padding-left: 0px;
+}
+.mision_vision .margen {
+  padding-right: 0px;
 }
 .mision_vision .cont-stitle {
   display: flex;
@@ -174,18 +205,18 @@ ol.carousel-indicators li.active {
   justify-content: center;
 }
 .mision_vision .title {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 600;
   margin-left: 2.2vw;
   margin-right: 3vw;
 }
 .mision_vision .parrafo {
   color: #464646;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 600;
   line-height: 16px;
   text-align: justify;
-  margin-left: 2.2vw;
+  margin-left: 2.6vw;
 }
 
 .prod {
@@ -197,27 +228,26 @@ ol.carousel-indicators li.active {
   background-position: center;
   background-size: cover;
   height: 35vw;
-  width: 100%;
   position: relative;
 }
 @media only screen and (max-width: 576px) {
   .prod .img_fondo {
-    margin-bottom: 46vw;
+    margin-bottom: 110vw;
   }
 }
 @media only screen and (min-width: 576px) {
   .prod .img_fondo {
-    margin-bottom: 46vw;
+    margin-bottom: 100vw;
   }
 }
 @media only screen and (min-width: 768px) {
   .prod .img_fondo {
-    margin-bottom: 13vw;
+    margin-bottom: 30vw;
   }
 }
 @media only screen and (min-width: 992px) {
   .prod .img_fondo {
-    margin-bottom: 13vw;
+    margin-bottom: 18vw;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -227,7 +257,7 @@ ol.carousel-indicators li.active {
 }
 @media only screen and (min-width: 1366px) {
   .prod .img_fondo {
-    margin-bottom: 13vw;
+    margin-bottom: 8vw;
   }
 }
 .prod #cont_text_prod {
@@ -235,10 +265,9 @@ ol.carousel-indicators li.active {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 50vw;
 }
 .prod .title_prod {
-  font-size: 3vW;
+  font-size: 30px;
   font-weight: 600;
   margin-top: 2vw;
   margin-bottom: 1vw;
@@ -246,10 +275,15 @@ ol.carousel-indicators li.active {
 }
 .prod #text_prod {
   margin-bottom: 1vw;
-  font-size: 1.4vW;
+  font-size: 1em;
   font-weight: 600;
-  line-height: 1.6vw;
+  line-height: 16px;
   color: #464646;
+}
+@media only screen and (max-width: 768px) {
+  .prod #text_prod {
+    font-size: 15px;
+  }
 }
 .prod #cards {
   bottom: 0;
@@ -262,27 +296,37 @@ ol.carousel-indicators li.active {
   align-items: center;
 }
 .prod .card {
-  width: 21vw;
-  height: 23vw;
-  margin-top: 3vw;
+  width: 274px;
+  height: 285px;
+  margin-top: 40px;
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
+  margin-right: 15px;
+}
+.prod .card:hover {
+  background-color: #e9e600;
+}
+@media only screen and (max-width: 576px) {
+  .prod .card {
+    margin-top: 50px;
+  }
 }
 .prod .lin {
   width: 3px;
   height: 100%;
-  background-color: #c7b300;
+  background-color: #e9e600;
   position: absolute;
 }
 .prod .text {
   display: flex;
   flex-direction: column;
-  font-size: 1.5vw;
+  font-size: 20px;
   color: #0f2441;
   text-align: center;
   margin-top: 3vw;
+  font-weight: 500;
 }
 .prod .logo_card {
-  width: 9vw;
+  width: 100px;
   margin-top: 2vw;
 }
 .prod .icon_card {
@@ -305,9 +349,10 @@ ol.carousel-indicators li.active {
 }
 #cont_alianza #titulo_aliados {
   margin-top: 3vw;
-  font-size: 4vw;
+  font-size: 30px;
   color: white;
   margin-bottom: 2vw;
+  font-weight: 600;
 }
 #cont_alianza #cont_ali {
   display: flex;
@@ -315,31 +360,30 @@ ol.carousel-indicators li.active {
   text-align: center;
 }
 #cont_alianza #img_ali1 {
-  height: 20vw;
   margin-bottom: 3vw;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   #cont_alianza #img_ali1 {
     margin-left: 0px;
   }
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 769px) {
   #cont_alianza #img_ali1 {
-    margin-left: 15vw;
+    margin-left: 20vw;
   }
 }
 #cont_alianza #img_ali2 {
-  height: 20vw;
+  height: 240px;
   margin-bottom: 3vw;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   #cont_alianza #img_ali2 {
     margin-right: 0px;
   }
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 769px) {
   #cont_alianza #img_ali2 {
-    margin-right: 15vw;
+    margin-right: 20vw;
   }
 }
 
@@ -353,7 +397,8 @@ ol.carousel-indicators li.active {
 }
 #integrantes #title_integrantes {
   margin-top: 3.5vw;
-  font-size: 4vw;
+  font-size: 40px;
+  font-weight: 600;
   color: #0f2441;
 }
 #integrantes .cont_card_integrantes {
@@ -362,19 +407,50 @@ ol.carousel-indicators li.active {
   align-items: center;
   justify-content: center;
 }
-#integrantes .card_integrantes {
+#integrantes .card_integrantes1 {
   margin-top: 2vw;
-  width: 29vw;
-  height: 32vw;
+  width: 283px;
+  height: 339px;
   margin-bottom: 5vw;
+  margin-left: 112px;
+}
+@media only screen and (max-width: 768px) {
+  #integrantes .card_integrantes1 {
+    margin-left: 0px;
+  }
+}
+#integrantes .card_integrantes2 {
+  margin-top: 2vw;
+  width: 283px;
+  height: 339px;
+  margin-bottom: 5vw;
+  margin-right: 121px;
+}
+@media only screen and (max-width: 768px) {
+  #integrantes .card_integrantes2 {
+    margin-right: 0px;
+  }
 }
 #integrantes .lin_integrantes {
   width: 100%;
-  height: 0.5vw;
+  height: 8px;
   background-color: #0f2441;
+  margin-bottom: 0px;
 }
-#integrantes .img_integrantes {
-  background-image: url("../image/foto_nuestro_equipo.png");
+#integrantes .img_integrantes1 {
+  background-image: url("../image/layer-36_3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  margin-top: 0px;
+}
+#integrantes .img_integrantes2 {
+  background-image: url("../image/layer-40@3x.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -400,35 +476,38 @@ ol.carousel-indicators li.active {
   align-items: center;
 }
 .fondo_testimonios #title_testimonios {
-  font-size: 4vw;
-  color: #c7b300;
+  font-size: 25px;
+  font-weight: 600;
+  color: #e9e600;
   margin-top: 2vw;
 }
 .fondo_testimonios #contenedor_testimonios {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-right: 0px;
 }
 .fondo_testimonios #lin_testimonios {
-  width: 0.2vw;
-  height: 4vw;
-  background-color: #c7b300;
-  margin-bottom: 4vw;
+  height: 33px;
+  width: 4px;
+  background-color: #e9e600;
+  margin-left: 80px;
 }
-.fondo_testimonios #title_testimonios {
-  font-size: 3.5vw;
-  font-weight: 700;
+.fondo_testimonios #subtitle_testimonios {
+  font-weight: 600;
   color: white;
   margin-left: 2vw;
+  font-size: 1.89vw;
+}
+@media only screen and (max-width: 768px) {
+  .fondo_testimonios #subtitle_testimonios {
+    font-size: 19px;
+  }
 }
 .fondo_testimonios .cont_testimonio {
   background-color: white;
   margin-top: 1.5vw;
   margin-bottom: 2vw;
-}
-.fondo_testimonios .carousel-testimonio {
-  margin-left: 1.5vw;
+  width: 650px;
 }
 .fondo_testimonios .testimonio {
   margin-top: 1.5vw;
@@ -442,7 +521,7 @@ ol.carousel-indicators li.active {
   color: #464646;
 }
 .fondo_testimonios .posicion {
-  font-size: 1.2vw;
+  font-size: 12px;
   text-align: left;
   color: #464646;
   margin-bottom: 1.5vw;
@@ -451,7 +530,7 @@ ol.carousel-indicators li.active {
 .contactanos #lin_contacto {
   width: 0.19vw;
   height: 3.5vw;
-  background-color: #c7b300;
+  background-color: #e9e600;
 }
 .contactanos #title_contacto {
   font-size: 2.5vw;
@@ -708,7 +787,7 @@ ol.carousel-indicators li.active {
 .equipo .line_superior_foto {
   height: 0.5vw;
   width: 100%;
-  background-color: #c7b300;
+  background-color: #e9e600;
 }
 .equipo .nombre_posicion_integrante {
   color: white;
@@ -852,7 +931,7 @@ ol.carousel-indicators li.active {
 .actos_notariales_primera_seccion .linv_actos_notariales {
   width: 0.2vw;
   height: 6vw;
-  background-color: #c7b300;
+  background-color: #e9e600;
   margin-left: 5vw;
   margin-top: 3vw;
   margin-bottom: 3vw;
@@ -1003,7 +1082,7 @@ ol.carousel-indicators li.active {
 .procesos_judiciales_primera_seccion .linv_procesos_judiciales {
   width: 0.2vw;
   height: 6vw;
-  background-color: #c7b300;
+  background-color: #e9e600;
   margin-left: 5vw;
   margin-top: 3vw;
   margin-bottom: 3vw;

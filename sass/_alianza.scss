@@ -13,9 +13,10 @@
   
   #titulo_aliados{
       margin-top: 3vw;
-      font-size: 4vw;
+      font-size: 30px;
       color: white;
       margin-bottom: 2vw;
+      font-weight: 600;
   }
   
   #cont_ali{
@@ -25,37 +26,36 @@
   }
   
   #img_ali1{
-      height: 20vw;
       margin-bottom: 3vw;
   }
   
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
       #img_ali1 {
         margin-left: 0px;
       }
     }
   
-    @media only screen and (min-width: 600px) {
+    @media only screen and (min-width: 769px) {
       #img_ali1 {
-          margin-left: 15vw;
+          margin-left: 20vw;
       }
     }
   
   
   #img_ali2{
-      height: 20vw;
+      height: 240px;
       margin-bottom: 3vw;
   }
   
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
       #img_ali2 {
         margin-right: 0px;
       }
     }
   
-    @media only screen and (min-width: 600px) {
+    @media only screen and (min-width: 769px) {
       #img_ali2 {
-          margin-right: 15vw;
+          margin-right: 20vw;
       }
     }
 }

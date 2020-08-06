@@ -9,7 +9,8 @@
     
     #title_integrantes{
         margin-top: 3.5vw;
-        font-size: 4vw;
+        font-size: 40px;
+        font-weight: 600;
         color: $texto;
     }
     
@@ -20,21 +21,52 @@
         justify-content: center;
     }
     
-    .card_integrantes{
+    .card_integrantes1{
         margin-top: 2vw;
-        width: 29vw;
-        height: 32vw;
+        width: 283px;
+        height: 339px;
         margin-bottom: 5vw;
+        margin-left: 112px;
+
+        @media only screen and (max-width: 768px){
+            margin-left: 0px;
+        }
+    }
+
+    .card_integrantes2{
+        margin-top: 2vw;
+        width: 283px;
+        height: 339px;
+        margin-bottom: 5vw;
+        margin-right: 121px;
+
+        @media only screen and (max-width: 768px){
+            margin-right: 0px;
+        }
     }
     
     .lin_integrantes{
         width: 100%;
-        height: .5vw;
+        height: 8px;
         background-color: $texto;
+        margin-bottom: 0px;
     }
     
-    .img_integrantes{
-        background-image: url("../image/foto_nuestro_equipo.png");
+    .img_integrantes1{
+        background-image: url("../image/layer-36_3.png");
+        background-repeat: no-repeat; 
+        background-size: cover;
+        height: 100%;
+        width: 100%;  
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .img_integrantes2{
+        background-image: url("../image/layer-40@3x.png");
         background-repeat: no-repeat; 
         background-size: cover;
         height: 100%;
