@@ -1,121 +1,61 @@
 .informacion{
-    .contenedor_pregunta{
-        margin-top: 2em;
-    }
 
-    .col_linea{
-        padding-right: 0px;
-    }
-
-    .columna_pregunta{
-        padding-left: 0px;
+    .titulo{
         display: flex;
         flex-direction: row;
-        @media only screen and (max-width: 768px){
-            padding-right: 0px;
-        }
+        margin-top: 65px;
+        align-items: center;
+        margin-bottom: 19px;
     }
-
-    .linv{
-        height: 25px;
+    
+    .linea_pregunta{
         width: 4px;
+        height: 33px;
         background-color: $dorado;
     }
-    
+
     .pregunta{
-        text-align: justify;
-        color: $texto;
+        font-size: 23.8px;
         font-weight: 600;
-        margin-left: 2.2vw;
-        font-size: 1.89vw;
-
-        @media only screen and (max-width: 768px){
-            font-size: 19px;
-        }
-    }
-}
-
-.contenedor_texto_informativo{
-    .col_texto{
-        @media only screen and (max-width: 576px){
-            padding-left: 0px;
-        }  
-    }
-
-    .texto_informacion{
-        .info_1{
-            margin-bottom: 1vw;
-            width: 100%;
-            color: $tex-tes;
-            font-size: 1em;
-            font-weight: 600;
-            line-height: 16px;
-            text-align: justify;
-
-            @media only screen and (max-width: 576px){
-                margin-left: 6px;
-            } 
-
-            @media only screen and (max-width: 768px){
-                font-size: 15px;
-            }
-        }
-    }
-}
-
-.mision_vision{
-    p{
-        display: flex;
-        justify-content: left;
-        font-size: 15px;
-        font-weight: 500;
         color: $texto;
+        margin-left: 32px;
     }
 
-    .columna_mision{
-        padding-left: 0px;
+    .texto_1{
+        font-size: 15px;
+        font-weight: 600;
+        color: $tex-tes;
+        text-align: justify;
+        margin-left: 36px;
+        margin-bottom: 12px;
     }
 
-    .columna_vision{
-        padding-left: 0px;
-    }
-
-    .margen{
-        padding-right: 0px;
-    }
-    
-    .cont-stitle{
+    .subtitulo{
         display: flex;
         flex-direction: row;
-        margin-top: 5.5vw;
-        color: $texto;
+        align-items: center;
+        margin-top: 41px;
     }
-    
-    .vertl{
-        height: 22px;
+
+    .linea_motiv{
         width: 4px;
+        height: 33px;
         background-color: $texto;
-        justify-content: center;
     }
-    
-    .title{
-        font-size: 17px;
+
+    .titulo_motiv{
+        font-size: 23.8px;
         font-weight: 600;
-        margin-left: 2.2vw;
-        margin-right: 3vw;
+        color: $texto;
+        margin-left: 32px;
     }
-    
-    .parrafo{
-        color: $tex-tes;
+
+    .texto_motiv{
         font-size: 15px;
         font-weight: 600;
-        line-height: 16px;
+        color: $tex-tes;
         text-align: justify;
-        margin-left: 2.6vw;
-    }
-    
-
+        margin-left: 36px;
+        margin-bottom: 12px;
+    }   
 }
-
-
-

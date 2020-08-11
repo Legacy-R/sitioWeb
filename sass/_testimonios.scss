@@ -1,75 +1,133 @@
-.fondo_testimonios{
+.testimonios{
     background-image: url("../image/mereces_abogados_confiables.jpg");
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 
-    #cont_title{
+    .titulo_testimonios{
         display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    
-    #title_testimonios{
-        font-size: 25px;
-        font-weight: 600;
+        font-size: 30px;
         color: $dorado;
-        margin-top: 2vw;
+        font-weight: 600;
+        padding-top: 61px;
+        padding-bottom: 47px;
+        justify-content: center;
     }
-    
-    #contenedor_testimonios{
+
+    .subtitulo_testimonios{
         display: flex;
         flex-direction: row;
         align-items: center;
-    }
-    
-    #lin_testimonios{
-        height: 33px;
-        width: 4px;
-        background-color: $dorado;
-        margin-left: 80px;
-    }
-    
-    #subtitle_testimonios{
-        font-weight: 600;
-        color: white;
-        margin-left: 2vw;
-        font-size: 1.89vw;
 
-        @media only screen and (max-width: 768px){
-            font-size: 19px;
+        @include for-small-mobile{
+            margin-bottom: 20px;
+        }
+
+        @include for-medium-mobile{
+            margin-bottom: 20px;
+        }
+
+        @include for-large-mobile{
+            margin-bottom: 20px;
+        }
+
+        .linea_testimonios{
+            width: 4px;
+            height: 33px;
+            background-color: $dorado;
+            margin-left: 155px;
+
+            @include for-small-mobile{
+                margin-left: 0px;
+            }
+
+            @include for-medium-mobile{
+                margin-left: 0px;
+            }
+
+            @include for-large-mobile{
+                margin-left: 0px;
+            }
+
+            @include for-tablet{
+                margin-left: 0px;
+            }
+        }
+
+        .subtitulo{
+            font-size: 20px;
+            font-weight: 700;
+            color: white;
+            margin-left: 27px;
         }
     }
-    
-    .cont_testimonio{
+
+    .contenedor_testimonios{
+        display: flex;
+        flex-direction: row;
         background-color: white;
-        margin-top: 1.5vw;
-        margin-bottom: 2vw;
-        width: 650px;
+        margin-bottom: 70px;
+
+        .linea_contenedor_testimonios{
+            width: 4px;
+            height: 171px;
+            background-color: $texto;
+            position: absolute;
+
+            @include for-small-mobile{
+                height: 210px;
+            }
+
+            @include for-medium-mobile{
+                height: 190.5px;
+            }
+
+            @include for-large-mobile{
+                height: 190.5px;
+            }
+
+            @include for-tablet{
+                height: 171px;
+            }
+
+            @include for-laptop{
+                height: 171px;
+            }
+
+            @include for-large-laptop{
+                height: 151.5px;
+            }
+        }
+
+        .contenido_testimonios{
+            width: 100%;
+            height: 100%;
+
+            .testimonio{
+                font-size: 13px;
+                color: $tex-tes;
+                margin-left: 30px;
+                margin-bottom: 30px;
+                margin-top: 33px;
+            }
+
+            .autor{
+                font-size: 13px;
+                color: $tex-tes;
+                margin-left: 30px;
+            }
+
+            .posicion{
+                font-size: 13px;
+                color: $tex-tes;
+                margin-left: 30px;
+
+                margin-bottom: 30px;
+            }
+        }
     }
+
     
-    .carousel-testimonio{
-    }
-    
-    .testimonio {
-        margin-top: 1.5vw;
-        margin-bottom: 2vw;
-        text-align: left;
-        color: $tex-tes;
-    }
-    
-    .autor{
-        margin-bottom: .2vw;
-        text-align: left;
-        color: $tex-tes;
-    }
-    
-    .posicion{
-        font-size: 12px;
-        text-align: left;
-        color: $tex-tes;
-        margin-bottom: 1.5vw;
-    }
 }
 
 

@@ -12,6 +12,10 @@
         font-size: 40px;
         font-weight: 600;
         color: $texto;
+
+        @include for-small-mobile{
+            font-size: 35px;
+        }
     }
     
     .cont_card_integrantes{
@@ -28,7 +32,19 @@
         margin-bottom: 5vw;
         margin-left: 112px;
 
-        @media only screen and (max-width: 768px){
+        @include for-tablet{
+            margin-left: 0px;
+        }
+
+        @include for-large-mobile{
+            margin-left: 0px;
+        }
+
+        @include for-medium-mobile{
+            margin-left: 0px;
+        }
+
+        @include for-small-mobile{
             margin-left: 0px;
         }
     }
@@ -40,8 +56,22 @@
         margin-bottom: 5vw;
         margin-right: 121px;
 
-        @media only screen and (max-width: 768px){
+        @include for-tablet{
             margin-right: 0px;
+        }
+
+        @include for-large-mobile{
+            margin-right: 0px;
+        }
+
+        @include for-medium-mobile{
+            margin-right: 0px;
+            margin-bottom: 30px;
+        }
+
+        @include for-small-mobile{
+            margin-right: 0px;
+            margin-bottom: 30px;
         }
     }
     

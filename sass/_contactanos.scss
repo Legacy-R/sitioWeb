@@ -1,0 +1,199 @@
+.contactanos{
+    
+    .card_datos{
+        box-shadow: 2px 2px 5px #999;
+    }
+    .titulo_card{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 24px;
+
+        @include for-small-mobile{
+            margin-bottom: 12px;
+        }
+    }
+
+    .linea_card{
+        width: 4px;
+        height: 33px;
+        background-color: $dorado;
+        margin-left: 54px;
+        margin-top: 70px;
+
+        @include for-small-mobile{
+            margin-top: 35px;
+            margin-left: 15px;
+        }
+
+        @include for-large-mobile{
+            margin-top: 35px;
+            margin-left: 30px;
+        }
+
+        @include for-laptop{
+            margin-left: 54px;
+            margin-top: 70px;
+            
+        }
+    }
+
+    .titulo_contactanos{
+        color: $dorado;
+
+        @include for-small-mobile{
+            margin-top: 35px;
+            margin-left: 15px;
+        }
+
+        @include for-laptop{
+            margin-left: 29px;
+            margin-top: 72px;
+            font-size: 24px; 
+        }
+
+    }
+    .subtitulo{
+        
+        color: $texto;
+        
+
+        @include for-small-mobile{
+            margin-left: 35px;
+            margin-bottom: 12px;
+        }
+
+        @include for-large-mobile{
+            margin-left: 50px;
+        }
+
+        @include for-laptop{
+            margin-bottom: 49px;
+            margin-left: 88px;
+            font-size: 18px;
+        }
+    }
+
+    .icon_datos{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: $tex-tes;
+        margin-top: 9px;
+    }
+
+    .icon_contacto{
+        
+
+        @include for-small-mobile{
+            margin-left: 35px;
+        }
+
+        @include for-medium-mobile{
+            margin-left: 35px;
+        }
+
+        @include for-large-mobile{
+            margin-left: 50px;
+        }
+
+        @include for-laptop{
+            margin-left: 88px;
+        }
+    }
+
+    .datos{
+        
+        @include for-small-mobile{
+            font-size: 11px;
+            margin-left: 12px;
+        }
+
+        @include for-medium-mobile{
+            font-size: 13px;
+            margin-left: 18px;
+        }
+
+        @include for-laptop{
+            margin-left: 18px;
+            font-size: 13px;
+        }
+    }
+
+    .icon_contacto_final{
+
+        @include for-small-mobile{
+            margin-left: 35px;
+            margin-bottom: 30px;
+        }
+
+        @include for-large-mobile{
+            margin-left: 50px;
+        }
+
+        @include for-laptop{
+            margin-left: 88px;
+            margin-bottom: 70px;
+        }
+    }
+
+    .datos_final{
+
+        @include for-small-mobile{
+            margin-left: 12px;
+            margin-bottom: 30px;
+            font-size: 11px;
+        }
+
+        @include for-medium-mobile{
+            margin-bottom: 30px;
+            font-size: 13px;
+            margin-left: 18px;
+        }
+
+        @include for-laptop{
+            margin-left: 18px;
+            font-size: 13px;
+            margin-bottom: 73px;
+        }
+    }
+
+    .contacto_1{
+        margin-top: 17px;
+    }
+
+    #mapa{
+
+        @include for-small-mobile{
+            margin-top: 20px;
+            width: 290px;
+            height: 363px;
+        }
+
+        @include for-medium-mobile{
+            margin-top: 20px;
+            width: 345px;
+            height: 387px;
+        }
+
+        @include for-large-mobile{
+            margin-top: 20px;
+            width: 396px;
+            height: 387px;
+        }
+
+        @include for-tablet{
+            margin-top: 0px;
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+
+    
+
+}
+
+
+
+

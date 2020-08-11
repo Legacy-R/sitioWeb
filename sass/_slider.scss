@@ -1,28 +1,123 @@
-ol.carousel-indicators {
-    position: absolute;
-    bottom: 5px;
-    margin: 0;
-    left: 0;
-    right: 0;
-    width: auto;
- }
- 
- ol.carousel-indicators li,
- ol.carousel-indicators li.active {
-    width: 2vw;
-    height: 2vw;
-    margin: 0;
-    border-radius: 50%;
-    border: 0;
-    background: transparent;
- }
- 
- ol.carousel-indicators li {
-    background: rgba(255,255,255,0.39);
-    margin-left: .5rem;
-    margin-right: .5rem;
- }
- 
- ol.carousel-indicators li.active {
-    background: yellow;
- }
+.contenedor_slider{
+   margin-top: 145px;
+
+   .carousel-caption{
+      padding: 0px;
+      text-align: right;
+      right: 0px;
+      left: 0px;
+   }
+
+   .titlulo_slider{
+      font-size: 25px;
+      font-weight: 600;
+      margin: 0px;
+   }
+
+   .slider_1{
+      margin-right: 190px;
+
+     @media only screen and (max-width: 576px){
+        font-size: 15px;
+        margin-right: 77px;
+      }
+   }
+
+   .slider_2{
+      margin-right: 790px;
+
+      @media only screen and (min-width: 992px){
+         margin-right: 582px;
+     }
+
+     @media only screen and (max-width: 576px){
+      font-size: 16px;
+      margin-right: 279px;
+    }
+   }
+
+   .slider_3{
+      margin-right: 318px;
+
+      @media only screen and (min-width: 992px){
+
+         margin-right: 200px;
+      }
+
+      @media only screen and (max-width: 576px){
+         font-size: 16px;
+         margin-right: 100px;
+       }
+   }
+
+   .subslider1{
+      margin-bottom: 372px;
+      margin-right: 190px;
+
+      @media only screen and (max-width: 576px){
+         font-size: 15px;
+         margin-right: 77px;
+       }
+   }
+
+   .subslider2{
+      margin-bottom: 132px;
+      margin-right: 790px;
+
+      @media only screen and (min-width: 992px){
+         margin-bottom: 54px;
+         margin-right: 582px;
+     }
+
+     @media only screen and (max-width: 576px){
+      font-size: 16px;
+      margin-right: 279px;
+      margin-bottom: 30px;
+    }
+   }
+
+   .subslider3{
+      margin-bottom: 410px;
+      margin-right: 318px;
+
+      @media only screen and (min-width: 992px){
+         margin-right: 200px;
+      }
+
+      @media only screen and (max-width: 576px){
+         font-size: 16px;
+         margin-right: 100px;
+         margin-bottom: 420px;
+       }
+   }
+
+   ol.carousel-indicators {
+      position: absolute;
+      bottom: 5px;
+      margin: 0;
+      left: 0;
+      right: 0;
+      width: auto;
+   }
+   
+   ol.carousel-indicators li,
+   ol.carousel-indicators li.active {
+      width: 15px;
+      height: 15px;
+      margin: 0;
+      border-radius: 50%;
+      border: 0;
+      background: transparent;
+   }
+   
+   ol.carousel-indicators li {
+      background: rgba(255,255,255,0.39);
+      margin-left: 15px;
+      margin-right: 15px;
+   }
+   
+   ol.carousel-indicators li.active {
+      background: yellow;
+   }
+
+}

@@ -1,55 +1,84 @@
-.fondo_info{
+.columna_quienes_somos{
     background-image: url("../image/foto_1_slider.png");
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: center; 
     background-size: cover;
 
-    #cont_qs{
-        background-color: $texto_o;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    #pregunta{
-        color: white;
-        font-size: 3vw;
+
+    .titulo_quienes_somos{
         font-weight: 600;
-        margin-top: 15vw;
-        margin-bottom: 20vw;
-        margin-left: 4vw;
-    }
-    
-    #text_qs{
-        background-color: $smenu;
-    
-    }
-    
-    #title_text_qs{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 4vw;
-        font-size: 1.9vw;
-        font-weight: 750;
-    }
-    
-    .text1_qs{
-        font-size: 1.5vw;
-        font-weight: 500;
-        color: $tex-tes;
-        margin-bottom: .5vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    .cont_text1_qs{
-        width: 53vw;
-        margin-left: 2vw;;
+        font-size: 22px;
+        color: white;
+        text-align: center;
+        background-color: $texto_o;
+        margin:0 -15px;
+        padding-top: 118px;
+        padding-bottom: 118px;
     }
 }
 
+@include for-tablet{
+    .contenedor_quienes_somos{
+        background-image: url("../image/foto_1_slider.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
 
+        .columna_quienes_somos{
+            background-image: none;
+        }
+          
+        .titulo_quienes_somos{
+            font-weight: 600;
+            font-size: 30px;
+            color: white;
+            text-align: center;
+            margin:0 -15px;
+            padding-top: 165px;
+            height: 100%;
+            padding-left: 50px;
+        }
+    }
+}
+
+.subtitulo_quienes_somos{
+    font-size: 18px;
+    font-weight: 700;
+    color: $texto;
+    text-align: center;
+    padding-top: 39px;
+    padding-bottom: 21px;
+}
+
+.parrafo_quienes_somos{
+    font-size: 12px;
+    color: $tex-tes;
+    text-align: justify;
+    margin: 5px 15px;
+}
+
+@include for-tablet{
+    .texto_quienes_somos{
+        background-color: $smenu;
+    }
+
+    .subtitulo_quienes_somos{
+        text-align: left;
+        margin-left: 10px;
+        padding-bottom: 6px;
+        padding-top: 74px;
+    }
+
+    .contenedor_parrafo{
+        margin-left: 10px;
+        margin-right: 103px;
+        margin-bottom: 78px;
+
+        .parrafo_quienes_somos{
+            font-size: 13px;
+            color: $tex-tes;
+            text-align: justify;
+            margin: 5px 0;
+        }
+    }   
+}

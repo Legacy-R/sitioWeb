@@ -1,107 +1,457 @@
-.barra_navegacion{
-    .logo_empresa{
-        margin: 0;
-        padding: 0;
-        margin-top: 3vw;
-        margin-left: 4vw;
-        height: 12vw;
-    }
-    
-    #item_menu{
-        margin-top: 7vw;
-        margin-left: 9vw;
-    }
-    
-    .opcion_menu{
-        margin-right: 5vw;
-        font-size: 1.2vw;
-        font-weight: 600;
-        color: $texto;
-        &:hover{
-            color: $dorado;
-        }
-    }
-    
-    #navbarDropdown{
-        margin-right: 5vw;
-        font-size: 1.2vw;
-        font-weight: 600;
-        color: $texto;
-        &:hover{
-            color: $dorado;
-        }
-    }
-    
-    .dropdown-item{
-        font-weight: 600;
-        font-size: 1.2vw;
-        color: $tex-tes;
-        &:hover{
-            color: $texto;
-        }
-    }
-    
-    #cont_smenu{
-        width: 17vw;
-        left: 0;
-        margin-top: 3.55vw;
-        background-color: $smenu;
-        border-radius: 0vw;
-        box-shadow: none;
-        border: none;
-    }
-    
-    .item_smenu{
-        font-size: 1.2vw;
-        font-weight: 600;
-        color: $tex-tes;
-        &:hover{
-            color: $texto;
-        }
-    }
+body{
+  margin: 0px;
+  padding: 0px;
 
-    #social{
-        margin-right: 7vw;
+  header{
+    padding: 0 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+  
+    .social{
+      margin-top: 37.5px;
+  
+      ul{
         display:flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
         list-style: none;
+  
+        .social_atencion{
+          display:block;
+          margin:auto;
+        }
+    
+        .vl_icon{
+            width: 2px;
+            height: 46px;
+            background-color: $tex-tes;
+            margin-left: 25px;
+          }
+    
+        #icon_email{
+            font-size: 30px;
+            color: $tex-tes;
+            padding: 0;
+    
+            &:hover{
+                color: $dorado;
+            }
+          }
+    
+        #icon_face{
+            margin-left: 25px;
+            font-size: 18px;
+            color: $tex-tes;
+            padding: 0;
+    
+            &:hover{
+                color: $dorado;
+            }
+          }
+    
+        #icon_what{
+            margin-left: 26px;
+            font-size: 23px;
+            color: $tex-tes;
+            padding: 0;
+    
+            &:hover{
+                color: $dorado;
+            }
+          }
+  
+      }
+  
+      
+    }
+  
+    nav{
+      margin-top: 75px;
+      margin-right: 31px;
+    }
+    
+    .logo{
+      height: 116px;
+      margin-top: 29px;
+    }
+  
+    nav{
+      float: right;
+    }
+  
+    nav ul{
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+  
+    nav ul li{
+      list-style: none;
+      position: relative;
     }
 
-    .social_atencion{
-        display:block;
-        margin:auto;
+    nav ul li ul{
+      position: absolute;
+      left: 0;
+      background-color: $smenu;
+      z-index: 20;
+      display: block;
+      width: 225px;
+      font-size: 15px;
     }
-    
-    .vl_icon{
-        width: .15vw;
-        height: 4vw;
-        background-color: $texto;
-        margin-left: 1.8vw;
+
+    nav ul li ul li a{
+      display: flex;
+      flex-direction: row;
     }
-    
-    #icon_email{
-        font-size: 2.3vw;
+
+    span{
+      line-height: 30px;
+
+      &:hover{
         color: $texto;
-        padding: 0;
+      }
     }
-    
-    #icon_face{
-        margin-left: 1.8vw;
-        font-size: 1.5vw;
+
+    .bullet{
+      color: white;
+      font-size: 15px;
+
+      &:active{
         color: $texto;
-        padding: 0;
+      }
     }
+
     
-    #icon_what{
-        margin-left: 1.8vw;
-        font-size: 2vw;
-        color: $texto;
-        padding: 0;
+  
+    nav ul li a{
+      line-height: 70px;
+      padding: 0 21.5px;
+      text-decoration: none !important;
+      color: $tex-tes;
+      
+      &:hover{
+        color: $dorado;
+      }
     }
+  
+    .menu-toggle{
+      float: right;
+      line-height: 50px;
+      font-size: 37px;
+      cursor: pointer;
+      display: none;
+      margin-top: 47.5px;
+    }
+  }
 }
 
+@media (max-width: 950px){
+
+  header{
+    padding: 0 20px !important;
+
+    .menu-toggle{
+      display: block !important;
+    }
+
+    .social{
+      display: none;
+    }
+
+    nav{
+      position: absolute;
+      z-index: 20;
+      margin: 0px !important;
+      width: 100%;
+      height: calc(100vh - 50px);
+      background-color: white;
+      top: 145px;
+      left: -100%;
+      transition: 0.5s;
+
+      ul{
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+
+  header nav.active{
+    left: 0;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#nav_bar {
+    background: yellow;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    @include for-tablet{
+      background: #0b2e13;
+    }
+    @include for-large-mobile{
+      position: initial;
+      background: blue;
+      height: 90px;
+    }
+  
+    #container_brand {
+      background: red;
+      position: absolute;
+      display: block;
+      width: 20%;
+      left: 0;
+      height: 100%;
+      @include for-large-mobile{
+        width: 20%;
+      }
+  
+      #link_brand {
+        display: block;
+        background: #0b3f5a;
+        width: 140px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+  
+        @include for-large-mobile{
+          width: 50px;
+          top: 20px;
+        }
+  
+        img {
+          width: 140px;
+          @include for-large-mobile{
+            width: 50px;
+          }
+        }
+      }
+    }
+  
+    #container_open_mobile_button{
+      display: none;
+      @include for-large-mobile{
+        display: none;
+        background: red;
+        position: absolute;
+        width: 15%;
+        right: 0;
+        height: 100%;
+        >i{
+          display: block;
+          background: green;
+          font-size: 33px;
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          padding: 30px 0;
+        }
+      }
+    }
+  
+    #container_menu {
+      background: green;
+      position: absolute;
+      display: block;
+      width: 60%;
+      left: 20%;
+      height: 67px;
+      bottom: 0;
+      text-align: center;
+      @include for-large-mobile{
+        background: #bcbcbc;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        left: 0;
+        z-index: 30;
+      }
+  
+      #item_menu {
+        padding: 0;
+  
+        @include for-large-mobile{
+          padding: 6px;
+          background: red;
+          position: absolute;
+          width: 80%;
+          left: 50%;
+          top: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+        }
+  
+        > li {
+          position: relative;
+          display: inline-block;
+          border: solid 1px black;
+          margin-right: -5px;
+          @include for-large-mobile{
+            width: 100%;
+          }
+  
+          > a {
+            text-decoration: none;
+            float: left;
+            background-color: white;
+            width: 150px;
+            height: 65px;
+            padding-top: 16px;
+            text-align: center;
+            @include for-large-mobile{
+              float: none;
+              display: block;
+              width: 100%;
+              height: 53px;
+            }
+  
+            &:hover {
+              color: #ffc90b;
+            }
+          }
+  
+          &:hover {
+            > a {
+              color: #ffc90b;;
+            }
+  
+            .container_submenu {
+              display: block;
+            }
+          }
+  
+          .container_submenu {
+            background: white;
+            display: none;
+            position: absolute;
+            top: 60px;
+            width: 150px;
+            z-index: 1;
+            text-align: left;
+            @include for-large-mobile{
+              display: block;
+              position: initial;
+              width: 100%;
+            }
+  
+            > ul {
+              list-style-type: none;
+              padding: 0;
+  
+              > li {
+                > a {
+                  background: white;
+                  font-size: 12px;
+                  padding: 6px 4px;
+                  width: 100%;
+                  display: block;
+                  color: grey;
+                  @include for-large-mobile{
+                    text-align: center;
+                  }
+  
+                  span {
+                    display: inline-block;
+                  }
+  
+                  .bullet {
+                    visibility: hidden;
+                    width: 10%;
+                    text-align: center;
+  
+                    &.bullet_services {
+                      position: relative;
+                      top: -10px;
+                    }
+  
+                    @include for-large-mobile{
+                      display: none;
+                    }
+                  }
+  
+                  .text {
+                    width: 85%;
+                    @include for-large-mobile{
+                      width: 100%;
+                    }
+                  }
+  
+                  &:hover {
+                    text-decoration: none;
+                    color: #00268b;
+  
+                    .bullet {
+                      visibility: visible;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  
+    #container_social {
+      background: purple;
+      position: absolute;
+      right: 0;
+      display: block;
+      width: 20%;
+      height: 50px;
+      top: 70px;
+      @include for-large-mobile{
+        display: none;
+      }
+  
+      > ul {
+        padding: 0;
+  
+        > li {
+          position: relative;
+          display: inline-block;
+          margin-right: -5px;
+          width: 60px;
+          text-align: center;
+          font-size: 32px;
+          @include for-tablet{
+            font-size: 16px;
+          }
+  
+          &:first-child{
+            border-right: solid 2px black;
+          }
+  
+          > a {
+            color: black;
+  
+            &:hover {
+              color: #ffc90b;
+            }
+          }
+        }
+      }
+    }
+  }*/
 
 
 

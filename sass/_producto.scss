@@ -6,47 +6,39 @@
       background-repeat: no-repeat;
       background-position: center; 
       background-size: cover;
-      height: 35vw;
+      height: 350px;
       position: relative;
-  
-  }
-  
-    @media only screen and (max-width: 576px) {
-      .img_fondo {
-        margin-bottom: 110vw;
+
+      @include for-small-mobile{
+          margin-bottom: 500px;
+      }
+
+      @include for-medium-mobile{
+        margin-bottom: 510px;
+      }
+
+      @include for-large-mobile{
+        margin-bottom: 520px;
+      }
+
+      @include for-tablet{
+        margin-bottom: 150px;
+      }
+
+      @include for-laptop{
+        margin-bottom: 170px;
+      }
+
+      @include for-large-laptop{
+        margin-bottom: 200px;
+      }
+
+      @include for-4k-laptop{
+        margin-bottom: 80px;
       }
     }
-    
-    @media only screen and (min-width: 576px) {
-      .img_fondo {
-        margin-bottom: 100vw;
-      }
-    }
-    
-    @media only screen and (min-width: 768px) {
-      .img_fondo {
-        margin-bottom: 30vw;
-      }
-    }
-  
-    @media only screen and (min-width: 992px) {
-      .img_fondo {
-        margin-bottom: 18vw;
-      }
-    }
-    
-    @media only screen and (min-width: 1200px) {
-      .img_fondo {
-        margin-bottom: 13vw;
-      }
-    }
-  
-    @media only screen and (min-width: 1366px) {
-      .img_fondo {
-        margin-bottom: 8vw;
-      }
-    }
-  
+
+
   #cont_text_prod{
       display: flex;
       flex-direction: column;
@@ -77,7 +69,7 @@
   #cards{
       bottom: 0;
       position: absolute;
-      height: 20vw;
+      height: 200px;
   }
   
   .cont_card{
@@ -97,7 +89,7 @@
         background-color: $dorado;
       }
 
-      @media only screen and (max-width: 576px){
+      @include for-large-mobile{
         margin-top: 50px;
     }
   }
