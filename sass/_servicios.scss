@@ -1,5 +1,5 @@
 .servicios{
-    background-image: url("../image/foto_te_ayudamos_en.png");
+    background-image: url("../image/layer-3_3x.png");
     background-repeat: no-repeat; 
     background-size: cover;
     display: flex;
@@ -7,25 +7,30 @@
     align-items: center;
 
     .titulo_servicios{
-        font-size: 3.5vw;
+        font-size: 18px;
         font-weight: 700;
         color: $texto;
-        margin-top: 2vw;
+        margin-top: 50px;
+        margin-bottom: 20px;
     }
 
     .subtitulo_servicios{
-        font-size: 1.9vw;
+        font-size: 15px;
         color: $texto;
+        margin-bottom: 40px;
     }
 
     .parrafo_servicios{
         text-align: center;
-        width: 64vw;
-        font-size: 1.5vw;
+        padding: 0 80px;
+        font-size: 12px;
         font-weight: 700;
         color: $tex-tes;
-        margin-top: 3vw;
-        margin-bottom: 4vw;
+        margin-bottom: 62px;
+
+        @include for-laptop{
+            font-size: 15px;
+        }
 
     }
 }
@@ -36,28 +41,26 @@
     align-items: center;
 
     .linv_actos_notariales{
-        width: .2vw;
-        height: 6vw;
+        width: 5px;
+        height: 31px;
         background-color: $dorado;
-        margin-left: 5vw;
-        margin-top: 3vw;
-        margin-bottom: 3vw;
+        margin: 30px 0;
+        margin-left: 29px;
+        
     }
 
     .titulo_actos_notariales{
-        font-size: 3vw;
+        font-size: 20px;
         font-weight: 700;
         color: $texto;
-        margin-left: 1vw;
-        margin-top: 3vw;
-        margin-bottom: 3vw;
+        margin-left: 35px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     .logo_actos_notariales{
-        height: 6vw;
-        margin-left: 2vw;
-        margin-top: 3vw;
-        margin-bottom: 3vw;
+        height: 39px;
+        margin-left: 69px;
     }
 }
 
@@ -70,41 +73,57 @@
         align-items: center;
 
         .titulo_asesoramiento_societario{
-        font-size: 2.5vw;
+        font-size: 19px;
         color: $texto;
-        margin-top: 4vw;
-        margin-left: 5vw;
+        text-align: center;
+        margin-top: 39px;
+        margin-bottom: 21px;
         }
 
         .texto_asesoramiento_societario{
-        width: 51vw;
-        margin-top: 2vw;
-        margin-bottom: 2vw;
-        margin-left: 1vw;
-        margin-right: 1vw;
+            margin-bottom: 67px;
         }
 
         .parrafo_asesoramiento_societario{
-        font-size: 1.5vw;
-        font-weight: 500;
-        color: $texto;
-        margin-bottom: .5vw;
         display: flex;
         flex-direction: row;
-        text-align: justify;
+        }
+
+        .bullet{
+            font-size: 18px;
+            color: $dorado;
+            margin-left: 45px;
         }
 
         .texto{
-            margin-left: 1vw;
+            font-size: 12px;
+            color: $texto;
+            margin-right: 61px;
+            margin-left: 13px;
+            text-align: justify;
+
+            @include for-laptop{
+                font-size: 15px;
+            }
         }
     }
 
     .fondo_asesoramiento_societario{
-        background-image: url("../image/provisional.jpg");
+        background-image: url("../image/layer-10_3x.png");
         background-repeat: no-repeat; 
         background-size: cover;
         background-position: center;
-        height: 48vw;
+
+        .linea_asesoramiento_societario{
+            width: 5px;
+            height: 258px;
+            background-color: $dorado;
+            margin-left: -15px;
+
+            @include for-tablet{
+                height: 100%;
+            }
+        }
     }
 }
 
@@ -116,43 +135,60 @@
         align-items: center;
 
         .titulo_asesoramiento_inmobiliario{
-        font-size: 2.5vw;
-        color: $texto;
-        margin-top: 4vw;
-        margin-left: 5vw;
-        text-align: center;
-        width: 38vw;
+            font-size: 19px;
+            color: $texto;
+            text-align: center;
+            margin-top: 39px;
+            margin-bottom: 21px;
         }
 
         .texto_asesoramiento_inmobiliario{
-        width: 51vw;
-        margin-top: 2vw;
-        margin-bottom: 2vw;
-        margin-left: 1vw;
-        margin-right: 1vw;
+            margin-bottom: 67px;
         }
 
         .parrafo_asesoramiento_inmobiliario{
-        font-size: 1.5vw;
-        font-weight: 500;
-        color: $texto;
-        margin-bottom: .5vw;
-        display: flex;
-        flex-direction: row;
-        text-align: justify;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .bullet{
+            font-size: 18px;
+            color: $dorado;
+            margin-left: 45px;
         }
 
         .texto{
-            margin-left: 1vw;
+            font-size: 12px;
+            color: $texto;
+            margin-right: 61px;
+            margin-left: 13px;
+            text-align: justify;
+
+            @include for-laptop{
+                font-size: 15px;
+            }
         }
     }
 
     .fondo_asesoramiento_inmobiliario{
-        background-image: url("../image/provisional.jpg");
+        background-image: url("../image/layer-13_3x.png");
         background-repeat: no-repeat; 
         background-size: cover;
         background-position: center;
-        height: 50vw;
+        display: flex;
+        justify-content: end;
+
+        .linea_asesoramiento_inmobiliario{
+            width: 5px;
+            height: 258px;
+            background-color: $dorado;
+            margin-right: -15px;
+
+            @include for-tablet{
+                height: 100%;
+            }
+
+        }
     }
 }
 
@@ -165,43 +201,57 @@
         align-items: center;
 
         .titulo_asesoramiento_legal{
-        font-size: 2.5vw;
-        color: $texto;
-        margin-top: 4vw;
-        margin-left: 5vw;
-        width: 40vw;
-        text-align: center;
+            font-size: 19px;
+            color: $texto;
+            text-align: center;
+            margin-top: 39px;
+            margin-bottom: 21px;
         }
 
         .texto_asesoramiento_legal{
-        width: 51vw;
-        margin-top: 2vw;
-        margin-bottom: 2vw;
-        margin-left: 1vw;
-        margin-right: 1vw;
+            margin-bottom: 67px;
         }
 
         .parrafo_asesoramiento_legal{
-        font-size: 1.5vw;
-        font-weight: 500;
-        color: $texto;
-        margin-bottom: .5vw;
-        display: flex;
-        flex-direction: row;
-        text-align: justify;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .bullet{
+            font-size: 18px;
+            color: $dorado;
+            margin-left: 45px;
         }
 
         .texto{
-            margin-left: 1vw;
+            font-size: 12px;
+            color: $texto;
+            margin-right: 61px;
+            margin-left: 13px;
+            text-align: justify;
+
+            @include for-laptop{
+                font-size: 15px;
+            }
         }
     }
 
     .fondo_asesoramiento_legal{
-        background-image: url("../image/provisional.jpg");
+        background-image: url("../image/layer-11_3x.png");
         background-repeat: no-repeat; 
         background-size: cover;
         background-position: center;
-        height: 48vw;
+
+        .linea_asesoramiento_legal{
+            width: 5px;
+            height: 258px;
+            background-color: $dorado;
+            margin-left: -15px;
+
+            @include for-tablet{
+                height: 100%;
+            }
+        }
     }
 }
 
@@ -211,28 +261,23 @@
     align-items: center;
 
     .linv_procesos_judiciales{
-        width: .2vw;
-        height: 6vw;
-        background-color: $dorado;
-        margin-left: 5vw;
-        margin-top: 3vw;
-        margin-bottom: 3vw;
+        width: 5px;
+        height: 31px;
+        background-color: $texto;
+        margin: 30px 0;
+        margin-left: 29px;
     }
 
     .titulo_procesos_judiciales{
-        font-size: 3vw;
+        font-size: 20px;
         font-weight: 700;
         color: $texto;
-        margin-left: 1vw;
-        margin-top: 3vw;
-        margin-bottom: 3vw;
+        margin-left: 35px;
     }
 
     .logo_procesos_judiciales{
-        height: 6vw;
-        margin-left: 2vw;
-        margin-top: 3vw;
-        margin-bottom: 3vw;
+        height: 39px;
+        margin-left: 41px;
     }
 }
 
@@ -244,43 +289,59 @@
         align-items: center;
 
         .titulo_asesoria_laboral{
-        font-size: 2.5vw;
-        color: $texto;
-        margin-top: 4vw;
-        margin-left: 5vw;
-        text-align: center;
-        width: 38vw;
+            font-size: 19px;
+            color: $texto;
+            text-align: center;
+            margin-top: 39px;
+            margin-bottom: 21px;
         }
 
         .texto_asesoria_laboral{
-        width: 51vw;
-        margin-top: 1vw;
-        margin-bottom: 5vw;
-        margin-left: 1vw;
-        margin-right: 1vw;
+            margin-bottom: 67px;
         }
 
         .parrafo_asesoria_laboral{
-        font-size: 1.5vw;
-        font-weight: 500;
-        color: $texto;
-        margin-bottom: .5vw;
-        display: flex;
-        flex-direction: row;
-        text-align: justify;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .bullet{
+            font-size: 18px;
+            color: $texto;
+            margin-left: 45px;
         }
 
         .texto{
-            margin-left: 1vw;
+            font-size: 12px;
+            color: $texto;
+            margin-right: 61px;
+            margin-left: 13px;
+            text-align: justify;
+
+            @include for-laptop{
+                font-size: 15px;
+            }
         }
     }
 
     .fondo_asesoria_laboral{
-        background-image: url("../image/provisional.jpg");
+        background-image: url("../image/layer-14_3x.png");
         background-repeat: no-repeat; 
         background-size: cover;
         background-position: center;
-        height: 35vw;
+        display: flex;
+        justify-content: end;
+        
+        .linea_asesoria_laboral{
+            width: 5px;
+            height: 258px;
+            background-color: $texto;
+            margin-right: -15px;
+
+            @include for-tablet{
+                height: 100%;
+            }
+        }
     }
 }
 
@@ -293,41 +354,57 @@
         align-items: center;
 
         .titulo_asesoria_civil{
-        font-size: 2.5vw;
-        color: $texto;
-        margin-top: 4vw;
-        margin-left: 5vw;
+            font-size: 19px;
+            color: $texto;
+            text-align: center;
+            margin-top: 39px;
+            margin-bottom: 21px;
         }
 
         .texto_asesoria_civil{
-        width: 51vw;
-        margin-top: 2vw;
-        margin-bottom: 2vw;
-        margin-left: 1vw;
-        margin-right: 1vw;
+            margin-bottom: 67px;
         }
 
         .parrafo_asesoria_civil{
-        font-size: 1.5vw;
-        font-weight: 500;
-        color: $texto;
-        margin-bottom: .5vw;
-        display: flex;
-        flex-direction: row;
-        text-align: justify;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .bullet{
+            font-size: 18px;
+            color: $texto;
+            margin-left: 45px;
         }
 
         .texto{
-            margin-left: 1vw;
+            font-size: 12px;
+            color: $texto;
+            margin-right: 61px;
+            margin-left: 13px;
+            text-align: justify;
+
+            @include for-laptop{
+                font-size: 15px;
+            }
         }
     }
 
     .fondo_asesoramiento_societario{
-        background-image: url("../image/provisional.jpg");
+        background-image: url("../image/layer-12_3x.png");
         background-repeat: no-repeat; 
         background-size: cover;
         background-position: center;
-        height: 35vw;
+        
+        .linea_asesoria_civil{
+            width: 5px;
+            height: 258px;
+            background-color: $texto;
+            margin-left: -15px;
+
+            @include for-tablet{
+                height: 100%;
+            }
+        }
     }
 }
 
@@ -339,43 +416,60 @@
         align-items: center;
 
         .titulo_asesoria_familia{
-        font-size: 2.5vw;
-        color: $texto;
-        margin-top: 4vw;
-        margin-left: 5vw;
-        text-align: center;
-        width: 38vw;
+            font-size: 19px;
+            color: $texto;
+            text-align: center;
+            margin-top: 39px;
+            margin-bottom: 21px;
         }
 
         .texto_asesoria_familia{
-        width: 51vw;
-        margin-top: 1vw;
-        margin-bottom: 5vw;
-        margin-left: 1vw;
-        margin-right: 1vw;
+            margin-bottom: 67px;
         }
 
         .parrafo_asesoria_familia{
-        font-size: 1.5vw;
-        font-weight: 500;
-        color: $texto;
-        margin-bottom: .5vw;
-        display: flex;
-        flex-direction: row;
-        text-align: justify;
+            display: flex;
+            flex-direction: row;
         }
 
+        .bullet{
+            font-size: 18px;
+            color: $texto;
+            margin-left: 45px;
+        }
+
+
         .texto{
-            margin-left: 1vw;
+            font-size: 12px;
+            color: $texto;
+            margin-right: 61px;
+            margin-left: 13px;
+            text-align: justify;
+
+            @include for-laptop{
+                font-size: 15px;
+            }
         }
     }
 
     .fondo_asesoria_familia{
-        background-image: url("../image/provisional.jpg");
+        background-image: url("../image/layer-15_3x.png");
         background-repeat: no-repeat; 
         background-size: cover;
         background-position: center;
-        height: 35vw;
+        display: flex;
+        justify-content: end;
+        
+        .linea_asesoria_familia{
+            width: 5px;
+            height: 258px;
+            background-color: $texto;
+            margin-right: -15px;
+
+            @include for-tablet{
+                height: 100%;
+            }
+        }
     }
 }
 
@@ -390,18 +484,22 @@
 
     .titulo_consultoria{
         color: white;
-        font-size: 2.5vw;
+        font-size: 19px;
         font-weight: 600;
-        margin-top: 6vw;
+        margin-top: 40px;
+        margin-bottom: 20px;
     }
 
     .texto_consultoria{
         color: white;
-        font-size: 1.5vw;
+        font-size: 12px;
         font-weight: 600;
         text-align: center;
-        width: 59vw;
-        margin-top: 3vw;
-        margin-bottom: 5vw;
+        margin: 0 44px;
+        margin-bottom: 42px;
+
+        @include for-laptop{
+            font-size: 15px;
+        }
     }
 }
