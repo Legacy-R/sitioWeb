@@ -18,6 +18,8 @@
         font-weight: 500;
         display: flex;
         align-items: flex-start;
+        border: none;
+        border-bottom: 1px solid $tex-tes;
     }
 
     textarea{

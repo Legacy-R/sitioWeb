@@ -12,24 +12,44 @@
         color: $texto;
         margin-top: 50px;
         margin-bottom: 20px;
+
+        @include for-large-laptop{
+            font-size: 30px;
+        }
     }
 
     .subtitulo_servicios{
         font-size: 15px;
         color: $texto;
         margin-bottom: 40px;
+
+        @include for-large-laptop{
+            font-size: 25px;
+        }
     }
 
     .parrafo_servicios{
         text-align: center;
-        padding: 0 80px;
+        padding: 0px;
         font-size: 12px;
         font-weight: 700;
         color: $tex-tes;
         margin-bottom: 62px;
 
+        @include for-tablet{
+            font-size: 15px;
+            padding: 0 75px;
+        }
+
         @include for-laptop{
             font-size: 15px;
+            padding: 0;
+            width: 590px;
+        }
+
+        @include for-large-laptop{
+            font-size: 25px;
+            width: 700px;
         }
 
     }
@@ -39,29 +59,42 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 
-    .linv_actos_notariales{
-        width: 5px;
-        height: 31px;
-        background-color: $dorado;
-        margin: 30px 0;
-        margin-left: 29px;
-        
+    @include for-large-laptop{
+        justify-content: left;
+
     }
 
     .titulo_actos_notariales{
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 700;
         color: $texto;
-        margin-left: 35px;
+        border-left: 4px solid $dorado;
+        padding-left: 20px;
         margin-top: 30px;
         margin-bottom: 30px;
+
+        @include for-tablet{
+            font-size: 20px;
+        }
+
+        @include for-large-laptop{
+            font-size: 37px;
+            padding: 0 75px;
+            margin-left: 140px;
+        }
     }
 
     .logo_actos_notariales{
+        margin-left: 20px;
         height: 39px;
-        margin-left: 69px;
+
+        @include for-large-laptop{
+            height: 72px;
+        }
     }
+
 }
 
 .seccion_1{
@@ -73,56 +106,75 @@
         align-items: center;
 
         .titulo_asesoramiento_societario{
-        font-size: 19px;
-        color: $texto;
-        text-align: center;
-        margin-top: 39px;
-        margin-bottom: 21px;
+            font-size: 19px;
+            color: $texto;
+            text-align: center;
+            margin-top: 39px;
+            margin-bottom: 21px;
+
+            @include for-large-laptop{
+                font-size: 25px;
+            }
         }
 
         .texto_asesoramiento_societario{
             margin-bottom: 67px;
+            width: 100%;
+            
         }
 
         .parrafo_asesoramiento_societario{
-        display: flex;
-        flex-direction: row;
+            display: flex;
+            flex-direction: row;
         }
 
         .bullet{
             font-size: 18px;
             color: $dorado;
-            margin-left: 45px;
+
+            @include for-laptop{
+                font-size: 15px;
+                margin-left: 115px;
+            }
+
+            @include for-large-laptop{
+                font-size: 20px;
+                margin-left: 20%;
+            }
+
         }
 
         .texto{
             font-size: 12px;
             color: $texto;
-            margin-right: 61px;
-            margin-left: 13px;
             text-align: justify;
 
+            @include for-tablet{
+                margin-left: 5px;
+            }
+
             @include for-laptop{
-                font-size: 15px;
+                font-size: 13px;
+                margin-right: 15px;
+            }
+
+            @include for-large-laptop{
+                font-size: 20px;
+            }
+
+            @include for-4k-laptop{
+                margin-right: 20%;
             }
         }
     }
 
     .fondo_asesoramiento_societario{
-        background-image: url("../image/layer-10_3x.png");
-        background-repeat: no-repeat; 
-        background-size: cover;
-        background-position: center;
+        padding: 0;
 
-        .linea_asesoramiento_societario{
-            width: 5px;
-            height: 258px;
-            background-color: $dorado;
-            margin-left: -15px;
-
-            @include for-tablet{
-                height: 100%;
-            }
+        .imagen_asesoramiento_societario{
+            width: 100%;
+            height: 100%;
+            border-left: 4px solid $dorado;
         }
     }
 }
@@ -140,10 +192,15 @@
             text-align: center;
             margin-top: 39px;
             margin-bottom: 21px;
+
+            @include for-large-laptop{
+                font-size: 25px;
+            }
         }
 
         .texto_asesoramiento_inmobiliario{
             margin-bottom: 67px;
+            width: 100%;
         }
 
         .parrafo_asesoramiento_inmobiliario{
@@ -154,40 +211,49 @@
         .bullet{
             font-size: 18px;
             color: $dorado;
-            margin-left: 45px;
+
+            @include for-laptop{
+                font-size: 15px;
+                margin-left: 15px;
+            }
+
+            @include for-large-laptop{
+                font-size: 20px;
+            }
         }
 
         .texto{
             font-size: 12px;
             color: $texto;
-            margin-right: 61px;
-            margin-left: 13px;
             text-align: justify;
 
+            @include for-tablet{
+                margin-left: 5px;
+            }
+
             @include for-laptop{
-                font-size: 15px;
+                font-size: 13px;
+                margin-right: 115px;
+            }
+
+            @include for-large-laptop{
+                font-size: 20px;
+                margin-right: 20%;
+            }
+
+            @include for-4k-laptop{
+                margin-right: 20%;
             }
         }
     }
 
     .fondo_asesoramiento_inmobiliario{
-        background-image: url("../image/layer-13_3x.png");
-        background-repeat: no-repeat; 
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        justify-content: end;
+        padding: 0;
 
-        .linea_asesoramiento_inmobiliario{
-            width: 5px;
-            height: 258px;
-            background-color: $dorado;
-            margin-right: -15px;
-
-            @include for-tablet{
-                height: 100%;
-            }
-
+        .imagen_asesoramiento_inmobiliario{
+            width: 100%;
+            height: 100%;
+            border-right: 4px solid $dorado;
         }
     }
 }
@@ -206,10 +272,15 @@
             text-align: center;
             margin-top: 39px;
             margin-bottom: 21px;
+
+            @include for-large-laptop{
+                font-size: 25px;
+            }
         }
 
         .texto_asesoramiento_legal{
             margin-bottom: 67px;
+            width: 100%;
         }
 
         .parrafo_asesoramiento_legal{
@@ -220,37 +291,49 @@
         .bullet{
             font-size: 18px;
             color: $dorado;
-            margin-left: 45px;
+
+            @include for-laptop{
+                font-size: 15px;
+                margin-left: 115px;
+            }
+
+            @include for-large-laptop{
+                font-size: 20px;
+                margin-left: 20%;
+            }
         }
 
         .texto{
             font-size: 12px;
             color: $texto;
-            margin-right: 61px;
-            margin-left: 13px;
             text-align: justify;
 
+            @include for-tablet{
+                margin-left: 5px;
+            }
+
             @include for-laptop{
-                font-size: 15px;
+                font-size: 13px;
+                margin-right: 15px;
+            }
+
+            @include for-large-laptop{
+                font-size: 20px;
+            }
+
+            @include for-4k-laptop{
+                margin-right: 20%;
             }
         }
     }
 
     .fondo_asesoramiento_legal{
-        background-image: url("../image/layer-11_3x.png");
-        background-repeat: no-repeat; 
-        background-size: cover;
-        background-position: center;
+        padding: 0;
 
-        .linea_asesoramiento_legal{
-            width: 5px;
-            height: 258px;
-            background-color: $dorado;
-            margin-left: -15px;
-
-            @include for-tablet{
-                height: 100%;
-            }
+        .imagen_asesoramiento_legal{
+            width: 100%;
+            height: 100%;
+            border-left: 4px solid $dorado;
         }
     }
 }
@@ -259,25 +342,42 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 
-    .linv_procesos_judiciales{
-        width: 5px;
-        height: 31px;
-        background-color: $texto;
-        margin: 30px 0;
-        margin-left: 29px;
+    @include for-large-laptop{
+        justify-content: left;
+
     }
 
     .titulo_procesos_judiciales{
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 700;
         color: $texto;
-        margin-left: 35px;
+        border-left: 4px solid $texto;
+        padding-left: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 15px;
+
+        @include for-tablet{
+            font-size: 20px;
+        }
+
+        @include for-large-laptop{
+            font-size: 37px;
+            padding: 0 75px;
+            margin-left: 140px;
+        }
     }
 
     .logo_procesos_judiciales{
+        margin-left: 10px;
         height: 39px;
-        margin-left: 41px;
+        margin-right: 15px;
+
+        @include for-large-laptop{
+            height: 72px;
+        }
     }
 }
 
@@ -294,10 +394,15 @@
             text-align: center;
             margin-top: 39px;
             margin-bottom: 21px;
+            
+            @include for-large-laptop{
+                font-size: 25px;
+            }
         }
 
         .texto_asesoria_laboral{
             margin-bottom: 67px;
+            width: 100%;
         }
 
         .parrafo_asesoria_laboral{
@@ -308,39 +413,49 @@
         .bullet{
             font-size: 18px;
             color: $texto;
-            margin-left: 45px;
+
+            @include for-laptop{
+                font-size: 15px;
+                margin-left: 15px;
+            }
+
+            @include for-large-laptop{
+                font-size: 20px;
+            }
         }
 
         .texto{
             font-size: 12px;
             color: $texto;
-            margin-right: 61px;
-            margin-left: 13px;
             text-align: justify;
 
+            @include for-tablet{
+                margin-left: 5px;
+            }
+
             @include for-laptop{
-                font-size: 15px;
+                font-size: 13px;
+                margin-right: 115px;
+            }
+
+            @include for-large-laptop{
+                font-size: 20px;
+                margin-right: 20%;
+            }
+
+            @include for-4k-laptop{
+                margin-right: 20%;
             }
         }
     }
 
     .fondo_asesoria_laboral{
-        background-image: url("../image/layer-14_3x.png");
-        background-repeat: no-repeat; 
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        justify-content: end;
+        padding: 0;
         
-        .linea_asesoria_laboral{
-            width: 5px;
-            height: 258px;
-            background-color: $texto;
-            margin-right: -15px;
-
-            @include for-tablet{
-                height: 100%;
-            }
+        .imagen_asesoria_laboral{
+            width: 100%;
+            height: 100%;
+            border-right: 4px solid $texto;
         }
     }
 }
@@ -359,10 +474,15 @@
             text-align: center;
             margin-top: 39px;
             margin-bottom: 21px;
+
+            @include for-large-laptop{
+                font-size: 25px;
+            }
         }
 
         .texto_asesoria_civil{
             margin-bottom: 67px;
+            width: 100%;
         }
 
         .parrafo_asesoria_civil{
@@ -373,37 +493,49 @@
         .bullet{
             font-size: 18px;
             color: $texto;
-            margin-left: 45px;
+
+            @include for-laptop{
+                font-size: 15px;
+                margin-left: 115px;
+            }
+
+            @include for-large-laptop{
+                font-size: 20px;
+                margin-left: 20%;
+            }
         }
 
         .texto{
             font-size: 12px;
             color: $texto;
-            margin-right: 61px;
-            margin-left: 13px;
             text-align: justify;
 
+            @include for-tablet{
+                margin-left: 5px;
+            }
+
             @include for-laptop{
-                font-size: 15px;
+                font-size: 13px;
+                margin-right: 15px;
+            }
+
+            @include for-large-laptop{
+                font-size: 20px;
+            }
+
+            @include for-4k-laptop{
+                margin-right: 20%;
             }
         }
     }
 
     .fondo_asesoramiento_societario{
-        background-image: url("../image/layer-12_3x.png");
-        background-repeat: no-repeat; 
-        background-size: cover;
-        background-position: center;
+        padding: 0;
         
-        .linea_asesoria_civil{
-            width: 5px;
-            height: 258px;
-            background-color: $texto;
-            margin-left: -15px;
-
-            @include for-tablet{
-                height: 100%;
-            }
+        .imagen_asesoria_civil{
+            width: 100%;
+            height: 100%;
+            border-left: 4px solid $texto;
         }
     }
 }
@@ -421,10 +553,15 @@
             text-align: center;
             margin-top: 39px;
             margin-bottom: 21px;
+            
+            @include for-large-laptop{
+                font-size: 25px;
+            }
         }
 
         .texto_asesoria_familia{
             margin-bottom: 67px;
+            width: 100%;
         }
 
         .parrafo_asesoria_familia{
@@ -435,40 +572,50 @@
         .bullet{
             font-size: 18px;
             color: $texto;
-            margin-left: 45px;
+
+            @include for-laptop{
+                font-size: 15px;
+                margin-left: 15px;
+            }
+
+            @include for-large-laptop{
+                font-size: 20px;
+            }
         }
 
 
         .texto{
             font-size: 12px;
             color: $texto;
-            margin-right: 61px;
-            margin-left: 13px;
             text-align: justify;
 
+            @include for-tablet{
+                margin-left: 5px;
+            }
+
             @include for-laptop{
-                font-size: 15px;
+                font-size: 13px;
+                margin-right: 115px;
+            }
+
+            @include for-large-laptop{
+                font-size: 20px;
+                margin-right: 20%;
+            }
+
+            @include for-4k-laptop{
+                margin-right: 20%;
             }
         }
     }
 
     .fondo_asesoria_familia{
-        background-image: url("../image/layer-15_3x.png");
-        background-repeat: no-repeat; 
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        justify-content: end;
+        padding: 0;
         
-        .linea_asesoria_familia{
-            width: 5px;
-            height: 258px;
-            background-color: $texto;
-            margin-right: -15px;
-
-            @include for-tablet{
-                height: 100%;
-            }
+        .imagen_asesoria_familia{
+            width: 100%;
+            height: 100%;
+            border-right: 4px solid $texto;
         }
     }
 }
@@ -481,25 +628,42 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 
     .titulo_consultoria{
+        font-size: 18px;
+        font-weight: 700;
         color: white;
-        font-size: 19px;
-        font-weight: 600;
-        margin-top: 40px;
+        margin-top: 50px;
         margin-bottom: 20px;
+
+        @include for-large-laptop{
+            font-size: 30px;
+        }
     }
 
     .texto_consultoria{
-        color: white;
-        font-size: 12px;
-        font-weight: 600;
         text-align: center;
-        margin: 0 44px;
-        margin-bottom: 42px;
+        padding: 0px;
+        font-size: 12px;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 62px;
+
+        @include for-tablet{
+            font-size: 15px;
+            padding: 0 75px;
+        }
 
         @include for-laptop{
             font-size: 15px;
+            padding: 0;
+            width: 590px;
+        }
+
+        @include for-large-laptop{
+            font-size: 25px;
+            width: 700px;
         }
     }
 }

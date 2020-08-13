@@ -1580,22 +1580,46 @@ body header .menu-toggle {
   margin-top: 50px;
   margin-bottom: 20px;
 }
+@media (min-width: 1440px) {
+  .servicios .titulo_servicios {
+    font-size: 30px;
+  }
+}
 .servicios .subtitulo_servicios {
   font-size: 15px;
   color: #05234d;
   margin-bottom: 40px;
 }
+@media (min-width: 1440px) {
+  .servicios .subtitulo_servicios {
+    font-size: 25px;
+  }
+}
 .servicios .parrafo_servicios {
   text-align: center;
-  padding: 0 80px;
+  padding: 0px;
   font-size: 12px;
   font-weight: 700;
   color: #464646;
   margin-bottom: 62px;
 }
+@media screen and (min-width: 768px) {
+  .servicios .parrafo_servicios {
+    font-size: 15px;
+    padding: 0 75px;
+  }
+}
 @media (min-width: 1024px) {
   .servicios .parrafo_servicios {
     font-size: 15px;
+    padding: 0;
+    width: 590px;
+  }
+}
+@media (min-width: 1440px) {
+  .servicios .parrafo_servicios {
+    font-size: 25px;
+    width: 700px;
   }
 }
 
@@ -1603,25 +1627,42 @@ body header .menu-toggle {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
-.actos_notariales_primera_seccion .linv_actos_notariales {
-  width: 5px;
-  height: 31px;
-  background-color: #ffbe0b;
-  margin: 30px 0;
-  margin-left: 29px;
+@media (min-width: 1440px) {
+  .actos_notariales_primera_seccion {
+    justify-content: left;
+  }
 }
 .actos_notariales_primera_seccion .titulo_actos_notariales {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 700;
   color: #05234d;
-  margin-left: 35px;
+  border-left: 4px solid #ffbe0b;
+  padding-left: 20px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
+@media screen and (min-width: 768px) {
+  .actos_notariales_primera_seccion .titulo_actos_notariales {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1440px) {
+  .actos_notariales_primera_seccion .titulo_actos_notariales {
+    font-size: 37px;
+    padding: 0 75px;
+    margin-left: 140px;
+  }
+}
 .actos_notariales_primera_seccion .logo_actos_notariales {
+  margin-left: 20px;
   height: 39px;
-  margin-left: 69px;
+}
+@media (min-width: 1440px) {
+  .actos_notariales_primera_seccion .logo_actos_notariales {
+    height: 72px;
+  }
 }
 
 .seccion_1 .col1_asesoramiento_societario {
@@ -1638,8 +1679,14 @@ body header .menu-toggle {
   margin-top: 39px;
   margin-bottom: 21px;
 }
+@media (min-width: 1440px) {
+  .seccion_1 .col1_asesoramiento_societario .titulo_asesoramiento_societario {
+    font-size: 25px;
+  }
+}
 .seccion_1 .col1_asesoramiento_societario .texto_asesoramiento_societario {
   margin-bottom: 67px;
+  width: 100%;
 }
 .seccion_1 .col1_asesoramiento_societario .parrafo_asesoramiento_societario {
   display: flex;
@@ -1648,36 +1695,52 @@ body header .menu-toggle {
 .seccion_1 .col1_asesoramiento_societario .bullet {
   font-size: 18px;
   color: #ffbe0b;
-  margin-left: 45px;
+}
+@media (min-width: 1024px) {
+  .seccion_1 .col1_asesoramiento_societario .bullet {
+    font-size: 15px;
+    margin-left: 115px;
+  }
+}
+@media (min-width: 1440px) {
+  .seccion_1 .col1_asesoramiento_societario .bullet {
+    font-size: 20px;
+    margin-left: 20%;
+  }
 }
 .seccion_1 .col1_asesoramiento_societario .texto {
   font-size: 12px;
   color: #05234d;
-  margin-right: 61px;
-  margin-left: 13px;
   text-align: justify;
+}
+@media screen and (min-width: 768px) {
+  .seccion_1 .col1_asesoramiento_societario .texto {
+    margin-left: 5px;
+  }
 }
 @media (min-width: 1024px) {
   .seccion_1 .col1_asesoramiento_societario .texto {
-    font-size: 15px;
+    font-size: 13px;
+    margin-right: 15px;
+  }
+}
+@media (min-width: 1440px) {
+  .seccion_1 .col1_asesoramiento_societario .texto {
+    font-size: 20px;
+  }
+}
+@media (min-width: 2560px) {
+  .seccion_1 .col1_asesoramiento_societario .texto {
+    margin-right: 20%;
   }
 }
 .seccion_1 .fondo_asesoramiento_societario {
-  background-image: url("../image/layer-10_3x.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  padding: 0;
 }
-.seccion_1 .fondo_asesoramiento_societario .linea_asesoramiento_societario {
-  width: 5px;
-  height: 258px;
-  background-color: #ffbe0b;
-  margin-left: -15px;
-}
-@media screen and (min-width: 768px) {
-  .seccion_1 .fondo_asesoramiento_societario .linea_asesoramiento_societario {
-    height: 100%;
-  }
+.seccion_1 .fondo_asesoramiento_societario .imagen_asesoramiento_societario {
+  width: 100%;
+  height: 100%;
+  border-left: 4px solid #ffbe0b;
 }
 
 .seccion_2 .col2_asesoramiento_inmobiliario {
@@ -1693,8 +1756,14 @@ body header .menu-toggle {
   margin-top: 39px;
   margin-bottom: 21px;
 }
+@media (min-width: 1440px) {
+  .seccion_2 .col2_asesoramiento_inmobiliario .titulo_asesoramiento_inmobiliario {
+    font-size: 25px;
+  }
+}
 .seccion_2 .col2_asesoramiento_inmobiliario .texto_asesoramiento_inmobiliario {
   margin-bottom: 67px;
+  width: 100%;
 }
 .seccion_2 .col2_asesoramiento_inmobiliario .parrafo_asesoramiento_inmobiliario {
   display: flex;
@@ -1703,38 +1772,52 @@ body header .menu-toggle {
 .seccion_2 .col2_asesoramiento_inmobiliario .bullet {
   font-size: 18px;
   color: #ffbe0b;
-  margin-left: 45px;
+}
+@media (min-width: 1024px) {
+  .seccion_2 .col2_asesoramiento_inmobiliario .bullet {
+    font-size: 15px;
+    margin-left: 15px;
+  }
+}
+@media (min-width: 1440px) {
+  .seccion_2 .col2_asesoramiento_inmobiliario .bullet {
+    font-size: 20px;
+  }
 }
 .seccion_2 .col2_asesoramiento_inmobiliario .texto {
   font-size: 12px;
   color: #05234d;
-  margin-right: 61px;
-  margin-left: 13px;
   text-align: justify;
+}
+@media screen and (min-width: 768px) {
+  .seccion_2 .col2_asesoramiento_inmobiliario .texto {
+    margin-left: 5px;
+  }
 }
 @media (min-width: 1024px) {
   .seccion_2 .col2_asesoramiento_inmobiliario .texto {
-    font-size: 15px;
+    font-size: 13px;
+    margin-right: 115px;
+  }
+}
+@media (min-width: 1440px) {
+  .seccion_2 .col2_asesoramiento_inmobiliario .texto {
+    font-size: 20px;
+    margin-right: 20%;
+  }
+}
+@media (min-width: 2560px) {
+  .seccion_2 .col2_asesoramiento_inmobiliario .texto {
+    margin-right: 20%;
   }
 }
 .seccion_2 .fondo_asesoramiento_inmobiliario {
-  background-image: url("../image/layer-13_3x.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: end;
+  padding: 0;
 }
-.seccion_2 .fondo_asesoramiento_inmobiliario .linea_asesoramiento_inmobiliario {
-  width: 5px;
-  height: 258px;
-  background-color: #ffbe0b;
-  margin-right: -15px;
-}
-@media screen and (min-width: 768px) {
-  .seccion_2 .fondo_asesoramiento_inmobiliario .linea_asesoramiento_inmobiliario {
-    height: 100%;
-  }
+.seccion_2 .fondo_asesoramiento_inmobiliario .imagen_asesoramiento_inmobiliario {
+  width: 100%;
+  height: 100%;
+  border-right: 4px solid #ffbe0b;
 }
 
 .seccion_3 .col1_asesoramiento_legal {
@@ -1751,8 +1834,14 @@ body header .menu-toggle {
   margin-top: 39px;
   margin-bottom: 21px;
 }
+@media (min-width: 1440px) {
+  .seccion_3 .col1_asesoramiento_legal .titulo_asesoramiento_legal {
+    font-size: 25px;
+  }
+}
 .seccion_3 .col1_asesoramiento_legal .texto_asesoramiento_legal {
   margin-bottom: 67px;
+  width: 100%;
 }
 .seccion_3 .col1_asesoramiento_legal .parrafo_asesoramiento_legal {
   display: flex;
@@ -1761,59 +1850,96 @@ body header .menu-toggle {
 .seccion_3 .col1_asesoramiento_legal .bullet {
   font-size: 18px;
   color: #ffbe0b;
-  margin-left: 45px;
+}
+@media (min-width: 1024px) {
+  .seccion_3 .col1_asesoramiento_legal .bullet {
+    font-size: 15px;
+    margin-left: 115px;
+  }
+}
+@media (min-width: 1440px) {
+  .seccion_3 .col1_asesoramiento_legal .bullet {
+    font-size: 20px;
+    margin-left: 20%;
+  }
 }
 .seccion_3 .col1_asesoramiento_legal .texto {
   font-size: 12px;
   color: #05234d;
-  margin-right: 61px;
-  margin-left: 13px;
   text-align: justify;
+}
+@media screen and (min-width: 768px) {
+  .seccion_3 .col1_asesoramiento_legal .texto {
+    margin-left: 5px;
+  }
 }
 @media (min-width: 1024px) {
   .seccion_3 .col1_asesoramiento_legal .texto {
-    font-size: 15px;
+    font-size: 13px;
+    margin-right: 15px;
+  }
+}
+@media (min-width: 1440px) {
+  .seccion_3 .col1_asesoramiento_legal .texto {
+    font-size: 20px;
+  }
+}
+@media (min-width: 2560px) {
+  .seccion_3 .col1_asesoramiento_legal .texto {
+    margin-right: 20%;
   }
 }
 .seccion_3 .fondo_asesoramiento_legal {
-  background-image: url("../image/layer-11_3x.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  padding: 0;
 }
-.seccion_3 .fondo_asesoramiento_legal .linea_asesoramiento_legal {
-  width: 5px;
-  height: 258px;
-  background-color: #ffbe0b;
-  margin-left: -15px;
-}
-@media screen and (min-width: 768px) {
-  .seccion_3 .fondo_asesoramiento_legal .linea_asesoramiento_legal {
-    height: 100%;
-  }
+.seccion_3 .fondo_asesoramiento_legal .imagen_asesoramiento_legal {
+  width: 100%;
+  height: 100%;
+  border-left: 4px solid #ffbe0b;
 }
 
 .procesos_judiciales_primera_seccion {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
-.procesos_judiciales_primera_seccion .linv_procesos_judiciales {
-  width: 5px;
-  height: 31px;
-  background-color: #05234d;
-  margin: 30px 0;
-  margin-left: 29px;
+@media (min-width: 1440px) {
+  .procesos_judiciales_primera_seccion {
+    justify-content: left;
+  }
 }
 .procesos_judiciales_primera_seccion .titulo_procesos_judiciales {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 700;
   color: #05234d;
-  margin-left: 35px;
+  border-left: 4px solid #05234d;
+  padding-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+@media screen and (min-width: 768px) {
+  .procesos_judiciales_primera_seccion .titulo_procesos_judiciales {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1440px) {
+  .procesos_judiciales_primera_seccion .titulo_procesos_judiciales {
+    font-size: 37px;
+    padding: 0 75px;
+    margin-left: 140px;
+  }
 }
 .procesos_judiciales_primera_seccion .logo_procesos_judiciales {
+  margin-left: 10px;
   height: 39px;
-  margin-left: 41px;
+  margin-right: 15px;
+}
+@media (min-width: 1440px) {
+  .procesos_judiciales_primera_seccion .logo_procesos_judiciales {
+    height: 72px;
+  }
 }
 
 .seccion_4 .col2_asesoria_laboral {
@@ -1829,8 +1955,14 @@ body header .menu-toggle {
   margin-top: 39px;
   margin-bottom: 21px;
 }
+@media (min-width: 1440px) {
+  .seccion_4 .col2_asesoria_laboral .titulo_asesoria_laboral {
+    font-size: 25px;
+  }
+}
 .seccion_4 .col2_asesoria_laboral .texto_asesoria_laboral {
   margin-bottom: 67px;
+  width: 100%;
 }
 .seccion_4 .col2_asesoria_laboral .parrafo_asesoria_laboral {
   display: flex;
@@ -1839,38 +1971,52 @@ body header .menu-toggle {
 .seccion_4 .col2_asesoria_laboral .bullet {
   font-size: 18px;
   color: #05234d;
-  margin-left: 45px;
+}
+@media (min-width: 1024px) {
+  .seccion_4 .col2_asesoria_laboral .bullet {
+    font-size: 15px;
+    margin-left: 15px;
+  }
+}
+@media (min-width: 1440px) {
+  .seccion_4 .col2_asesoria_laboral .bullet {
+    font-size: 20px;
+  }
 }
 .seccion_4 .col2_asesoria_laboral .texto {
   font-size: 12px;
   color: #05234d;
-  margin-right: 61px;
-  margin-left: 13px;
   text-align: justify;
+}
+@media screen and (min-width: 768px) {
+  .seccion_4 .col2_asesoria_laboral .texto {
+    margin-left: 5px;
+  }
 }
 @media (min-width: 1024px) {
   .seccion_4 .col2_asesoria_laboral .texto {
-    font-size: 15px;
+    font-size: 13px;
+    margin-right: 115px;
+  }
+}
+@media (min-width: 1440px) {
+  .seccion_4 .col2_asesoria_laboral .texto {
+    font-size: 20px;
+    margin-right: 20%;
+  }
+}
+@media (min-width: 2560px) {
+  .seccion_4 .col2_asesoria_laboral .texto {
+    margin-right: 20%;
   }
 }
 .seccion_4 .fondo_asesoria_laboral {
-  background-image: url("../image/layer-14_3x.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: end;
+  padding: 0;
 }
-.seccion_4 .fondo_asesoria_laboral .linea_asesoria_laboral {
-  width: 5px;
-  height: 258px;
-  background-color: #05234d;
-  margin-right: -15px;
-}
-@media screen and (min-width: 768px) {
-  .seccion_4 .fondo_asesoria_laboral .linea_asesoria_laboral {
-    height: 100%;
-  }
+.seccion_4 .fondo_asesoria_laboral .imagen_asesoria_laboral {
+  width: 100%;
+  height: 100%;
+  border-right: 4px solid #05234d;
 }
 
 .seccion_5 .col1_asesoria_civil {
@@ -1887,8 +2033,14 @@ body header .menu-toggle {
   margin-top: 39px;
   margin-bottom: 21px;
 }
+@media (min-width: 1440px) {
+  .seccion_5 .col1_asesoria_civil .titulo_asesoria_civil {
+    font-size: 25px;
+  }
+}
 .seccion_5 .col1_asesoria_civil .texto_asesoria_civil {
   margin-bottom: 67px;
+  width: 100%;
 }
 .seccion_5 .col1_asesoria_civil .parrafo_asesoria_civil {
   display: flex;
@@ -1897,36 +2049,52 @@ body header .menu-toggle {
 .seccion_5 .col1_asesoria_civil .bullet {
   font-size: 18px;
   color: #05234d;
-  margin-left: 45px;
+}
+@media (min-width: 1024px) {
+  .seccion_5 .col1_asesoria_civil .bullet {
+    font-size: 15px;
+    margin-left: 115px;
+  }
+}
+@media (min-width: 1440px) {
+  .seccion_5 .col1_asesoria_civil .bullet {
+    font-size: 20px;
+    margin-left: 20%;
+  }
 }
 .seccion_5 .col1_asesoria_civil .texto {
   font-size: 12px;
   color: #05234d;
-  margin-right: 61px;
-  margin-left: 13px;
   text-align: justify;
+}
+@media screen and (min-width: 768px) {
+  .seccion_5 .col1_asesoria_civil .texto {
+    margin-left: 5px;
+  }
 }
 @media (min-width: 1024px) {
   .seccion_5 .col1_asesoria_civil .texto {
-    font-size: 15px;
+    font-size: 13px;
+    margin-right: 15px;
+  }
+}
+@media (min-width: 1440px) {
+  .seccion_5 .col1_asesoria_civil .texto {
+    font-size: 20px;
+  }
+}
+@media (min-width: 2560px) {
+  .seccion_5 .col1_asesoria_civil .texto {
+    margin-right: 20%;
   }
 }
 .seccion_5 .fondo_asesoramiento_societario {
-  background-image: url("../image/layer-12_3x.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  padding: 0;
 }
-.seccion_5 .fondo_asesoramiento_societario .linea_asesoria_civil {
-  width: 5px;
-  height: 258px;
-  background-color: #05234d;
-  margin-left: -15px;
-}
-@media screen and (min-width: 768px) {
-  .seccion_5 .fondo_asesoramiento_societario .linea_asesoria_civil {
-    height: 100%;
-  }
+.seccion_5 .fondo_asesoramiento_societario .imagen_asesoria_civil {
+  width: 100%;
+  height: 100%;
+  border-left: 4px solid #05234d;
 }
 
 .seccion_6 .col2_asesoria_familia {
@@ -1942,8 +2110,14 @@ body header .menu-toggle {
   margin-top: 39px;
   margin-bottom: 21px;
 }
+@media (min-width: 1440px) {
+  .seccion_6 .col2_asesoria_familia .titulo_asesoria_familia {
+    font-size: 25px;
+  }
+}
 .seccion_6 .col2_asesoria_familia .texto_asesoria_familia {
   margin-bottom: 67px;
+  width: 100%;
 }
 .seccion_6 .col2_asesoria_familia .parrafo_asesoria_familia {
   display: flex;
@@ -1952,38 +2126,52 @@ body header .menu-toggle {
 .seccion_6 .col2_asesoria_familia .bullet {
   font-size: 18px;
   color: #05234d;
-  margin-left: 45px;
+}
+@media (min-width: 1024px) {
+  .seccion_6 .col2_asesoria_familia .bullet {
+    font-size: 15px;
+    margin-left: 15px;
+  }
+}
+@media (min-width: 1440px) {
+  .seccion_6 .col2_asesoria_familia .bullet {
+    font-size: 20px;
+  }
 }
 .seccion_6 .col2_asesoria_familia .texto {
   font-size: 12px;
   color: #05234d;
-  margin-right: 61px;
-  margin-left: 13px;
   text-align: justify;
+}
+@media screen and (min-width: 768px) {
+  .seccion_6 .col2_asesoria_familia .texto {
+    margin-left: 5px;
+  }
 }
 @media (min-width: 1024px) {
   .seccion_6 .col2_asesoria_familia .texto {
-    font-size: 15px;
+    font-size: 13px;
+    margin-right: 115px;
+  }
+}
+@media (min-width: 1440px) {
+  .seccion_6 .col2_asesoria_familia .texto {
+    font-size: 20px;
+    margin-right: 20%;
+  }
+}
+@media (min-width: 2560px) {
+  .seccion_6 .col2_asesoria_familia .texto {
+    margin-right: 20%;
   }
 }
 .seccion_6 .fondo_asesoria_familia {
-  background-image: url("../image/layer-15_3x.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: end;
+  padding: 0;
 }
-.seccion_6 .fondo_asesoria_familia .linea_asesoria_familia {
-  width: 5px;
-  height: 258px;
-  background-color: #05234d;
-  margin-right: -15px;
-}
-@media screen and (min-width: 768px) {
-  .seccion_6 .fondo_asesoria_familia .linea_asesoria_familia {
-    height: 100%;
-  }
+.seccion_6 .fondo_asesoria_familia .imagen_asesoria_familia {
+  width: 100%;
+  height: 100%;
+  border-right: 4px solid #05234d;
 }
 
 .fondo_consultoria {
@@ -1994,25 +2182,45 @@ body header .menu-toggle {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 .fondo_consultoria .titulo_consultoria {
+  font-size: 18px;
+  font-weight: 700;
   color: white;
-  font-size: 19px;
-  font-weight: 600;
-  margin-top: 40px;
+  margin-top: 50px;
   margin-bottom: 20px;
 }
+@media (min-width: 1440px) {
+  .fondo_consultoria .titulo_consultoria {
+    font-size: 30px;
+  }
+}
 .fondo_consultoria .texto_consultoria {
-  color: white;
-  font-size: 12px;
-  font-weight: 600;
   text-align: center;
-  margin: 0 44px;
-  margin-bottom: 42px;
+  padding: 0px;
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 62px;
+}
+@media screen and (min-width: 768px) {
+  .fondo_consultoria .texto_consultoria {
+    font-size: 15px;
+    padding: 0 75px;
+  }
 }
 @media (min-width: 1024px) {
   .fondo_consultoria .texto_consultoria {
     font-size: 15px;
+    padding: 0;
+    width: 590px;
+  }
+}
+@media (min-width: 1440px) {
+  .fondo_consultoria .texto_consultoria {
+    font-size: 25px;
+    width: 700px;
   }
 }
 
@@ -2062,6 +2270,8 @@ body header .menu-toggle {
   font-weight: 500;
   display: flex;
   align-items: flex-start;
+  border: none;
+  border-bottom: 1px solid #464646;
 }
 .contenedor_formulario textarea {
   width: 41vw;
