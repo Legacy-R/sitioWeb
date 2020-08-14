@@ -30,44 +30,56 @@
   </div>
   <!--FORMULARIO-->
   <div class="container-fluid contenedor_formulario">
-    <div class="formulario">
-      <form action="/action_page.php">
-        <div class="recuadro">
-          <input 
-            type="text" 
-            class="input"
-            id="nombre_apellidos" 
-            name="nombre_apellidos" 
-            placeholder="Nombres y Apellidos">
-        </div>
-        <div class="recuadro">
-            <input 
-              type="text" 
-              class="input"
-              id="correo" 
-              name="correo" 
-              placeholder="Correo">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-6 order-md-2 columna_formulario">
+          <div class="formulario">
+            <span class="titulo_formulario">Déjanos un mensaje</span>
+            <div class="contenedor_input">
+              <form action="/action_page.php">
+                <div class="recuadro">
+                  <input 
+                    type="text" 
+                    class="input"
+                    id="nombre_apellidos" 
+                    name="nombre_apellidos" 
+                    placeholder="Nombres y Apellidos">
+                </div>
+                <div class="recuadro">
+                    <input 
+                      type="text" 
+                      class="input"
+                      id="correo" 
+                      name="correo" 
+                      placeholder="Correo">
+                </div>
+                <div class="recuadro">
+                    <input 
+                      type="text" 
+                      class="input"
+                      id="asunto" 
+                      name="asunto" 
+                      placeholder="Teléfono">
+                    </div>
+                <div class="recuadro">
+                    <textarea 
+                      name="mensaje" 
+                      class="input" 
+                      placeholder="Mensaje...">
+                    </textarea>
+                </div>
+                <div class="enviar">
+                  <input 
+                    id="boton"
+                    type="submit" 
+                    value="ENVIAR">
+                  </div>
+              </form>
             </div>
-        <div class="recuadro">
-            <input 
-              type="text" 
-              class="input"
-              id="asunto" 
-              name="asunto" 
-              placeholder="Asunto">
-            </div>
-        <div class="recuadro">
-            <textarea 
-              name="mensaje" 
-              class="input" 
-              placeholder="Mensaje..."></textarea>
-        <div class="enviar">
-          <input 
-            id="boton"
-            type="submit" 
-            value="ENVIAR">
           </div>
-      </form>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6 order-md-1 columna_datos">
+        
+      </div>
     </div>
   </div>
   <!--TESTIMONIOS-->

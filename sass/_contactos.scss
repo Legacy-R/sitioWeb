@@ -5,26 +5,34 @@
     background-size: cover;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
 
     .pregunta{
         color: white;
-        font-size: 4vw;
+        font-size: 20px;
         font-weight: 700;
-        text-align: right;
-        margin-right: 5vw;
-        margin-top: 2.5vw;
+        text-align: center;
+        margin-top: 64px;
+        margin-bottom: 34px;
+
+        @include for-large-laptop{
+            font-size: 30px;
+        }
     }
 
     .titulo_empresa{
         color: white;
-        font-size: 2.5vw;
+        font-size: 20px;
         font-weight: 700;
-        width: 25vw;
         text-align: center;
-        margin-right: 5vw;
-        margin-bottom: 12vw;
-        margin-top: 2vw;
+        width: 200px;
+        margin-bottom: 108px;
+
+        @include for-large-laptop{
+            width: 300px;
+            font-size: 30px;
+        }
     }
 
 
