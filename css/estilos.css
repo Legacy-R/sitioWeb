@@ -2293,6 +2293,11 @@ body header .menu-toggle {
   padding: 42px;
   box-shadow: 2px 2px 5px #5a5a5a;
 }
+@media (min-width: 426px) {
+  .contenedor_formulario .formulario {
+    padding: 70px;
+  }
+}
 @media screen and (min-width: 768px) {
   .contenedor_formulario .formulario {
     width: 300px;
@@ -2309,19 +2314,21 @@ body header .menu-toggle {
     padding: 90px;
   }
 }
-.contenedor_formulario .recuadro {
-  margin-top: 10px;
-}
 .contenedor_formulario .input {
   width: 200px;
   height: 30px;
   font-size: 12px;
   font-weight: 500;
-  margin-top: 10px;
+  margin-top: 20px;
   display: flex;
   align-items: flex-start;
   border: none;
   border-bottom: 1px solid gray;
+}
+@media (min-width: 426px) {
+  .contenedor_formulario .input {
+    width: 250px;
+  }
 }
 @media (min-width: 1024px) {
   .contenedor_formulario .input {
@@ -2332,7 +2339,7 @@ body header .menu-toggle {
   .contenedor_formulario .input {
     width: 325px;
     font-size: 15px;
-    margin-top: 20px;
+    margin-top: 30px;
   }
 }
 .contenedor_formulario textarea {
@@ -2340,6 +2347,11 @@ body header .menu-toggle {
   min-height: 50px;
   font-weight: 500;
   font-size: 12px;
+}
+@media (min-width: 426px) {
+  .contenedor_formulario textarea {
+    width: 250px;
+  }
 }
 @media (min-width: 1440px) {
   .contenedor_formulario textarea {
@@ -2358,6 +2370,11 @@ body header .menu-toggle {
   font-weight: 600;
   color: #05234d;
 }
+@media (min-width: 426px) {
+  .contenedor_formulario #boton {
+    margin-left: 184px;
+  }
+}
 @media (min-width: 1024px) {
   .contenedor_formulario #boton {
     margin-left: 242px;
@@ -2369,6 +2386,15 @@ body header .menu-toggle {
     width: 100px;
     font-size: 15px;
     margin-top: 35px;
+  }
+}
+.contenedor_formulario .error {
+  font-size: 12px;
+  color: red;
+}
+@media (min-width: 1440px) {
+  .contenedor_formulario .error {
+    font-size: 15px;
   }
 }
 
