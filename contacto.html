@@ -35,34 +35,30 @@
           <div class="formulario">
             <span class="titulo_formulario">Déjanos un mensaje</span>
             <div class="contenedor_input" >
-              <form id="idFormulario" role="form">
+              <form id="idFormulario" role="form" active="page.php">
                   <input 
                     type="text" 
                     class="input"
                     id="nombre_apellidos" 
                     name="nombre" 
-                    placeholder="Nombres y Apellidos"
-                    required="" minlength="3">
+                    placeholder="Nombres y Apellidos">
                     <input 
-                      type="email" 
+                      type="correo" 
                       class="input"
                       id="correo" 
-                      name="email" 
-                      placeholder="Correo"
-                      required="">
+                      name="correo" 
+                      placeholder="Correo">
                     <input 
                       type="text" 
                       class="input"
                       id="telefono" 
                       name="telefono" 
-                      placeholder="Teléfono"
-                      required minlength="9" maxlength="9" pattern="[0-9]{9}" title="ingresar número correcto">
+                      placeholder="Teléfono">
                     <textarea 
                       id="mensaje"
                       name="mensaje" 
                       class="input" 
-                      placeholder="Mensaje..."
-                      required="" minlength="5">
+                      placeholder="Mensaje...">
                     </textarea>
                     <input 
                       id="boton"
@@ -100,7 +96,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.0/dist/jquery.validate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.js"></script>
     <script src="/js/validacion.js"></script>
 </body>
 
