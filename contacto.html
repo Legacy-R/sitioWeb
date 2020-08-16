@@ -35,30 +35,34 @@
           <div class="formulario">
             <span class="titulo_formulario">Déjanos un mensaje</span>
             <div class="contenedor_input" >
-              <form id="idFormulario">
+              <form id="idFormulario" role="form">
                   <input 
                     type="text" 
                     class="input"
                     id="nombre_apellidos" 
                     name="nombre" 
-                    placeholder="Nombres y Apellidos">
+                    placeholder="Nombres y Apellidos"
+                    required="" minlength="3">
                     <input 
-                      type="text" 
+                      type="email" 
                       class="input"
                       id="correo" 
-                      name="correo" 
-                      placeholder="Correo">
+                      name="email" 
+                      placeholder="Correo"
+                      required="">
                     <input 
                       type="text" 
                       class="input"
                       id="telefono" 
                       name="telefono" 
-                      placeholder="Teléfono">
+                      placeholder="Teléfono"
+                      required minlength="9" maxlength="9" pattern="[0-9]{9}" title="ingresar número correcto">
                     <textarea 
                       id="mensaje"
                       name="mensaje" 
                       class="input" 
-                      placeholder="Mensaje...">
+                      placeholder="Mensaje..."
+                      required="" minlength="5">
                     </textarea>
                     <input 
                       id="boton"

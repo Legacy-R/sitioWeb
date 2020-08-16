@@ -2300,6 +2300,7 @@ body header .menu-toggle {
 }
 @media screen and (min-width: 768px) {
   .contenedor_formulario .formulario {
+    padding: 42px;
     width: 300px;
   }
 }

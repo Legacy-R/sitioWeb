@@ -1,4 +1,7 @@
-var rules = {
+
+
+
+/*var rules = {
     nombre: {required:true,minlength: 3},
     correo: {required:true,email:true},
     telefono: {required:true,minlength: 9, maxlength:9},
@@ -19,7 +22,7 @@ $(document).ready (function(){
         messages:mensajes,
         submitHandler: function(form) {
             $('.alert-success').show(1000);
-            return false;
+            return true;
         }
     });
-});
+});*/
